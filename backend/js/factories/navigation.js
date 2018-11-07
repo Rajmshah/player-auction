@@ -7,9 +7,49 @@ var uploadurl = imgurl;
 
 myApp.factory('NavigationService', function ($http) {
     var navigation = [{
-        name: "Users",
-        classis: "active",
-        sref: "#!/page/viewUser//",
+        name: "Home Page",
+        classis: "activeColor",
+        sref: "#/homepage",
+        icon: "phone"
+    }, {
+        name: "Team List",
+        classis: "activeColor",
+        sref: "#/teamlist",
+        icon: "phone"
+    }, {
+        name: "Team Details",
+        classis: "activeColor",
+        sref: "#/teamdetails",
+        icon: "phone"
+    }, {
+        name: "Category Lists",
+        classis: "activeColor",
+        sref: "#/categorylist",
+        icon: "phone"
+    }, {
+        name: "Category Details",
+        classis: "activeColor",
+        sref: "#/categorydetails",
+        icon: "phone"
+    }, {
+        name: "Minimum Base Value",
+        classis: "activeColor",
+        sref: "#/basevalue",
+        icon: "phone"
+    }, {
+        name: "Auction",
+        classis: "activeColor",
+        sref: "#/auction",
+        icon: "phone"
+    }, {
+        name: "Team Player List",
+        classis: "activeColor",
+        sref: "#/teamplayerlist",
+        icon: "phone"
+    }, {
+        name: "Sponsor",
+        classis: "activeColor",
+        sref: "#/sponsor",
         icon: "phone"
     }];
 
