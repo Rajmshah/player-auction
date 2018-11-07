@@ -50,6 +50,7 @@ module.exports = [
     // Services
     'backend/js/services/template.js',
     'backend/js/services/jsonService.js',
+    'backend/js/services/crudService.js',
 
     //Factories
     'backend/js/factories/navigation.js',
