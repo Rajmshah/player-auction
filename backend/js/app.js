@@ -167,18 +167,6 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             templateUrl: "views/template.html",
             controller: 'CategoryDetailsCtrl'
         })
-        //Minimum Base Value
-        .state('basevalue', {
-            url: "/basevalue",
-            templateUrl: "views/template.html",
-            controller: 'MinimumBaseValueTableCtrl'
-        })
-        //detail category Details
-        .state('detailminimumbasevalue', {
-            url: "/detailminimumbasevalue/:id",
-            templateUrl: "views/template.html",
-            controller: 'MinimumBaseValueDetailsCtrl'
-        })
         //sponsor
         .state('sponsor', {
             url: "/sponsor",

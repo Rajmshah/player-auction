@@ -64,6 +64,5 @@ module.exports = [
     'backend/js/controllers/teamlist.js',
     'backend/js/controllers/teamdetails.js',
     'backend/js/controllers/sponsor.js',
-    'backend/js/controllers/minimumbasevalue.js',
     'backend/js/controllers/teamplayerlist.js'
 ];
