@@ -94,19 +94,10 @@ myApp.controller('AuctionCtrl', function ($scope, TemplateService, NavigationSer
                 }
             })
             if (temp.length > 0) {
-                _.each(categoryClone, function (value) {
-                    _.each(temp, function (value1, key) {
-                        if (!value.status) {
-                            if (key == 0) {
-                                value.active = true;
-                            }
-                        } else {
-                            value.active = true;
-                        }
-                    })
-                })
-                temp1 = _.remove(categoryClone, function (cat) {
-                    return cat.active;
+                _.each(temp, function (value, key) {
+                    if (key !== 0) {
+                        temp1.push(value);
+                    }
                 })
             }
             if (temp1.length > 0) {
