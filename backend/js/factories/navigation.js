@@ -32,11 +32,6 @@ myApp.factory('NavigationService', function ($http) {
         sref: "#!/categorydetails",
         icon: "phone"
     }, {
-        name: "Minimum Base Value",
-        classis: "activeColor",
-        sref: "#!/basevalue",
-        icon: "phone"
-    }, {
         name: "Auction",
         classis: "activeColor",
         sref: "#!/auction",

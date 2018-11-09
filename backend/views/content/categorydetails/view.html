@@ -52,7 +52,13 @@
                         </div>
                         <!-- Value -->
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Base Value</label>
+                                    <input type="text" name="purse" ng-model="formData.baseValue" class="form-control" readonly>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
                                 <div class="form-group">
                                     <label>Player Image</label>
                                     <img src="{{formData.playerImage|uploadpath}}" width="100" height="100" alt="" ng-if="formData.playerImage && formData.playerImage.charAt(0)!=='h'">

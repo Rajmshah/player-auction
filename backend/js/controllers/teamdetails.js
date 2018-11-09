@@ -99,11 +99,17 @@ myApp.controller('TeamDetailsCtrl', function ($scope, TemplateService, Navigatio
     $scope.saveData = function (data) {
         if (data.moneySpent == 0 || !data.moneySpent) {
             data.minimumBaseValue = 0;
-            _.each(data.categoryValues, function (n) {
-                data.minimumBaseValue = n.baseValue + data.minimumBaseValue;
+            _.each(data.categoryValues, function (n, key) {
+                if (key == 0) {
+                    data.minimumBaseValue = data.minimumBaseValue;
+                } else {
+                    data.minimumBaseValue = n.baseValue + data.minimumBaseValue;
+                }
             })
+            data.maxBidValue = data.purseValue - data.minimumBaseValue;
+        } else {
+            data.maxBidValue = data.purseValue - data.moneySpent - data.minimumBaseValue;
         }
-        data.maxBidValue = data.purseValue - data.moneySpent - data.minimumBaseValue;
         crudService.saveData(data, url, state);
     }
     // SAVE BUTTON END

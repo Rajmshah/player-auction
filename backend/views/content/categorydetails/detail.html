@@ -52,7 +52,13 @@
                         </div>
                         <!-- Value -->
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Base Value</label>
+                                    <input type="text" name="purse" ng-model="formData.baseValue" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
                                 <div class="form-group">
                                     <label>Player Image <span style="color:#ea5249;">(Note:Player Image size should be 300x300 only *)</span></label>
                                     <upload-image ng-model="formData.playerImage"></upload-image>
