@@ -26,7 +26,7 @@ module.exports = {
    ***************************************************************************/
 
   port: 1337,
-  realHost: "http://35.244.58.15"
+  realHost: "http://www.abbauction.in"
   // emails: ["chintan@wohlig.com", "jagruti@wohlig.com", "tushar@wohlig.com", "chirag@wohlig.com", "harsh@wohlig.com"]
 
   /***************************************************************************

@@ -1,6 +1,6 @@
 server {
 	listen 80;
-	server_name 35.244.58.15;
+	server_name www.abbauction.in;
 	location /api {
 		proxy_pass http://127.0.0.1:1337;
 		proxy_set_header Host $host;
