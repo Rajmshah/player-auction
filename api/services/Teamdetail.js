@@ -117,11 +117,11 @@ var model = {
                     }
                 });
                 _.each(saveTeam.categoryValues, function (n, key) {
-                    if (key == 0) {
-                        saveTeam.minimumBaseValue = saveTeam.minimumBaseValue;
-                    } else {
-                        saveTeam.minimumBaseValue = saveTeam.minimumBaseValue + n.baseValue;
-                    }
+                    // if (key == 0 ) {
+                    //     saveTeam.minimumBaseValue = saveTeam.minimumBaseValue;
+                    // } else {
+                    saveTeam.minimumBaseValue = saveTeam.minimumBaseValue + n.baseValue;
+                    // }
                 })
                 saveTeam.maxBidValue = data.team.purseValue - saveTeam.moneySpent - saveTeam.minimumBaseValue;
                 Teamdetail.update({
