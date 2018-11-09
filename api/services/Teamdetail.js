@@ -116,16 +116,20 @@ var model = {
                         saveTeam.categoryValues.push(val)
                     }
                 });
-                _.each(saveTeam.categoryValues, function (n) {
-                    saveTeam.minimumBaseValue = saveTeam.minimumBaseValue + n.baseValue
+                _.each(saveTeam.categoryValues, function (n, key) {
+                    if (key == 0) {
+                        saveTeam.minimumBaseValue = saveTeam.minimumBaseValue;
+                    } else {
+                        saveTeam.minimumBaseValue = saveTeam.minimumBaseValue + n.baseValue;
+                    }
                 })
                 saveTeam.maxBidValue = data.team.purseValue - saveTeam.moneySpent - saveTeam.minimumBaseValue;
-                console.log('SAVE TEAM', saveTeam);
                 Teamdetail.update({
                     _id: data.team._id
                 }, saveTeam).exec(
                     function (err, match) {
-                        console.log("updated", match);
+                        // console.log("updated", match);
+                        callback(null, 'Updated');
                     });
             }
         ], function (err, result) {

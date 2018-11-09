@@ -75,7 +75,11 @@ myApp.controller('AuctionCtrl', function ($scope, TemplateService, NavigationSer
         var saveCategory = {};
         var temp = [];
         var temp1 = [];
-        if (data.soldValue && data.soldValue >= data.player.baseValue && data.soldValue < data.teamDetail.maxBidValue) {
+        console.log(data);
+        console.log(data.soldValue);
+        console.log(data.player.baseValue);
+        console.log(data.soldValue >= data.player.baseValue)
+        if (data.soldValue && (data.soldValue >= data.player.baseValue) && (data.soldValue <= data.teamDetail.maxBidValue)) {
             saveCategory.soldValue = data.soldValue;
             saveCategory.isSold = true;
             saveCategory.remarks = data.remarks;
