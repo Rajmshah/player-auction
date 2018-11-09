@@ -89,17 +89,19 @@ myApp.controller('AuctionCtrl', function ($scope, TemplateService, NavigationSer
             saveTeam.minimumBaseValue = 0;
             saveTeam.moneySpent = data.teamDetail.moneySpent + data.soldValue;
             temp = _.filter(categoryClone, function (val) {
-                if (val.category._id === data.category && !val.status) {
+                if (!val.status) {
                     return val;
                 }
             })
             if (temp.length > 0) {
                 _.each(categoryClone, function (value) {
                     _.each(temp, function (value1, key) {
-                        if (value.category._id == value1.category._id && !value.status) {
-                            if (key < 2) {
+                        if (!value.status) {
+                            if (key == 0) {
                                 value.active = true;
                             }
+                        } else {
+                            value.active = true;
                         }
                     })
                 })
