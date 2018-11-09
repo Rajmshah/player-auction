@@ -1,0 +1,64 @@
+<!-- DETAIL SPECIAL AWARD -->
+<div class="panel-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="widget">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-elements-sec">
+                            <form name="detailForm" role="form" class="sec">
+                                <div class="table-responsive" ng-if="playerList.length>0">
+                                    <!--<div class="table-responsive " ng-show="totalItems>0 ">-->
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>
+                                                    Name
+                                                </th>
+                                                <th>
+                                                    Age
+                                                </th>
+                                                <th>
+                                                    Image
+                                                </th>
+                                                <th>
+                                                    Category
+                                                </th>
+                                                <th>
+                                                    Base Price
+                                                </th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr ng-repeat="item in playerList track by $index">
+                                                <td>{{($index + 1)}}</td>
+                                                <td>{{item.playerName}}</td>
+                                                <td>{{item.playerAge}}</td>
+                                                <td>
+                                                    <img src="{{item.playerImage|uploadpath}}" width="50" height="50" alt="" ng-if="item.playerImage && item.playerImage.charAt(0)!=='h'">
+                                                    <img src="{{item.playerImage}}" width="50" height="50" alt="" ng-if="item.playerImage && item.playerImage.charAt(0)=='h'">
+                                                    <span ng-if="!item.playerImage">-</span>
+                                                </td>
+                                                <td>{{item.category.name}}</td>
+                                                <td>{{item.baseValue}}</td>
+                                                <td>
+                                                    <a class="btn btn-danger" ng-click="confirmDelete(item)"><i class="fa fa-trash"></i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tableData " ng-show="playerList.length===0 ">
+                                    <h5>No data found</h5>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- DETAIL SPECIAL AWARD END -->

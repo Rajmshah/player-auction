@@ -102,7 +102,7 @@
                                             </th>
                                             <th>
                                                 <div>
-                                                    Category
+                                                    Status
                                                 </div>
                                             </th>
                                             <th>
@@ -114,12 +114,15 @@
                                         <tbody class="">
                                             <tr ng-repeat="value in formData.categoryValues track by $index">
                                                 <td>
-                                                    <div class="text-center">
+                                                    <div class="">
                                                         {{$index + 1}}
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="text-center">
+                                                    <div class="">
+                                                        <input type="checkbox" class="form-control" ng-model="value.status" disabled>
+                                                    </div>
+                                                    <!--<div class="text-center">
                                                         <ui-select name="Category[$index]" id="Category[$index]" theme="bootstrap" ng-model="value.category">
                                                             <ui-select-match placeholder="Select Category" allow-clear="true">
                                                                 {{$select.selected.name}}
@@ -128,10 +131,10 @@
                                                                 <span>{{item.name}}</span>
                                                             </ui-select-choices>
                                                         </ui-select>
-                                                    </div>
+                                                    </div>-->
                                                 </td>
                                                 <td>
-                                                    <div class="text-center">
+                                                    <div class="">
                                                         <input type="number" class="form-control" ng-model="value.baseValue" placeholder="Enter Base Value">
                                                     </div>
                                                 </td>

@@ -11,6 +11,27 @@ myApp.controller('TeamPlayerListTableCtrl', function ($scope, TemplateService, N
     // VARIABLES END
 
     // GET Team 
+    $scope.getAllPlayers = function () {
+        $scope.url = 'Categorydetail/getAllPlayers';
+        $scope.constraints = {};
+        NavigationService.apiCall($scope.url, $scope.constraints, function (data) {
+            $scope.allPlayers = data.data;
+            $scope.team = _.groupBy($scope.allPlayers, 'team.name');
+            $scope.items = []
+            _.forEach($scope.team, function (value, key) {
+                $scope.items.push({
+                    'name': key,
+                    'playerCount': value.length,
+                    'teamId': value[0].team._id
+                })
+            });
+            console.log($scope.items);
+        });
+    }
+    $scope.getAllPlayers();
+    // GET  Team END
+
+    // GET Team 
     $scope.getTeam = function () {
         $scope.url = 'Teamlist/search';
         $scope.constraints = {};
@@ -29,9 +50,17 @@ myApp.controller('TeamPlayerListTableCtrl', function ($scope, TemplateService, N
             constraints.id = formData;
             NavigationService.apiCall($scope.url, constraints, function (data) {
                 $scope.playerList = data.data;
+                modalInstances = $uibModal.open({
+                    animation: true,
+                    scope: $scope,
+                    keyboard: false,
+                    templateUrl: 'views/modal/playerlist.html',
+                    size: 'lg',
+                    windowClass: ''
+                })
             });
         } else {
-            delete $scope.playerList;
+            toastr.info('No teams with players');
         }
     }
     // VIEW TABLE
@@ -105,6 +134,11 @@ myApp.controller('TeamPlayerListTableCtrl', function ($scope, TemplateService, N
     $scope.confirmNo = function () {
         console.log("no click")
         modalInstance.close();
+    }
+    // CLICK NO ON MODAL
+    $scope.noShow = function () {
+        console.log("no click")
+        modalInstances.close();
     }
     // DELETE END
 });

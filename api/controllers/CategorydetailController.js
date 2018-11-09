@@ -31,6 +31,12 @@ var controller = {
         }).deepPopulate('team category').exec(res.callback);
     },
 
+    getAllPlayers: function (req, res) {
+        Categorydetail.find({
+            isSold: true
+        }).deepPopulate('team category').exec(res.callback);
+    },
+
     getTeamPlayers: function (req, res) {
         Categorydetail.find({
             team: req.body.id

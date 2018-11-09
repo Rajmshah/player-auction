@@ -7,85 +7,49 @@
         </div>
     </div>
 </div>
-
-<!-- DETAIL SPECIAL AWARD -->
-<div class="panel-content">
-    <div class="row">
-        <div class="col-md-8">
-            <div class="widget">
-                <div class="row">
-                    <div class="col-md-12" style="margin: 0 auto">
-                        <div class="form-elements-sec">
-                            <form name="detailForm" role="form" class="sec">
-                                <!-- Team -->
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="Team">Team</label>
-                                            <ui-select name="Team" id="Team" theme="bootstrap" ng-model="formData.team" ng-change="showTable(formData.team);getTeamDetail(formData.team)">
-                                                <ui-select-match placeholder="Select Team" allow-clear="true">
-                                                    {{$select.selected.name}}
-                                                </ui-select-match>
-                                                <ui-select-choices repeat="item._id as item in TeamList | filter:$select.search" refresh="getTeam($select.search)">
-                                                    <span>{{item.name}}</span>
-                                                </ui-select-choices>
-                                            </ui-select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Team END -->
-                                <div class="table-responsive" ng-if="playerList.length>0">
-                                    <!--<div class="table-responsive " ng-show="totalItems>0 ">-->
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>
-                                                    Name
-                                                </th>
-                                                <th>
-                                                    Age
-                                                </th>
-                                                <th>
-                                                    Image
-                                                </th>
-                                                <th>
-                                                    Category
-                                                </th>
-                                                <th>
-                                                    Base Price
-                                                </th>
-                                                <th>Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr ng-repeat="item in playerList track by $index">
-                                                <td>{{($index + 1)}}</td>
-                                                <td>{{item.playerName}}</td>
-                                                <td>{{item.playerAge}}</td>
-                                                <td>
-                                                    <img src="{{item.playerImage|uploadpath}}" width="100" height="100" alt="" ng-if="item.playerImage && item.playerImage.charAt(0)!=='h'">
-                                                    <img src="{{item.playerImage}}" width="100" height="100" alt="" ng-if="item.playerImage && item.playerImage.charAt(0)=='h'">
-                                                    <span ng-if="!item.playerImage">-</span>
-                                                </td>
-                                                <td>{{item.category.name}}</td>
-                                                <td>{{item.baseValue}}</td>
-                                                <td>
-                                                    <a class="btn btn-danger" ng-click="confirmDelete(item)"><i class="fa fa-trash"></i></a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="tableData " ng-show="playerList.length===0 ">
-                                    <h5>No data found</h5>
-                                </div>
-                            </form>
-                        </div>
+<!-- TABLE  -->
+<div class=" panel-content ">
+    <div class="row ">
+        <div class="col-md-12 ">
+            <div class="widget ">
+                <div class="table-area ">
+                    <div class="table-responsive ">
+                        <!--<div class="table-responsive " ng-show="totalItems>0 ">-->
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>
+                                        Team Name
+                                    </th>
+                                    <th>
+                                        Player Count
+                                    </th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--<tr ng-repeat="item in items">-->
+                                <tr ng-repeat="item in items">
+                                    <!--<tr>-->
+                                    <td>{{($index + 1)}}</td>
+                                    <td>{{item.name}}</td>
+                                    <td>{{item.playerCount}}</td>
+                                    <td>
+                                        <a class="btn btn-primary" ng-click="showTable(item.teamId);getTeamDetail(item.teamId)">View Player List</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
+                    <!-- PAGINATION -->
+                    <div class="tableData " ng-show="items===0 ">
+                        <h5>No data found</h5>
+                    </div>
+                    <!-- PAGINATION END -->
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- DETAIL SPECIAL AWARD END -->
+<!-- TABLE  END -->

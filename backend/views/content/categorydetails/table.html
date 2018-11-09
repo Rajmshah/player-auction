@@ -15,14 +15,17 @@
             <div class="widget ">
                 <div class="table-area ">
                     <div class="widget-title ">
-                        <div class="pull-right">
-                            <form class="search-form mr-form ">
-                                <input type="text " ng-change="searchInTable(search) " placeholder="Search Here..." ng-model="search" />
-                            </form>
-                            <a class="btn btn-primary" ng-click="generateExcel()"><i class="fa fa-download"></i>&nbsp;Sample Excel</a>
-                        </div>
+
                         <div class="upload-button-media pull-right" style="margin:0px 10px">
                             <upload-image no-view type="excel" ng-model="form.file" ng-callback="excelUploaded();" class="">CHOOSE</upload-image>
+                        </div>
+                        <div class="pull-right">
+                            <form class="search-form mr-form ">
+                                <!--ng-change="searchInTable(search) " -->
+                                <input type="text" ng-keydown="$event.keyCode === 13 && searchInTable(search)" placeholder="Search Here..." ng-model="search"
+                                />
+                            </form>
+                            <a class="btn btn-primary" ng-click="generateExcel()"><i class="fa fa-download"></i>&nbsp;Sample Excel</a>
                         </div>
                         <h3>List of Category Details<span class="tableTotal">(Total : {{totalItems}}) </span></h3>
 
@@ -40,7 +43,7 @@
                                         Age
                                     </th>
                                     <th>
-                                        Image
+                                        Village
                                     </th>
                                     <th>
                                         Category
@@ -56,11 +59,12 @@
                                     <td>{{($index + 1)+((formData.page-1)*maxRow)}}</td>
                                     <td>{{item.playerName}}</td>
                                     <td>{{item.playerAge}}</td>
-                                    <td>
+                                    <!--<td>
                                         <img src="{{item.playerImage|uploadpath}}" width="100" height="100" alt="" ng-if="item.playerImage && item.playerImage.charAt(0)!=='h'">
                                         <img src="{{item.playerImage}}" width="100" height="100" alt="" ng-if="item.playerImage && item.playerImage.charAt(0)=='h'">
                                         <span ng-if="!item.playerImage">-</span>
-                                    </td>
+                                    </td>-->
+                                    <td>{{item.playerVillage}}</td>
                                     <td>{{item.category.name}}</td>
                                     <td>{{item.baseValue}}</td>
                                     <td>

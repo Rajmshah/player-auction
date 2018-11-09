@@ -104,17 +104,19 @@ myApp.controller('AuctionCtrl', function ($scope, TemplateService, NavigationSer
                         temp1.push(value);
                     }
                 })
-            }
-            if (temp1.length > 0) {
                 _.each(temp1, function (vals, key) {
                     saveTeam.minimumBaseValue = saveTeam.minimumBaseValue + vals.baseValue;
                 })
-                saveTeam.maxBidValue = data.teamDetail.purseValue - saveTeam.moneySpent - saveTeam.minimumBaseValue;
                 _.each(data.teamDetail.categoryValues, function (value, key) {
                     if (value._id == temp[0]._id && !value.status) {
                         value.status = true;
                     }
                 })
+            } else {
+                temp1.push({});
+            }
+            if (temp1.length > 0) {
+                saveTeam.maxBidValue = data.teamDetail.purseValue - saveTeam.moneySpent - saveTeam.minimumBaseValue;
                 saveTeam.categoryValues = data.teamDetail.categoryValues;
                 if (saveTeam && saveCategory) {
                     var constraints = {
