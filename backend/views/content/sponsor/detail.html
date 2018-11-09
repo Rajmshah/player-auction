@@ -1,0 +1,98 @@
+<div class="heading-sec">
+    <div class="row">
+        <div class="col-md-4 column">
+            <div class="heading-profile">
+                <h2>{{title}} Sponsor</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="widget">
+                <div class="form-elements-sec sponsorPage">
+                    <form name="sponsorForm" role="form" class="sec">
+                        <div class="row">
+                            <!-- SPONSOR NAME -->
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label>Sponsor Name</label>
+                                    <input type="text" name="sponsor" ng-model="formData.name" class="form-control" placeholder="Enter Sponsor Name">
+                                </div>
+                            </div>
+                            <!-- SPONSOR NAME END -->
+                            <!-- OWNER NAME -->
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label>Owner Name</label>
+                                    <input type="text" name="owner" ng-model="formData.ownerName" class="form-control" placeholder="Enter Owner Name">
+                                </div>
+                            </div>
+                            <!-- OWNER NAME END -->
+                            <!-- SPONSOR TYPE -->
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label>Type Of Sponsor</label>
+                                    <input type="text" name="sponsortype" ng-model="formData.sponsorType" class="form-control" placeholder="Enter Sponsor Type">
+                                </div>
+                            </div>
+                            <!-- SPONSOR TYPE END -->
+                        </div>
+
+                        <div class="row">
+                            <!-- STATUS -->
+                            <div class="col-md-1">
+                                <div class="form-group">
+                                    <label>Active</label>
+                                    <input type="checkbox" class="form-control" ng-model="formData.active">
+                                </div>
+                            </div>
+                            <!-- STATUS END -->
+                            <!-- LOGO LINK -->
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Link</label>
+                                    <input type="text" name="link" ng-model="formData.link" class="form-control" placeholder="Enter Name">
+                                </div>
+                            </div>
+                            <!-- LOGO LINK END -->
+                            <!-- Order -->
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Order</label>
+                                    <input type="number" name="order" ng-model="formData.order" class="form-control" placeholder="Enter Order">
+                                </div>
+                            </div>
+                            <!-- Order END -->
+                        </div>
+
+                        <!-- IMAGE -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Logo <span style="color:#ea5249;">(Note:Logo size should be 300x300 only *)</span></label>
+                                    <upload-image ng-model="formData.logo"></upload-image>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- IMAGE END -->
+
+                        <!-- BUTTON -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="text-center mt20 odd-even-button">
+                                    <button class="btn btn-default" type="submit" ng-click="saveData(formData)">Save</button>
+                                    <button class="btn btn-default" ui-sref='sponsor'>Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- BUTTON END -->
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

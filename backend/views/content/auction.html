@@ -1,0 +1,111 @@
+<div class="heading-sec">
+    <div class="row">
+        <div class="col-md-4 column">
+            <div class="heading-profile">
+                <h2>Auction</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DETAIL SPECIAL AWARD -->
+<div class="panel-content">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="widget">
+                <div class="row">
+                    <div class="col-md-12" style="margin: 0 auto">
+                        <div class="form-elements-sec">
+                            <form name="detailForm" role="form" class="sec">
+                                <!-- Team -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="Team">Team</label>
+                                            <ui-select name="Team" id="Team" theme="bootstrap" ng-model="formData.team" ng-change="getTeamDetail(formData.team)">
+                                                <ui-select-match placeholder="Select Team" allow-clear="true">
+                                                    {{$select.selected.name}}
+                                                </ui-select-match>
+                                                <ui-select-choices repeat="item._id as item in TeamList | filter:$select.search" refresh="getTeam($select.search)">
+                                                    <span>{{item.name}}</span>
+                                                </ui-select-choices>
+                                            </ui-select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Team END -->
+                                <!--Category-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Category</label>
+                                            <ui-select name="Category" id="Category" theme="bootstrap" ng-model="formData.category" ng-change="getPlayers(formData.category)">
+                                                <ui-select-match placeholder="Select Category" allow-clear="true">
+                                                    {{$select.selected.name}}
+                                                </ui-select-match>
+                                                <ui-select-choices repeat="item._id as item in CategoryList | filter:$select.search" refresh="getCategory($select.search)">
+                                                    <span>{{item.name}}</span>
+                                                </ui-select-choices>
+                                            </ui-select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Category END-->
+                                <!-- Player -->
+                                <div class="row" ng-if="PlayerList">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Player</label>
+                                            <ui-select name="Player" id="Player" theme="bootstrap" ng-model="formData.player">
+                                                <ui-select-match placeholder="Select Player" allow-clear="true">
+                                                    {{$select.selected.playerName}}
+                                                </ui-select-match>
+                                                <ui-select-choices repeat="item in PlayerList | filter:$select.search">
+                                                    <span>{{item.playerName}}</span>
+                                                </ui-select-choices>
+                                            </ui-select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Player END -->
+                                <!-- Base Price -->
+                                <div class="row" ng-if="formData.player">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Base Price</label>
+                                            <input type="number" name="link" ng-model="formData.player.baseValue" class="form-control" placeholder="Enter Name" readonly>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Base Price END -->
+                                <div class="row">
+                                    <!-- LOGO LINK -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Sold Price</label>
+                                            <input type="number" name="link" ng-model="formData.soldValue" class="form-control" placeholder="Enter Sold Price">
+                                        </div>
+                                    </div>
+                                    <!-- LOGO LINK END -->
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Remarks</label>
+                                            <input type="text" name="remarks" ng-model="formData.remarks" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center mt20 odd-even-button">
+                                    <button class="btn btn-default" type="submit" ng-click="saveData(formData)" ng-disabled="detailForm.$invalid">Save</button>
+                                    <button class="btn btn-default" title="Page reload with no selection" ng-click="refresh()">Refresh</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- DETAIL SPECIAL AWARD END -->

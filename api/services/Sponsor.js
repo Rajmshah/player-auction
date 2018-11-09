@@ -5,7 +5,7 @@ var schema = new Schema({
     ownerName: {
         type: String
     },
-    type: {
+    sponsorType: {
         type: String
     },
     logo: {

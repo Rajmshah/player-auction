@@ -1,6 +1,6 @@
 server {
 	listen 80;
-	server_name freshflow.wohlig.co.in;
+	server_name 35.244.58.15;
 	location /api {
 		proxy_pass http://127.0.0.1:1337;
 		proxy_set_header Host $host;
@@ -16,7 +16,7 @@ server {
 		proxy_set_header X-Forwarded-Proto $scheme;
 	}
 	location /backend {
-		root /home/hata-backend;
+		root /home/player-auction;
 		index index.html index.htm;
 	}
 }

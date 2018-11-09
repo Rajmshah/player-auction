@@ -59,12 +59,9 @@ myApp.service('crudService', function ($http, TemplateService, $state, toastr, $
       if (data.value) {
         if (data.data.nModified) {
           toastr.success("Data Modified Successfully", "Success");
+          $state.go(state);
         } else {
           toastr.success("Data Saved Successfully", "Success");
-        }
-        if ($state.current.name == state) {
-          $state.reload();
-        } else {
           $state.go(state);
         }
       } else {

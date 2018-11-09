@@ -4,6 +4,9 @@ var schema = new Schema({
         required: true,
         unique: true,
         uniqueCaseInsensitive: true,
+    },
+    banner: {
+        type: String
     }
 });
 

@@ -1,0 +1,155 @@
+<div class="heading-sec">
+    <div class="row">
+        <div class="col-md-4 column">
+            <div class="heading-profile">
+                <h2>{{title}} Team Detail</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DETAIL SPECIAL AWARD -->
+<div class="panel-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="widget">
+                <div class="form-elements-sec">
+                    <form name="detailForm" role="form" class="sec">
+                        <!-- Team -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="Team">Team</label>
+                                    <ui-select name="Team" id="Team" theme="bootstrap" ng-model="formData.team">
+                                        <ui-select-match placeholder="Select Team" allow-clear="true">
+                                            {{$select.selected.name}}
+                                        </ui-select-match>
+                                        <ui-select-choices repeat="item._id as item in TeamList | filter:$select.search" refresh="getTeam($select.search)">
+                                            <span>{{item.name}}</span>
+                                        </ui-select-choices>
+                                    </ui-select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Team END -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Logo <span style="color:#ea5249;">(Note:Logo size should be 300x300 only *)</span></label>
+                                    <upload-image ng-model="formData.logo"></upload-image>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Banner <span style="color:#ea5249;">(Note:Banner size should be 1920x600px only *)</span></label>
+                                    <upload-image ng-model="formData.banner"></upload-image>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Value -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label>Purse Value</label>
+                                    <input type="number" name="purse" ng-model="formData.purseValue" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-3" ng-if="title == 'Edit'">
+                                <div class="form-group">
+                                    <label>Money Spent</label>
+                                    <input type="number" name="purse" ng-model="formData.moneySpent" class="form-control" readonly>
+                                </div>
+                            </div>
+                            <div class="col-md-3" ng-if="title == 'Edit'">
+                                <div class="form-group">
+                                    <label>Total Minimum Base Value</label>
+                                    <input type="number" name="purse" ng-model="formData.minimumBaseValue" class="form-control" readonly>
+                                </div>
+                            </div>
+                            <div class="col-md-3" ng-if="title == 'Edit'">
+                                <div class="form-group">
+                                    <label>Max Bid Value</label>
+                                    <input type="number" name="purse" ng-model="formData.maxBidValue" class="form-control" readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Value END -->
+                        <!-- Player Count -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label>No.of Players</label>
+                                    <input type="number" name="purse" ng-model="formData.playerCount" class="form-control" placeholder="Enter Player Count" ng-change="add(formData.playerCount)">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Player Count END -->
+                        <!-- GALLERY -->
+                        <div class="row" ng-if="formData.playerCount">
+                            <div class="col-md-12">
+                                <div class="form-group text-center">
+                                    <label>Minimum Base Value</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group table-responsive table-font reduce-tablepadding">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <th>
+                                                <div>
+                                                    Sr.no
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Category
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Base Price
+                                                </div>
+                                            </th>
+                                        </thead>
+                                        <tbody class="">
+                                            <tr ng-repeat="value in formData.categoryValues track by $index">
+                                                <td>
+                                                    <div class="text-center">
+                                                        {{$index + 1}}
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <ui-select name="Category[$index]" id="Category[$index]" theme="bootstrap" ng-model="value.category">
+                                                            <ui-select-match placeholder="Select Category" allow-clear="true">
+                                                                {{$select.selected.name}}
+                                                            </ui-select-match>
+                                                            <ui-select-choices repeat="item._id as item in CategoryList | filter:$select.search" refresh="getCategory($select.search)">
+                                                                <span>{{item.name}}</span>
+                                                            </ui-select-choices>
+                                                        </ui-select>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <input type="number" class="form-control" ng-model="value.baseValue" placeholder="Enter Base Value">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- GALLERY END -->
+                        <div class="text-center mt20 odd-even-button">
+                            <button class="btn btn-default" type="submit" ng-click="saveData(formData)" ng-disabled="detailForm.$invalid">Save</button>
+                            <button class="btn btn-default" ui-sref='teamdetails'>Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- DETAIL SPECIAL AWARD END -->

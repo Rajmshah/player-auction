@@ -16,7 +16,6 @@ $body-color-font: #505050;
 @import "template/main";
 @import "template/responsive";
 @import "custom-switch";
-
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url("../fonts/glyphicons-halflings-regular.eot");
@@ -54,7 +53,6 @@ a,
 [ui-sref] {
     cursor: pointer;
     transition: all ease 300ms;
-
     &:focus {
         outline: none !important;
     }
@@ -122,11 +120,9 @@ a,
     >h3 {
         font-size: 16px;
     }
-
     >span {
         color: #202020;
         font-size: 12px;
-
         a {
             color: $blue;
             font-weight: bold;
@@ -136,14 +132,12 @@ a,
 
 .who-post-this {
     position: relative;
-
     .house {
         position: absolute;
         width: auto;
         bottom: -11px;
         left: 36px;
     }
-
     >span {
         border: 0 solid #ffffff;
     }
@@ -197,7 +191,6 @@ a,
 
 $trans-black: rgba(black,
 .15);
-
 .btn-darker {
     @include button-variant(white,
     $trans-black,
@@ -224,7 +217,6 @@ $trans-black: rgba(black,
     .btn-clear {
         color: #505050;
     }
-
     .btn {
         padding: 0 10px;
     }
@@ -238,12 +230,10 @@ $trans-black: rgba(black,
     border: none;
     padding: 0;
     overflow: hidden;
-
     li {
         +li {
             border-top: 1px solid $border-color;
         }
-
         >a {
             padding: 10px;
         }
@@ -261,7 +251,6 @@ $trans-black: rgba(black,
     border-radius: 5px;
     padding: 10px;
     height: 87px;
-
     .btn {
         font-size: 12px;
         min-width: 110px;
@@ -281,7 +270,6 @@ $trans-black: rgba(black,
         margin: 10px 0 5px;
         font-size: 14px;
     }
-
     p {
         margin: 0;
         line-height: 100%;
@@ -295,7 +283,6 @@ $trans-black: rgba(black,
     left: 50%;
     top: -7px;
     transform: translateX(-50%);
-
     >span {
         display: inline-block;
         -webkit-border-radius: 100%;
@@ -303,7 +290,6 @@ $trans-black: rgba(black,
         -ms-border-radius: 100%;
         border-radius: 100%;
     }
-
     .dp {
         height: 101px;
         -webkit-border-radius: 100%;
@@ -328,7 +314,6 @@ $trans-black: rgba(black,
 .first-half {
     width: 50%;
     padding-left: 65px;
-
     +.first-half {
         padding-left: 0 !important;
         padding-right: 65px !important;
@@ -346,11 +331,9 @@ $trans-black: rgba(black,
 
 .folder {
     text-align: center;
-
     img {
         max-width: 100%;
     }
-
     h6 {
         margin: 10px 0 0;
     }
@@ -388,11 +371,9 @@ $trans-black: rgba(black,
     text-align: center;
     padding: 6px;
     position: relative;
-
     i {
         font-size: 32px;
     }
-
     p {
         margin: 5px 0 0;
         line-height: 100%;
@@ -413,7 +394,6 @@ $trans-black: rgba(black,
     top: 5px;
     cursor: pointer;
     text-align: center;
-
     i {
         font-size: 14px;
         line-height: 23px;
@@ -435,7 +415,6 @@ $trans-black: rgba(black,
 
 .red-bg {
     background-color: $red;
-
     >* {
         color: white;
     }
@@ -443,7 +422,6 @@ $trans-black: rgba(black,
 
 .blue-bg {
     background-color: $blue;
-
     >* {
         color: white;
     }
@@ -451,7 +429,6 @@ $trans-black: rgba(black,
 
 .green-bg {
     background-color: $green;
-
     >* {
         color: white;
     }
@@ -474,7 +451,6 @@ $trans-black: rgba(black,
 .billing-sec .field {
     margin-bottom: 15px;
     border-radius: 5px;
-
     input {
         height: 37px;
         border-radius: 4px;
@@ -486,7 +462,6 @@ $trans-black: rgba(black,
 .billing-sec .field input,
 .billing-sec .field textarea {
     border: 1px solid $border-color !important;
-
     &:focus {
         outline: none !important;
     }
@@ -504,9 +479,7 @@ $trans-black: rgba(black,
 
 .nav-tabs {
     border: 0;
-
     >li.active {
-
         >a:focus,
         >a:hover,
         >a {
@@ -515,12 +488,10 @@ $trans-black: rgba(black,
             border-bottom: 5px solid $red;
         }
     }
-
     >li>a {
         border: 0;
         border-bottom: 5px solid transparent;
         border-radius: 0;
-
         &:focus,
         &:hover {
             background: transparent;
@@ -547,11 +518,9 @@ $trans-black: rgba(black,
     margin: 0;
     position: relative;
     z-index: 9;
-
     +i {
         display: none;
     }
-
     &:checked+i {
         display: block;
     }
@@ -564,7 +533,6 @@ $trans-black: rgba(black,
     width: 24px;
     height: 24px;
     vertical-align: middle;
-
     .aired {
         top: 5px;
     }
@@ -581,7 +549,6 @@ $trans-black: rgba(black,
     overflow-x: auto;
     padding: 0 15px;
     margin: 0 -15px;
-
     .mter {
         margin-top: 10px;
     }
@@ -596,7 +563,6 @@ $trans-black: rgba(black,
     padding: 5px;
     border-color: #e5e5e5;
     border-radius: 5px;
-
     input {
         border: none !important;
     }
@@ -668,16 +634,13 @@ $trans-black: rgba(black,
     max-height: 200px;
     overflow-x: hidden;
     overflow-y: auto;
-
     >li {
         padding: 10px;
         cursor: pointer;
-
         &:hover {
             background-color: $brand-primary;
             color: white;
         }
-
         &.arrow-down {
             background-color: lighten($brand-primary, 20%);
             color: white;
@@ -698,7 +661,6 @@ form.mr-form {
 form.search-form {
     border-radius: 0;
     height: 34px;
-
     >input {
         padding: 7px 26px 8px 10px;
     }
@@ -718,7 +680,6 @@ form.search-form {
 
 .btn-upload {
     position: relative;
-
     input[type="file"] {
         opacity: 0;
         position: absolute;
@@ -726,12 +687,12 @@ form.search-form {
         left: 0;
         right: 0;
         bottom: 0;
+        width: 100%;
     }
 }
 
 .form-group {
     position: relative;
-
     .error-msg {
         position: absolute;
         right: 0;
@@ -789,7 +750,6 @@ form.search-form {
         height: 22px;
         padding: 0 5px;
     }
-
     .form-control[readonly] {
         background-color: transparent;
         border: none;
@@ -816,12 +776,10 @@ form.search-form {
     color: #fff;
     background-color: $brand-success;
     border-color: $brand-success;
-
     &:hover {
         background-color: darken($brand-success, 10%);
         border-color: darken($brand-success, 10%);
     }
-
     &[disabled] {
         background-color: #c2c7cc;
         border-color: #c2c7cc;
@@ -834,22 +792,18 @@ form.search-form {
             color: #fff;
             background-color: $brand-success;
             border-color: $brand-success;
-
             &:hover {
                 background-color: darken($brand-success, 10%);
                 border-color: darken($brand-success, 10%);
             }
-
             &[disabled] {
                 background-color: #c2c7cc;
                 border-color: #c2c7cc;
             }
-
             +.btn-default {
                 color: #fff;
                 background-color: $brand-danger;
                 border-color: $brand-danger;
-
                 &:hover {
                     background-color: darken($brand-danger, 10%);
                     border-color: darken($brand-danger, 10%);
@@ -873,24 +827,20 @@ img.uploadingImage {
     td {
         vertical-align: middle !important;
     }
-
     tr {
         .btn-show {
             opacity: 0;
             transition: all 300ms ease;
         }
-
         &:hover {
             .btn-show {
                 opacity: 1;
             }
-
             td {
                 background-color: #f8f8f8;
             }
         }
     }
-
     .btn {
         padding: 6px;
     }
@@ -903,7 +853,6 @@ img.uploadingImage {
     position: relative;
     border-radius: 40px;
     display: inline;
-
     img {
         border-radius: 100%;
     }
@@ -917,13 +866,11 @@ img.uploadingImage {
     width: 200px;
     display: inline-block;
     margin-right: 10px;
-
     .form-control {
         background: transparent;
         border-color: white;
         border-radius: 10px;
         color: white;
-
         &::-webkit-input-placeholder {
             color: white;
         }
@@ -944,7 +891,6 @@ img.uploadingImage {
 .form-builder {
     border: 1px solid $body-color-font;
     position: relative;
-
     p {
         color: $body-color-font;
         height: 34px;
@@ -953,65 +899,53 @@ img.uploadingImage {
         font-size: 14px;
         margin: 0;
     }
-
     .form-control {
         border: none !important;
         padding: 0px 7px;
         text-transform: none;
-
         &::-webkit-input-placeholder {
             color: $body-color-font;
         }
     }
-
     textarea.form-control {
         padding: 5px 7px;
     }
-
     .form-builder-head {
         font-weight: bold;
         position: relative;
         text-transform: uppercase;
-
         &:hover {
             .mark-float {
                 width: 40px;
             }
         }
-
         +.form-builder-hr {
             border-top: 1px solid $body-color-font;
         }
     }
-
     .form-builder-hr {
         border-bottom: 1px solid $body-color-font;
         margin-bottom: -1px; // position: relative;
     }
-
     .form-repeater {
         +.form-repeater {
             margin-top: 35px;
             border-top: 1px solid $body-color-font;
         }
     }
-
     .form-builder-item {
         position: relative;
         padding-left: 20px;
-
         .mark-float {
             &.right-float {
                 width: 20px;
             }
         }
-
         &:hover {
             .mark-float {
                 width: 40px;
             }
         }
-
         +.form-builder-item {
             border-top: 1px solid $body-color-font;
         }
@@ -1020,20 +954,16 @@ img.uploadingImage {
 
 .row-item {
     display: flex;
-
     .col-item {
         flex: 1;
         width: 100%;
-
         +.col-item {
             border-left: 1px solid $body-color-font;
         }
-
         &.col-item-25 {
             flex: 0 0 25%;
             width: 25%;
         }
-
         &.col-item-35 {
             flex: 0 0 35%;
             width: 35%;
@@ -1051,11 +981,9 @@ img.uploadingImage {
     line-height: 34px;
     transition: all 300ms ease;
     overflow: hidden;
-
     i {
         cursor: pointer;
     }
-
     &.right-float {
         right: auto;
         left: 5px;
@@ -1091,7 +1019,6 @@ img.uploadingImage {
 .btn.btn-icon {
     position: relative;
     padding-left: 42px;
-
     i {
         position: absolute;
         left: -1px;
@@ -1101,7 +1028,6 @@ img.uploadingImage {
         background-color: rgba(0, 0, 0, 0.20);
         display: flex;
         align-items: center;
-
         &:before {
             margin: 0 auto;
         }
@@ -1119,23 +1045,19 @@ img.uploadingImage {
     position: relative;
     background: #fff none repeat scroll 0 0;
     transition: all 300ms ease;
-
     >a {
         padding: 10px 35px;
         float: none;
         display: block;
     }
-
     &.active,
     &:hover {
         border-color: $red;
         font-weight: bold;
-
         >a {
             color: $red;
         }
     }
-
     >span {
         background: $red none repeat scroll 0 0;
         position: absolute;
@@ -1151,21 +1073,16 @@ img.uploadingImage {
 .message-list {
     padding: 0;
     overflow-y: auto;
-
     >li {
         padding: 10px 15px;
-
         >.sender-name {
             margin-left: 10px;
         }
-
         >a {
             margin-left: 10px;
         }
-
         >p {
             font-weight: 300;
-
             .subject {
                 font-weight: 600;
             }
@@ -1179,12 +1096,10 @@ img.uploadingImage {
 
 .inbox-action>ul {
     padding: 14px 15px;
-
     >li>a,
     >li>label {
         padding-top: 7px;
     }
-
     .form-control {
         height: 32px;
         border-radius: 100px;
@@ -1244,23 +1159,19 @@ body {
 .field-repeat {
     position: relative;
     padding: 10px 10px 0;
-
     &:nth-child(even) {
         background-color: #f5f5f5;
     }
-
     .floating-right {
         position: absolute;
         right: 5px;
         top: 5px;
         z-index: 9;
-
         .btn {
             padding: 0 4px;
             font-size: 12px;
         }
     }
-
     .form-group {
         height: 55px;
     }
@@ -1278,10 +1189,8 @@ body {
 
 .pagination {
     display: block;
-
     li {
         display: inline-block;
-
         a {
             color: black;
             float: left;
@@ -1289,7 +1198,6 @@ body {
             text-decoration: none;
             border: 1px solid #ddd;
         }
-
         &.active {
             background-color: #4CAF50;
             color: white;
@@ -1314,6 +1222,59 @@ body {
 
 .ui-select-bootstrap.open .dropdown-menu {
     display: block;
+}
+
+.sponsorPage {
+    .form-control {
+        height: 34px;
+    }
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.academy-gallery .img-box img {
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    float: left;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.glyphicon {
+    position: relative;
+    top: -4px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-remove:before {
+    content: "\e014";
 }
 
 /* Start writing sass here */

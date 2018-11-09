@@ -19,13 +19,13 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Player Name</label>
-                                    <input type="text" name="playerName" ng-model="formData.playerName" class="form-control">
+                                    <input type="text" name="playerName" ng-model="formData.playerName" class="form-control" readonly>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Player Age</label>
-                                    <input type="number" name="playerAge" ng-model="formData.playerAge" class="form-control">
+                                    <input type="number" name="playerAge" ng-model="formData.playerAge" class="form-control" readonly>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Category</label>
-                                    <ui-select name="Category" id="Category" theme="bootstrap" ng-model="formData.category">
+                                    <ui-select name="Category" id="Category" theme="bootstrap" ng-model="formData.category" ng-disabled="true">
                                         <ui-select-match placeholder="Select Category" allow-clear="true">
                                             {{$select.selected.name}}
                                         </ui-select-match>
@@ -46,7 +46,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Player Village</label>
-                                    <input type="text" name="purse" ng-model="formData.playerVillage" class="form-control">
+                                    <input type="text" name="purse" ng-model="formData.playerVillage" class="form-control" readonly>
                                 </div>
                             </div>
                         </div>
@@ -54,8 +54,11 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Player Image <span style="color:#ea5249;">(Note:Player Image size should be 300x300 only *)</span></label>
-                                    <upload-image ng-model="formData.playerImage"></upload-image>
+                                    <label>Player Image</label>
+                                    <img src="{{formData.playerImage|uploadpath}}" width="100" height="100" alt="" ng-if="formData.playerImage && formData.playerImage.charAt(0)!=='h'">
+                                    <img src="{{formData.playerImage}}" width="100" height="100" alt="" ng-if="formData.playerImage && formData.playerImage.charAt(0)=='h'">
+                                    <span ng-if="!formData.playerImage">-</span>
+                                    <!--<upload-image ng-model="formData.playerImage"></upload-image>-->
                                 </div>
                             </div>
                         </div>
@@ -98,12 +101,11 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Remarks</label>
-                                    <input type="text" name="remarks" ng-model="formData.remarks" class="form-control">
+                                    <input type="text" name="remarks" ng-model="formData.remarks" class="form-control" readonly>
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center mt20 odd-even-button">
-                            <button class="btn btn-default" type="submit" ng-click="saveData(formData)" ng-disabled="detailForm.$invalid">Save</button>
+                        <div class="text-center mt20">
                             <button class="btn btn-default" ui-sref='categorydetails'>Cancel</button>
                         </div>
                     </form>

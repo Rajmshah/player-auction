@@ -1,0 +1,255 @@
+<!-- Top Bar Chart -->
+<div class="heading-sec">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 column">
+            <div class="heading-profile">
+                <h2>{{title}} Homepage</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="widget">
+                <div class="form-elements-sec">
+                    <form name="detailChampionsform" role="form" class="sec">
+                        <div class="row">
+                            <!-- IMAGE -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Logo</label>
+                                        <!--<span style="color:#ea5249;">(Note:Logo size should be 300x300 only *)</span>-->
+                                        <upload-image ng-model="formData.logo"></upload-image>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- IMAGE END -->
+                            <!-- GALLERY -->
+                            <div class="col-md-12">
+                                <div class="form-group text-center">
+                                    <label>Banners</label>
+                                </div>
+                                <div class="form-group text-right">
+                                    <button class="btn btn-primary" ng-click="add(formData,'banner')">Add</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group table-responsive table-font reduce-tablepadding">
+                                    <table class="table table-striped ">
+                                        <thead>
+                                            <th>
+                                                <div>
+                                                    Sr.no
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Image
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Linktype
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Link
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Title
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Active
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Action
+                                                </div>
+                                            </th>
+                                        </thead>
+                                        <tbody class="">
+                                            <tr ng-repeat="gallery in formData.banner track by $index">
+                                                <td>
+                                                    <div class="text-center">
+                                                        {{$index + 1}}
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center academy-gallery">
+                                                        <upload-image ng-model="gallery.image"></upload-image>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <select name="linktype" id="linktype" ng-model="gallery.linkType" class="form-control">
+                                                            <option value="internal">INTERNAL</option>
+                                                            <option value="external">EXTERNAL</option>
+                                                            <option value="videolink">VIDEO LINK</option>
+                                                            <option value="nolink">NO LINK</option>
+                                                        </select>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <input type="text" class="form-control" ng-model="gallery.link" placeholder="Enter Link">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <input type="text" class="form-control" ng-model="gallery.title" placeholder="Enter Title">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <input type="checkbox" class="form-control" ng-model="gallery.active">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <button class="btn btn-danger" ng-click="deleteAdded($index,'banner')">Delete</button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- GALLERY END -->
+
+
+                            <!-- VIDEO -->
+                            <div class="col-md-12">
+                                <div class="form-group text-center">
+                                    <label>Media</label>
+                                </div>
+                                <div class="form-group text-right">
+                                    <button class="btn btn-primary" ng-click="add(formData,'media')">Add</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group table-responsive table-font reduce-tablepadding">
+                                    <table class="table table-striped ">
+                                        <thead>
+                                            <th>
+                                                <div>
+                                                    Sr.no
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Media Type
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Image
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Linktype
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Link
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Title
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Active
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <div>
+                                                    Action
+                                                </div>
+                                            </th>
+                                        </thead>
+                                        <tbody class="">
+                                            <tr ng-repeat="video in formData.media track by $index">
+                                                <td>
+                                                    <div class="text-center">
+                                                        {{$index + 1}}
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <select class="form-control" name="bannerType" ng-model="video.mediaType">
+                                                            <option value="image">Image</option> 
+                                                            <option value="video">Video</option>
+                                                        </select>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center academy-gallery">
+                                                        <upload-image ng-model="video.image" ng-if="video.mediaType !== 'video'"></upload-image>
+                                                        <span ng-if="video.mediaType === 'video'">-</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <select name="linktype" id="linktype" ng-model="video.linkType" class="form-control">
+                                                            <option value="internal">INTERNAL</option>
+                                                            <option value="external">EXTERNAL</option>
+                                                            <option value="nolink">NO LINK</option>
+                                                            <option value="videolink">VIDEO LINK</option>
+                                                        </select>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <input type="text" class="form-control" ng-model="video.link" placeholder="Enter Link">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <input type="text" class="form-control" ng-model="video.title" placeholder="Enter Title">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <input type="checkbox" class="form-control" ng-model="video.active">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="text-center">
+                                                        <button class="btn btn-danger" ng-click="deleteAdded($index,'media')">Delete</button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- VIDEO END -->
+
+                            <!-- BUTTON -->
+                            <div class="col-md-12">
+                                <div class="text-center mt20 odd-even-button">
+                                    <button class="btn btn-default" ng-click="saveData(formData)">Save</button>
+                                    <button class="btn btn-default" ui-sref="homepage">Cancel</button>
+                                </div>
+                            </div>
+                            <!-- BUTTON END -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

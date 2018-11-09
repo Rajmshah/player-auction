@@ -302,7 +302,7 @@ var models = {
         });
         return dataObj;
     },
-    importGS: function (filename, callback) {
+    gfsimportGS: function (filename, callback) {
         var readstream = gfs.createReadStream({
             filename: filename
         });
@@ -321,6 +321,55 @@ var models = {
             callback(null, Config.import(buffer));
         });
     },
+
+    uploadFindOne: function (filename, callback) {
+        Upload.findOne({
+            _id: filename
+        }, function (err, data) {
+            if (err || _.isEmpty(data)) {
+                callback({
+                    error: "no data found"
+                });
+            } else {
+                callback(data);
+            }
+        });
+    },
+
+    importGS: function (filename, callback) {
+        console.log('global.storage', global.storage);
+        var Storage = require('@google-cloud/storage');
+        var projectId = 'future-oasis-145313';
+        var storage = new Storage({
+            projectId: projectId,
+            keyFilename: global.storage.keyfileName
+        });
+        Config.uploadFindOne(filename, function (uploadData) {
+            if (uploadData) {
+                var bucket = storage.bucket(global.storageBucket);
+                var readstream = bucket.file(uploadData.storageName).createReadStream();
+                readstream.on('error', function (err) {
+                    callback({
+                        value: false,
+                        error: err
+                    });
+                });
+                var buffers = [];
+                readstream.on('data', function (buffer) {
+                    buffers.push(buffer);
+                    console.log('data', buffers);
+                });
+                readstream.on('end', function () {
+                    var buffer = Buffer.concat(buffers);
+                    console.log("buffer", buffers);
+                    callback(null, Config.import(buffer));
+                });
+            } else {
+                callback(null, 'Not found');
+            }
+        });
+    },
+
     generateExcel: function (name, found, res) {
         // name = _.kebabCase(name);
         var excelData = [];

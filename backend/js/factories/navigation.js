@@ -145,15 +145,25 @@ myApp.factory('NavigationService', function ($http) {
                 callback(data, i);
             });
         },
-        uploadExcel: function (form, callback) {
-            $http.post(adminurl + form.model + '/import', {
-                file: form.file
-            }).then(function (data) {
+        // uploadExcel: function (form, callback) {
+        //     $http.post(adminurl + form.model + '/import', {
+        //         file: form.file
+        //     }).then(function (data) {
+        //         data = data.data;
+        //         callback(data);
+        //     });
+        // },
+        uploadExcel: function (url, form, callback) {
+            $http.post(adminurl + url, form).then(function (data) {
                 data = data.data;
                 callback(data);
-
             });
-
+        },
+        generateCategoryDetailExcel: function (url, callback) {
+            $http.post(adminurl + url).then(function (data) {
+                // data = data.data;
+                callback(data);
+            });
         },
 
     };

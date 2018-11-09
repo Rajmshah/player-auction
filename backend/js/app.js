@@ -167,6 +167,12 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             templateUrl: "views/template.html",
             controller: 'CategoryDetailsCtrl'
         })
+        //detail category Details
+        .state('viewcategorydetails', {
+            url: "/viewcategorydetails/:id",
+            templateUrl: "views/template.html",
+            controller: 'ViewCategoryDetailsCtrl'
+        })
         //sponsor
         .state('sponsor', {
             url: "/sponsor",
