@@ -6,7 +6,7 @@ module.exports = [
   'bower_components/smart-app-banner/smart-app-banner.js',
   "bower_components/moment/min/moment.min.js",
   "bower_components/font-awesome/svg-with-js/js/fontawesome-all.min.js",
-
+  "bower_components/swiper/dist/js/swiper.min.js",
 
   //Angular Libs
   'bower_components/angular/angular.js',
@@ -23,7 +23,7 @@ module.exports = [
   "bower_components/angular-toastr/dist/angular-toastr.js",
   "bower_components/angular-toastr/dist/angular-toastr.tpls.js",
   "bower_components/angular-promise-buttons/dist/angular-promise-buttons.js",
-
+  'bower_components/angular-ui-swiper/dist/angular-ui-swiper.js',
   //App.js
   'frontend/js/app.js',
 
@@ -46,6 +46,11 @@ module.exports = [
 
   // Contorllers
   'frontend/js/controllers/controller.js',
+  'frontend/js/controllers/team.js',
+  'frontend/js/controllers/category.js',
+  'frontend/js/controllers/about.js',
+  'frontend/js/controllers/sponsor.js',
+  'frontend/js/controllers/soldplayers.js',
   'frontend/js/controllers/header-controller.js',
   'frontend/js/controllers/language-controller.js',
 ];

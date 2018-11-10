@@ -9,7 +9,8 @@ var myApp = angular.module('myApp', [
     'ngSanitize',
     'ui.select',
     'angularPromiseButtons',
-    'toastr'
+    'toastr',
+    'ui.swiper'
 ]);
 
 // Define all the routes below
@@ -24,10 +25,35 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             templateUrl: tempateURL,
             controller: 'HomeCtrl'
         })
+        .state('about', {
+            url: "/aboutus",
+            templateUrl: tempateURL,
+            controller: 'AboutCtrl'
+        })
+        .state('sponsor', {
+            url: "/sponsor",
+            templateUrl: tempateURL,
+            controller: 'SponsorCtrl'
+        })
         .state('links', {
             url: "/links",
             templateUrl: tempateURL,
             controller: 'LinksCtrl'
+        })
+        .state('teamdetail', {
+            url: "/team/:id",
+            templateUrl: tempateURL,
+            controller: 'TeamCtrl'
+        })
+        .state('categorydetail', {
+            url: "/category/:id",
+            templateUrl: tempateURL,
+            controller: 'CategoryCtrl'
+        })
+        .state('soldplayers', {
+            url: "/soldplayers",
+            templateUrl: tempateURL,
+            controller: 'SoldPlayersCtrl'
         });
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);

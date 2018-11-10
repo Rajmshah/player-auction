@@ -1,0 +1,32 @@
+<!--Banner-->
+<section>
+    <div class="banners-img" ng-if="banner.banner">
+        <img ng-src="{{banner.banner|uploadpath}}" alt="{{banner.name}} Banner" class="img-responsive">
+    </div>
+</section>
+<section ng-if="playerList.length>0">
+    <div class="bg-team sold-player" ng-style="playerList.length<=9?{'height':'100vh'}:{'height':'100%'}">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" ng-repeat="player in playerList">
+                    <div class="player-card">
+                        <div class="player-image" ng-if="player.playerImage">
+                            <img ng-src="{{player.playerImage|uploadpath}}" alt="{{player.playerName}}" class="img-responsive">
+                        </div>
+                        <div class="player-image" ng-if="!player.playerImage">
+                            <img src="img/dummy-player.png" alt="{{player.playerName}}" class="img-responsive">
+                        </div>
+                        <div class="player-info">
+                            <h4 class="text-capitalize text-center color-white">{{player.playerName}} ({{player.playerAge}})</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section ng-if="playerList.length==0">
+    <div class="bg-team sold-player text-center color-white" style="height:100vh">
+        <h4 class="opensans-semibold">No Player Found</h4>
+    </div>
+</section>

@@ -5,6 +5,7 @@ var controller = {
             team: req.body.id
         }).deepPopulate('team categoryValues.category').exec(res.callback);
     },
+
     allDelete: function (req, res) {
         if (req.body) {
             Teamdetail.allDelete(req.body, res.callback);
@@ -15,5 +16,9 @@ var controller = {
             });
         }
     },
+
+    getlist: function (req, res) {
+        Teamdetail.find().deepPopulate('team categoryValues.category').exec(res.callback);
+    }
 };
 module.exports = _.assign(module.exports, controller);

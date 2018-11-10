@@ -41,6 +41,10 @@ var controller = {
         Categorydetail.find({
             team: req.body.id
         }).deepPopulate('team category').exec(res.callback);
+    },
+
+    getlist: function (req, res) {
+        Categorydetail.find().deepPopulate('team category').exec(res.callback);
     }
 };
 module.exports = _.assign(module.exports, controller);

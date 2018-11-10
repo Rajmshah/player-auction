@@ -1,23 +1,19 @@
-myApp.factory('NavigationService', function () {
-    var navigation = [{
-        name: "Home",
-        classis: "active",
-        anchor: "home",
-        subnav: [{
-            name: "Subnav1",
-            classis: "active",
-            anchor: "home"
-        }]
-    }, {
-        name: "Links",
-        classis: "active",
-        anchor: "links",
-        subnav: []
-    }];
+var imgurl = adminurl + "upload/";
 
+var imgpath = imgurl + "readFile";
+var uploadurl = imgurl;
+
+myApp.factory('NavigationService', function ($http) {
     return {
         getNavigation: function () {
-            return navigation;
+            // return navigation;
+        },
+        apiCall: function (url, formData, callback) {
+            $http.post(adminurl + url, formData).then(function (data) {
+                data = data.data;
+                callback(data);
+
+            });
         },
     };
 });
