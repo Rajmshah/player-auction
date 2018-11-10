@@ -1277,6 +1277,10 @@ label {
     content: "\e014";
 }
 
+input[type="checkbox"].form-control {
+    height: 36px;
+}
+
 /* Start writing sass here */
 
 @import "fancybox-override";

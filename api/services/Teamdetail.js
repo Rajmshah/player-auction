@@ -20,10 +20,10 @@ var schema = new Schema({
         default: 0
     },
     categoryValues: [{
-        category: {
-            type: Schema.Types.ObjectId,
-            ref: 'Categorylist'
-        },
+        // category: {
+        //     type: Schema.Types.ObjectId,
+        //     ref: 'Categorylist'
+        // },
         baseValue: {
             type: Number
         },
