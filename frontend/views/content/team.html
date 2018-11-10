@@ -1,0 +1,165 @@
+<!--Banner-->
+<section>
+    <div class="banners-img" ng-if="banner.banner">
+        <img ng-src="{{banner.banner|uploadpath}}" alt="{{banner.name}} Banner" class="img-responsive">
+    </div>
+</section>
+<section ng-if="showStats">
+    <div class="bg-team sold-player teamstats" style="height:100%">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pull-right">
+                        <a class="btn btn-primary text-uppercase team-btn" ng-click="changeSection('Squad')">Team Squad</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="team-head">
+                        <h1 class="text-center text-uppercase opensans-semibold">Team Stats</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="opensans-semibold color-white bucket-value">
+                        <div class="display-ib text-left">
+                            <p>Purse Value :</p>
+                            <p>Money Spent :</p>
+                            <p>Min. Base Value :</p>
+                            <p>Max Bid Price :</p>
+                        </div>
+                        <div class="display-ib text-left">
+                            <p class="ng-binding">{{teamDetail.purseValue}}</p>
+                            <p class="ng-binding">{{teamDetail.moneySpent}}</p>
+                            <p class="ng-binding">{{teamDetail.minimumBaseValue}}</p>
+                            <p class="ng-binding">{{teamDetail.maxBidValue}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-2 m-auto hide" hidden>
+                    <div class="opensans-semibold color-white text-center">
+                        <div class="display-ib">
+                            <div class="display-ib text-right">
+                                <p>Purse Value :</p>
+                                <p>Money Spent :</p>
+                                <p>Min. Base Value :</p>
+                                <p>Max Bid Price :</p>
+                            </div>
+                            <div class="display-ib text-left">
+                                <p class="ng-binding">15000000</p>
+                                <p class="ng-binding">15000000</p>
+                                <p class="ng-binding">15000000</p>
+                                <p class="ng-binding">800000</p>
+                            </div>
+                        </div>
+                        <div class="display-ib">
+                            <div class="display-ib text-right">
+                                <p>Purse Value :</p>
+                                <p>Money Spent :</p>
+                                <p>Min. Base Value :</p>
+                                <p>Max Bid Price :</p>
+                            </div>
+                            <div class="display-ib text-left">
+                                <p class="ng-binding">15000000</p>
+                                <p class="ng-binding">15000000</p>
+                                <p class="ng-binding">15000000</p>
+                                <p class="ng-binding">800000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pull-right opensans-semibold color-white total-count">
+                        <span>Total Players:</span>
+                        <span> {{playerList.length}}/{{teamDetail.playerCount}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-bordered">
+                        <thead>
+                            <th>No.</th>
+                            <th>Player Name</th>
+                            <th>Group</th>
+                            <th>Sold Price</th>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="player in playerList track by $index">
+                                <td>{{$index+1}}</td>
+                                <td>{{player.playerName}}</td>
+                                <td>{{player.category.name}}</td>
+                                <td>{{player.soldValue}}</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" class="text-right">Total:</td>
+                                <td>{{teamDetail.moneySpent}}</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section ng-if="showSquad">
+    <div class="bg-team sold-player livestats teamsquad" ng-if="playerList.length>0" style="height:100%">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pull-right">
+                        <a class="btn btn-primary text-uppercase team-btn" ng-click="changeSection('Stats')">Team Stats</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="team-head">
+                        <h1 class="text-center text-uppercase opensans-semibold">Team SQuad</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" ng-repeat="team in playerList">
+                    <div class="player-card">
+                        <div class="player-image" ng-if="team.playerImage">
+                            <img ng-src="{{team.playerImage|uploadpath}}" alt="{{team.playerName}}" class="img-responsive">
+                        </div>
+                        <div class="player-image" ng-if="!team.playerImage">
+                            <img src="img/dummy.jpg" alt="{{team.playerName}}" class="img-responsive">
+                        </div>
+                        <div class="player-info">
+                            <h4 class="text-capitalize text-center color-white">{{team.playerName}} ({{team.playerAge}})</h4>
+                        </div>
+                        <div class="">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h4 class="text-capitalize text-center color-white">{{team.category.name}}</h4>
+                                        </td>
+                                        <td>
+                                            <h4 class="text-capitalize text-center color-white">{{team.soldValue}}</h4>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section ng-if="playerList.length==0 && showSquad">
+    <div class="bg-team sold-player text-center color-white" style="height:100vh">
+        <h4 class="opensans-semibold">No Player Found</h4>
+    </div>
+</section>

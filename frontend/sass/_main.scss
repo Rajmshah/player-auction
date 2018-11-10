@@ -342,6 +342,22 @@ header {
     margin: 0 auto;
 }
 
+.m-clear {
+    margin: 0;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.display-ib {
+    display: inline-block;
+}
+
 .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
@@ -465,5 +481,60 @@ header {
     margin-top: -20px;
     h4 {
         margin: 0;
+    }
+}
+
+.livestats {
+    .table-bordered th,
+    .table-bordered td {
+        background: #5596bf;
+        color: #121212;
+        text-transform: uppercase;
+        border: 1px solid #d7dce1;
+        padding: 10px;
+    }
+    .table-bordered th:first-child,
+    .table-bordered td:first-child {
+        background: #c0af48;
+    }
+    .player-info {
+        background: #5596bf;
+        padding: 14px;
+        margin: 10px 0;
+        border: 0;
+        border-radius: 0;
+    }
+    .player-image {
+        border: 2px solid #dbbd54;
+        border-radius: 0;
+        overflow: visible;
+        width: 275px;
+        margin: 0 auto;
+        img {
+            border: 0;
+            border-radius: 0;
+            overflow: visible;
+        }
+    }
+}
+
+.team-btn {
+    margin: 0 0 30px;
+}
+
+.teamsquad {
+    .table-bordered th:first-child,
+    .table-bordered td:first-child {
+        background: #5596bf;
+    }
+}
+
+.teamstats {
+    .bucket-value {
+        font-size: 1.6rem;
+        margin: 0 0 30px;
+    }
+    .total-count {
+        font-size: 1.3rem;
     }
 }

@@ -1,0 +1,44 @@
+<section ng-if="teams.length>0">
+    <div class="bg-team sold-player livestats" ng-style="teams.length<=9?{'height':'100vh'}:{'height':'100%'}">
+        <div class="team-head">
+            <h1 class="text-center text-uppercase opensans-semibold">Team Stats</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" ng-repeat="team in teams">
+                    <div class="player-card">
+                        <div class="player-image" ng-if="team.logo">
+                            <img ng-src="{{team.logo|uploadpath}}" alt="{{team.name}}" class="img-responsive">
+                        </div>
+                        <div class="player-image" ng-if="!team.logo">
+                            <img src="img/dummy.jpg" alt="{{team.name}}" class="img-responsive">
+                        </div>
+                        <div class="player-info">
+                            <h4 class="text-capitalize text-center color-white">{{team.name}}</h4>
+                        </div>
+                        <div class="">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h4 class="text-capitalize text-center color-white">{{team.playerCount}}</h4>
+                                        </td>
+                                        <td>
+                                            <h4 class="text-capitalize text-center color-white">{{team.bid}}</h4>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section ng-if="teams.length==0">
+    <div class="bg-team sold-player text-center color-white" style="height:100vh">
+        <h4 class="opensans-semibold">No Player Found</h4>
+    </div>
+</section>
