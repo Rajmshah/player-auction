@@ -4,18 +4,17 @@ myApp.controller('LiveStatsCtrl', function ($scope, TemplateService, NavigationS
     $scope.navigation = NavigationService.getNavigation();
     // GET Team 
     $scope.getAllPlayers = function () {
-        $scope.url = 'Categorydetail/getAllPlayers';
+        $scope.url = 'Teamlist/getList';
         $scope.constraints = {};
         NavigationService.apiCall($scope.url, $scope.constraints, function (data) {
-            $scope.allPlayers = data.data;
-            $scope.team = _.groupBy($scope.allPlayers, 'team.name');
+            $scope.team = data.data;
+            // $scope.team = _.groupBy($scope.allPlayers, 'team.name');
             $scope.teams = []
             // console.log($scope.team);
-            _.forEach($scope.team, function (value, key) {
+            _.forEach($scope.team, function (value) {
                 $scope.teams.push({
-                    'name': key,
-                    'playerCount': value.length,
-                    'teamId': value[0].team._id
+                    'name': value.name,
+                    'teamId': value._id
                 })
             });
             _.each($scope.teams, function (value) {
@@ -34,9 +33,58 @@ myApp.controller('LiveStatsCtrl', function ($scope, TemplateService, NavigationS
                     }
                 });
             })
-            // console.log($scope.teams);
+            _.each($scope.teams, function (value) {
+                var url = 'Categorydetail/getTeamPlayers';
+                var constraints = {
+                    'id': value.teamId
+                };
+                NavigationService.apiCall(url, constraints, function (data) {
+                    console.log(data);
+                    if (data.value) {
+                        value.playerCount = data.data.length;
+                    } else {
+                        value.playerCount = 0;
+                    }
+                });
+            })
+            console.log($scope.teams);
         });
     }
     $scope.getAllPlayers();
+    // $scope.getAllPlayers = function () {
+    //     $scope.url = 'Categorydetail/getAllPlayers';
+    //     $scope.constraints = {};
+    //     NavigationService.apiCall($scope.url, $scope.constraints, function (data) {
+    //         $scope.allPlayers = data.data;
+    //         $scope.team = _.groupBy($scope.allPlayers, 'team.name');
+    //         $scope.teams = []
+    //         // console.log($scope.team);
+    //         _.forEach($scope.team, function (value, key) {
+    //             $scope.teams.push({
+    //                 'name': key,
+    //                 'playerCount': value.length,
+    //                 'teamId': value[0].team._id
+    //             })
+    //         });
+    //         _.each($scope.teams, function (value) {
+
+    //             var url = 'Teamdetail/getTeamDetail';
+    //             var constraints = {
+    //                 'id': value.teamId
+    //             };
+    //             NavigationService.apiCall(url, constraints, function (data) {
+    //                 if (data.value) {
+    //                     value.logo = data.data.logo;
+    //                     value.bid = data.data.maxBidValue
+    //                 } else {
+    //                     value.logo = '';
+    //                     value.bid = 0;
+    //                 }
+    //             });
+    //         })
+    //         // console.log($scope.teams);
+    //     });
+    // }
+    // $scope.getAllPlayers();
     // GET  Team END
 });

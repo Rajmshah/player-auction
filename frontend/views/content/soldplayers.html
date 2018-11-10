@@ -1,6 +1,6 @@
 <section ng-if="allPlayers.length>0">
     <div class="bg-team sold-player" ng-style="allPlayers.length<=9?{'height':'100vh'}:{'height':'100%'}">
-        <div class="team-head">
+        <div class="team-head special-space">
             <h1 class="text-center text-uppercase opensans-semibold">Sold Players</h1>
         </div>
         <div class="container">
@@ -20,7 +20,7 @@
                                 <td>{{player.playerName}}</td>
                                 <td>{{player.team.name}}</td>
                                 <td>{{player.category.name}}</td>
-                                <td>{{player.soldValue}}</td>
+                                <td>{{player.soldValue|number}}</td>
                             </tr>
                         </tbody>
                     </table>

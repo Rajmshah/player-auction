@@ -8,7 +8,7 @@
     <div class="bg-team sold-player" ng-style="playerList.length<=9?{'height':'100vh'}:{'height':'100%'}">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-4" ng-repeat="player in playerList">
+                <div class="col-lg-3 col-md-4 col-sm-4" ng-repeat="player in playerList | orderBy:'playerName'">
                     <div class="player-card">
                         <div class="player-image" ng-if="player.playerImage && player.playerImage.charAt(0)=='h'">
                             <img ng-src="{{player.playerImage}}" alt="{{player.playerName}}" class="img-responsive">

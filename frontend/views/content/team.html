@@ -27,14 +27,14 @@
                         <div class="display-ib text-left">
                             <p>Purse Value :</p>
                             <p>Money Spent :</p>
-                            <p>Min. Base Value :</p>
+                            <p>Min. Base Val. :</p>
                             <p>Max Bid Price :</p>
                         </div>
                         <div class="display-ib text-left">
-                            <p class="ng-binding">{{teamDetail.purseValue}}</p>
-                            <p class="ng-binding">{{teamDetail.moneySpent}}</p>
-                            <p class="ng-binding">{{teamDetail.minimumBaseValue}}</p>
-                            <p class="ng-binding">{{teamDetail.maxBidValue}}</p>
+                            <p>{{teamDetail.purseValue|number}}</p>
+                            <p>{{teamDetail.moneySpent|number}}</p>
+                            <p>{{teamDetail.minimumBaseValue|number}}</p>
+                            <p>{{teamDetail.maxBidValue|number}}</p>
                         </div>
                     </div>
                 </div>
@@ -89,17 +89,17 @@
                             <th>Sold Price</th>
                         </thead>
                         <tbody>
-                            <tr ng-repeat="player in playerList track by $index">
+                            <tr ng-repeat="player in playerList | orderBy: reverse:true track by $index">
                                 <td>{{$index+1}}</td>
                                 <td>{{player.playerName}}</td>
                                 <td>{{player.category.name}}</td>
-                                <td>{{player.soldValue}}</td>
+                                <td>{{player.soldValue|number}}</td>
                             </tr>
                         </tbody>
                         <tfoot>
                             <tr>
                                 <td colspan="3" class="text-right">Total:</td>
-                                <td>{{teamDetail.moneySpent}}</td>
+                                <td>{{teamDetail.moneySpent|number}}</td>
                             </tr>
                         </tfoot>
                     </table>
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-4" ng-repeat="team in playerList">
+                <div class="col-lg-3 col-md-6 col-sm-4" ng-repeat="team in playerList">
                     <div class="player-card">
                         <div class="player-image" ng-if="team.playerImage && team.playerImage.charAt(0)=='h'">
                             <img ng-src="{{team.playerImage}}" alt="{{team.playerName}}" class="img-responsive">
@@ -140,7 +140,7 @@
                         <div class="player-info">
                             <h4 class="text-capitalize text-center color-white">{{team.playerName}} ({{team.playerAge}})</h4>
                         </div>
-                        <div class="">
+                        <div>
                             <table class="table table-bordered">
                                 <tbody>
                                     <tr>
@@ -148,7 +148,7 @@
                                             <h4 class="text-capitalize text-center color-white">{{team.category.name}}</h4>
                                         </td>
                                         <td>
-                                            <h4 class="text-capitalize text-center color-white">{{team.soldValue}}</h4>
+                                            <h4 class="text-capitalize text-center color-white">{{team.soldValue|number}}</h4>
                                         </td>
                                     </tr>
                                 </tbody>

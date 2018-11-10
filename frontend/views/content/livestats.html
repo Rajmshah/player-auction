@@ -1,6 +1,6 @@
 <section ng-if="teams.length>0">
-    <div class="bg-team sold-player livestats" ng-style="teams.length<=9?{'height':'100vh'}:{'height':'100%'}">
-        <div class="team-head">
+    <div class="bg-team sold-player livestats" ng-style="teams.length<=2?{'height':'100vh'}:{'height':'100%'}">
+        <div class="team-head special-space">
             <h1 class="text-center text-uppercase opensans-semibold">Team Stats</h1>
         </div>
         <div class="container">
@@ -11,7 +11,7 @@
                             <img ng-src="{{team.logo|uploadpath}}" alt="{{team.name}}" class="img-responsive">
                         </div>
                         <div class="player-image" ng-if="!team.logo">
-                            <img src="img/dummy.jpg" alt="{{team.name}}" class="img-responsive">
+                            <img src="img/holder.png" alt="{{team.name}}" class="img-responsive">
                         </div>
                         <div class="player-info">
                             <h4 class="text-capitalize text-center color-white">{{team.name}}</h4>
@@ -24,7 +24,7 @@
                                             <h4 class="text-capitalize text-center color-white">{{team.playerCount}}</h4>
                                         </td>
                                         <td>
-                                            <h4 class="text-capitalize text-center color-white">{{team.bid}}</h4>
+                                            <h4 class="text-capitalize text-center color-white">{{team.bid|number}}</h4>
                                         </td>
                                     </tr>
                                 </tbody>

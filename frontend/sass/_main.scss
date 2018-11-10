@@ -368,10 +368,6 @@ header {
     @extend .color-white;
 }
 
-.fixed-top {
-    top: 26px;
-}
-
 .img-responsive {
     display: block;
     max-width: 100%;
@@ -436,7 +432,7 @@ header {
 
 .sold-player {
     @extend .bg-team; // height: 100vh;
-    padding: 150px 0 60px;
+    padding: 100px 0 60px;
     table {
         @extend .opensans-semibold;
     }
@@ -474,13 +470,18 @@ header {
     }
 }
 
+.player-card {
+    margin-bottom: 30px;
+}
+
 .player-info {
     background: #e71f31;
     border-radius: 50px;
-    padding: 26px;
-    margin-top: -20px;
+    padding: 20px;
+    margin-top: -15px;
     h4 {
         margin: 0;
+        font-size: 1.25rem;
     }
 }
 
@@ -503,6 +504,9 @@ header {
         margin: 10px 0;
         border: 0;
         border-radius: 0;
+        h4 {
+            font-size: 1.5rem;
+        }
     }
     .player-image {
         border: 2px solid #dbbd54;
@@ -528,6 +532,15 @@ header {
     .table-bordered td:first-child {
         background: #5596bf;
     }
+    .player-image {
+        width: 175px;
+    }
+    .player-info,
+    .table {
+        h4 {
+            font-size: 1.25rem;
+        }
+    }
 }
 
 .teamstats {
@@ -542,7 +555,9 @@ header {
 
 .navbar-brand {
     position: absolute;
-    top: -58px;
+    top: 0;
+    padding: 0;
+    margin-right: 0;
 }
 
 .navbar-collapse {
