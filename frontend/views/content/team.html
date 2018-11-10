@@ -7,7 +7,7 @@
 <section ng-if="showStats">
     <div class="bg-team sold-player teamstats" style="height:100%">
         <div class="container">
-            <div class="row">
+            <div class="row" ng-if="playerList.length>0">
                 <div class="col-md-12">
                     <div class="pull-right">
                         <a class="btn btn-danger text-uppercase team-btn opensans-semibold" ng-click="changeSection('Squad')">Team Squad</a>
