@@ -10,7 +10,10 @@
             <div class="row">
                 <div class="col-md-3" ng-repeat="player in playerList">
                     <div class="player-card">
-                        <div class="player-image" ng-if="player.playerImage">
+                        <div class="player-image" ng-if="player.playerImage && player.playerImage.charAt(0)=='h'">
+                            <img ng-src="{{player.playerImage}}" alt="{{player.playerName}}" class="img-responsive">
+                        </div>
+                        <div class="player-image" ng-if="player.playerImage && player.playerImage.charAt(0)!='h'">
                             <img ng-src="{{player.playerImage|uploadpath}}" alt="{{player.playerName}}" class="img-responsive">
                         </div>
                         <div class="player-image" ng-if="!player.playerImage">

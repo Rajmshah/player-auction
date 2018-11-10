@@ -46,12 +46,12 @@ myApp.controller('headerCtrl', function ($scope, TemplateService, NavigationServ
         $scope.headerMenu = [{
             name: "Auction Stats",
             classis: "active",
-            anchor: '#',
+            anchor: 'auction',
             subnav: teamSubtitle
         }, {
             name: "Groups",
             classis: "active",
-            anchor: "#",
+            anchor: "auction",
             subnav: categorySubtitle
         }, {
             name: "Sold Player",

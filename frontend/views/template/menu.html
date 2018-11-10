@@ -1,6 +1,6 @@
-<ul class="nav navbar-nav">
+<ul class="nav navbar-nav opensans-semibold">
   <li ng-repeat="menu in headerMenu" ui-sref-active="active" class="nav-item dropdown">
-    <a ui-sref="{{menu.anchor}}" ng-if="menu.anchor" class="nav-link">{{menu.name}}</a>
+    <a ui-sref="{{menu.anchor}}" ng-if="menu.anchor" class="nav-link text-uppercase">{{menu.name}} <span  ng-if="menu.subnav.length>0"><i class="fa fa-caret-down"></i></span></a>
     <a href="{{menu.link}}" ng-if="menu.link" class="nav-link">{{menu.name}}</a>
     <div class="dropdown-menu" ng-if="menu.subnav.length>0">
       <div ng-repeat="submenu in menu.subnav" ui-sref-active="active">

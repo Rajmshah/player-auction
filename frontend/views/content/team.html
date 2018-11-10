@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="pull-right">
-                        <a class="btn btn-primary text-uppercase team-btn" ng-click="changeSection('Squad')">Team Squad</a>
+                        <a class="btn btn-danger text-uppercase team-btn opensans-semibold" ng-click="changeSection('Squad')">Team Squad</a>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="pull-right">
-                        <a class="btn btn-primary text-uppercase team-btn" ng-click="changeSection('Stats')">Team Stats</a>
+                        <a class="btn btn-danger text-uppercase team-btn opensans-semibold" ng-click="changeSection('Stats')">Team Stats</a>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,10 @@
             <div class="row">
                 <div class="col-md-4" ng-repeat="team in playerList">
                     <div class="player-card">
-                        <div class="player-image" ng-if="team.playerImage">
+                        <div class="player-image" ng-if="team.playerImage && team.playerImage.charAt(0)=='h'">
+                            <img ng-src="{{team.playerImage}}" alt="{{team.playerName}}" class="img-responsive">
+                        </div>
+                        <div class="player-image" ng-if="team.playerImage && team.playerImage.charAt(0)!='h'">
                             <img ng-src="{{team.playerImage|uploadpath}}" alt="{{team.playerName}}" class="img-responsive">
                         </div>
                         <div class="player-image" ng-if="!team.playerImage">

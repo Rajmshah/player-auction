@@ -29,15 +29,17 @@ myApp.controller('TeamCtrl', function ($scope, TemplateService, NavigationServic
                 if (data.data.length == 0) {
                     toastr.info('No team details for selected team.');
                     $scope.teamDetail = {};
+                    $state.go('home');
                 } else {
                     $scope.teamDetail = data.data;
                     $scope.banner = {
                         banner: data.data.banner
                     };
-                    console.log('teamdetail', $scope.teamDetail);
+                    // console.log('teamdetail', $scope.teamDetail);
                 }
             } else {
                 toastr.info('Something is Wrong.');
+                $state.go('home');
             }
         });
     };
@@ -50,7 +52,7 @@ myApp.controller('TeamCtrl', function ($scope, TemplateService, NavigationServic
             NavigationService.apiCall($scope.url, constraints, function (data) {
                 if (data.value) {
                     $scope.playerList = data.data;
-                    console.log('playerlist', $scope.playerList);
+                    // console.log('playerlist', $scope.playerList);
                 } else {
                     $scope.playerList = [];
                 }
