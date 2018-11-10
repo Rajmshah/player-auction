@@ -8,21 +8,21 @@
     <div class="bg-team sold-player teamstats" style="height:100%">
         <div class="container">
             <div class="row" ng-if="playerList.length>0">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="pull-right">
                         <a class="btn btn-danger text-uppercase team-btn opensans-semibold" ng-click="changeSection('Squad')">Team Squad</a>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="team-head">
                         <h1 class="text-center text-uppercase opensans-semibold">Team Stats</h1>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="opensans-semibold color-white bucket-value">
                         <div class="display-ib text-left">
                             <p>Purse Value :</p>
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="pull-right opensans-semibold color-white total-count">
                         <span>Total Players:</span>
                         <span> {{playerList.length}}/{{teamDetail.playerCount}}</span>
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <table class="table table-bordered">
                         <thead>
                             <th>No.</th>
@@ -112,21 +112,21 @@
     <div class="bg-team sold-player livestats teamsquad" ng-if="playerList.length>0" style="height:100%">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="pull-right">
                         <a class="btn btn-danger text-uppercase team-btn opensans-semibold" ng-click="changeSection('Stats')">Team Stats</a>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="team-head">
                         <h1 class="text-center text-uppercase opensans-semibold">Team SQuad</h1>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4" ng-repeat="team in playerList">
+                <div class="col-lg-4 col-md-6 col-sm-4" ng-repeat="team in playerList">
                     <div class="player-card">
                         <div class="player-image" ng-if="team.playerImage && team.playerImage.charAt(0)=='h'">
                             <img ng-src="{{team.playerImage}}" alt="{{team.playerName}}" class="img-responsive">
