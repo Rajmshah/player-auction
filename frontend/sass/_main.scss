@@ -500,19 +500,25 @@ header {
     }
     .player-info {
         background: #5596bf;
-        padding: 14px;
+        padding: 9px;
         margin: 10px 0;
         border: 0;
         border-radius: 0;
         h4 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+        }
+    }
+    .table {
+        h4 {
+            font-size: 1rem;
+            margin: 0;
         }
     }
     .player-image {
         border: 2px solid #dbbd54;
         border-radius: 0;
         overflow: visible;
-        width: 275px;
+        width: 100%;
         margin: 0 auto;
         img {
             border: 0;
@@ -535,10 +541,14 @@ header {
     .player-image {
         width: 175px;
     }
+    .player-info {
+        padding: 14px;
+    }
     .player-info,
     .table {
         h4 {
             font-size: 1rem;
+            margin-bottom: .5rem;
         }
     }
 }
