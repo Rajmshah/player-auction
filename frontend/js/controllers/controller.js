@@ -52,7 +52,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 prevButton: '.banners-img .swiper-button-prev',
                 reverseDirection: false,
                 paginationClickable: true,
-                loop: true,
+                // loop: true,
             });
             var teamSlide = new Swiper('.teams-logo .swiper-container', {
                 slidesPerView: 3,
