@@ -181,7 +181,7 @@ $dropdown-box-shadow: 0 .5rem 1rem rgba($black, .175) !default;
 }
 
 body {
-    //     // padding-top: 70px;
+    padding-top: 59px;
     font-family: "Opensans Regular" !important;
 }
 
@@ -432,7 +432,7 @@ header {
 
 .sold-player {
     @extend .bg-team; // height: 100vh;
-    padding: 100px 0 60px;
+    padding: 40px 0 60px;
     table {
         @extend .opensans-semibold;
     }
