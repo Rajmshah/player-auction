@@ -318,6 +318,10 @@ header {
     background-color: $bgcolor;
 }
 
+.bg-color-black {
+    background-color: $black;
+}
+
 .bg-team {
     // background-color: rgba(38, 57, 115, 0.4);
     background-image: url('../img/team-bg.png');
