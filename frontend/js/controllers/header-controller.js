@@ -64,11 +64,6 @@ myApp.controller('headerCtrl', function ($scope, TemplateService, NavigationServ
             anchor: "sponsor",
             subnav: []
         }, {
-            name: "About Us",
-            classis: "active",
-            anchor: "about",
-            subnav: []
-        }, {
             name: "Live Stats",
             classis: "active",
             anchor: "livestats",
@@ -76,3 +71,9 @@ myApp.controller('headerCtrl', function ($scope, TemplateService, NavigationServ
         }];
     }
 });
+// {
+//             name: "About Us",
+//             classis: "active",
+//             anchor: "about",
+//             subnav: []
+//         },
