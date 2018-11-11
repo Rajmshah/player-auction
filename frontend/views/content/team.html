@@ -31,10 +31,10 @@
                             <p>Max Bid Price :</p>
                         </div>
                         <div class="display-ib text-left">
-                            <p>{{teamDetail.purseValue|number}}</p>
-                            <p>{{teamDetail.moneySpent|number}}</p>
-                            <p>{{teamDetail.minimumBaseValue|number}}</p>
-                            <p>{{teamDetail.maxBidValue|number}}</p>
+                            <p>{{teamDetail.purseValue|INR}}</p>
+                            <p>{{teamDetail.moneySpent|INR}}</p>
+                            <p>{{teamDetail.minimumBaseValue|INR}}</p>
+                            <p>{{teamDetail.maxBidValue|INR}}</p>
                         </div>
                     </div>
                 </div>
@@ -93,13 +93,13 @@
                                 <td>{{$index+1}}</td>
                                 <td>{{player.playerName}}</td>
                                 <td>{{player.category.name}}</td>
-                                <td>{{player.soldValue|number}}</td>
+                                <td>{{player.soldValue|INR}}</td>
                             </tr>
                         </tbody>
                         <tfoot>
                             <tr>
                                 <td colspan="3" class="text-right">Total:</td>
-                                <td>{{teamDetail.moneySpent|number}}</td>
+                                <td>{{teamDetail.moneySpent|INR}}</td>
                             </tr>
                         </tfoot>
                     </table>
@@ -148,7 +148,7 @@
                                             <h4 class="text-capitalize text-center color-white">{{team.category.name}}</h4>
                                         </td>
                                         <td>
-                                            <h4 class="text-capitalize text-center color-white">{{team.soldValue|number}}</h4>
+                                            <h4 class="text-capitalize text-center color-white">{{team.soldValue|INR}}</h4>
                                         </td>
                                     </tr>
                                 </tbody>
