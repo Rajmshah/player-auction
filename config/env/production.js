@@ -24,8 +24,12 @@ module.exports = {
    * Set the port in the production environment to 80                        *
    ***************************************************************************/
 
-  port: 1339,
-  realHost: "http://www.ccplauction.com"
+  port: 1338,
+  realHost: "http://www.aplauction.com"
+  // port: 1338,
+  // realHost: "http://www.ccplauction.com"
+  // port: 1339,
+  // realHost: "http://www.ccplauction.com"
   // emails: ["chintan@wohlig.com", "jagruti@wohlig.com", "tushar@wohlig.com", "chirag@wohlig.com", "harsh@wohlig.com"]
 
   /***************************************************************************
