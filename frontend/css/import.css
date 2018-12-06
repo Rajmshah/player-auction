@@ -8490,11 +8490,16 @@ header {
 
 .navbar-nav .dropdown-menu::before {
   width: 100%;
-  content: '';
+  content: "";
   height: 10px;
   position: absolute;
   top: -10px;
   cursor: pointer; }
+
+a.navbar-brand h1 {
+  color: #fff;
+  font-size: 1.6em;
+  padding-top: 8px; }
 
 #fancybox-loading,
 .fancybox-close,

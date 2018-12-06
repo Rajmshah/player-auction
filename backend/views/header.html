@@ -1,6 +1,29 @@
 <div class="top-bar">
     <div class="logo">
-        <a ui-sref="dashboard" title="Admin"><img src="img/logo.png" alt="Absolute" height="40"></a>
+        <a ui-sref="dashboard" title="Admin">
+                <a class="navbar-brand" ui-sref="home">
+                        <img
+                          src="img/abb_logo.png"
+                          alt="logo"
+                          width="150"
+                          ng-if="adminurl == 'http://www.abbauction.in/api/'"
+                        />
+                        <img
+                          src="img/ccpl-logo.png"
+                          alt="logo"
+                          width="150"
+                          ng-if="adminurl == 'http://www.ccplauction.com/api/'"
+                        />
+                        <!--
+                          <img
+                            src="img/abb_logo.png"
+                            alt="logo"
+                            width="150"
+                            ng-if="adminurl == 'http://www.aplauction.com/api/'"
+                          />
+                        -->
+                        <h1 ng-if="adminurl == 'http://www.aplauction.com/api/'">APL Auction</h1>
+        </a>
         <div class="menu-options"><span class="menu-action"><i></i></span></div>
     </div>
     <div class="quick-links">
