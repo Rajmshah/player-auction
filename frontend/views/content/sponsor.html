@@ -9,35 +9,43 @@
   </section>
 -->
 
-<!--
-  Sports Domain
-  <section class="reportcard-page celebrity-page">
-      <div class="">
-          <div class="celebrity-holder">
-              <img src="https://storage.cloud.google.com/auction-player/sportssponsor.jpg" alt="" class="img-responsive">
-          </div>
-      </div>
-  </section>
+<!-- Sports Domain -->
+<section
+  class="reportcard-page celebrity-page"
+  ng-if="adminurl == 'http://www.sportssponsor.in/api/'"
+>
+  <div class="">
+    <div class="celebrity-holder">
+      <img
+        src="https://storage.cloud.google.com/auction-player/sportssponsor.jpg"
+        alt=""
+        class="img-responsive"
+      />
+    </div>
+  </div>
+</section>
 
-  APL Domain
-  <section class="reportcard-page celebrity-page">
-      <div class="">
-          <div class="celebrity-holder">
-              <img src="https://storage.cloud.google.com/auction-player/aplsponsor.jpg" alt="" class="img-responsive">
-          </div>
-      </div>
-  </section>
+<!-- APL Domain -->
+<section
+  class="reportcard-page celebrity-page"
+  ng-if="adminurl == 'http://www.aplauction.com/api/'"
+>
+  <div class="">
+    <div class="celebrity-holder">
+      <img
+        src="https://storage.cloud.google.com/auction-player/aplsponsor.jpg"
+        alt=""
+        class="img-responsive"
+      />
+    </div>
+  </div>
+</section>
 
-  CCPL Domain
-  <section class="reportcard-page celebrity-page">
-      <div class="">
-          <div class="celebrity-holder">
-              <img src="https://storage.cloud.google.com/auction-player/ccplsponsor.jpg" alt="" class="img-responsive">
-          </div>
-      </div>
-  </section>
--->
-<section class="reportcard-page celebrity-page">
+<!-- CCPL Domain -->
+<section
+  class="reportcard-page celebrity-page"
+  ng-if="adminurl == 'http://www.ccplauction.com/api/'"
+>
   <div class="">
     <div class="celebrity-holder">
       <img

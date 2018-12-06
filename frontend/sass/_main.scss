@@ -54,29 +54,16 @@ $link-hover-decoration: underline !default;
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
-$font-family-sans-serif: -apple-system,
-system-ui,
-BlinkMacSystemFont,
-"Segoe UI",
-Roboto,
-"Helvetica Neue",
-Arial,
-sans-serif !default;
-$font-family-serif: Georgia,
-"Times New Roman",
-Times,
-serif !default;
-$font-family-monospace: Menlo,
-Monaco,
-Consolas,
-"Liberation Mono",
-"Courier New",
-monospace !default;
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono",
+  "Courier New", monospace !default;
 $font-family-base: $font-family-sans-serif !default;
 $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg: 1.25rem !default;
-$font-size-sm: .875rem !default;
-$font-size-xs: .75rem !default;
+$font-size-sm: 0.875rem !default;
+$font-size-xs: 0.75rem !default;
 $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
 $font-weight-base: $font-weight-normal !default;
@@ -97,29 +84,28 @@ $headings-color: inherit !default;
 // Define common padding and border radius sizes and more.
 $line-height-lg: (4 / 3) !default;
 $line-height-sm: 1.5 !default;
-$border-radius: .25rem !default;
-$border-radius-lg: .3rem !default;
-$border-radius-sm: .2rem !default;
+$border-radius: 0.25rem !default;
+$border-radius-lg: 0.3rem !default;
+$border-radius-sm: 0.2rem !default;
 $component-active-color: $white !default;
 $component-active-bg: $brand-primary !default;
-$caret-width: .3em !default;
-$transition-base: all .2s ease-in-out !default;
-$transition-fade: opacity .15s linear !default;
-$transition-collapse: height .35s ease !default;
+$caret-width: 0.3em !default;
+$transition-base: all 0.2s ease-in-out !default;
+$transition-fade: opacity 0.15s linear !default;
+$transition-collapse: height 0.35s ease !default;
 // Buttons
 //
 // For each of Bootstrap's buttons, define text, background and border color.
 $btn-padding-x: 1rem !default;
-$btn-padding-y: .5rem !default;
+$btn-padding-y: 0.5rem !default;
 $btn-line-height: 1.25 !default;
 $btn-font-weight: $font-weight-normal !default;
-$btn-box-shadow: inset 0 1px 0 rgba($white, .15),
-0 1px 1px rgba($black, .075) !default;
-$btn-focus-box-shadow: 0 0 0 2px rgba($brand-primary, .25) !default;
-$btn-active-box-shadow: inset 0 3px 5px rgba($black, .125) !default;
+$btn-box-shadow: inset 0 1px 0 rgba($white, 0.15), 0 1px 1px rgba($black, 0.075) !default;
+$btn-focus-box-shadow: 0 0 0 2px rgba($brand-primary, 0.25) !default;
+$btn-active-box-shadow: inset 0 3px 5px rgba($black, 0.125) !default;
 // Forms
-$input-padding-x: .75rem !default;
-$input-padding-y: .5rem !default;
+$input-padding-x: 0.75rem !default;
+$input-padding-y: 0.5rem !default;
 $input-line-height: 1.25 !default;
 $input-bg: $white !default;
 $input-bg-disabled: $gray-lighter !default;
@@ -128,483 +114,489 @@ $input-color: $gray !default;
 //
 // Dropdown menu container and contents.
 $dropdown-min-width: 10rem !default;
-$dropdown-padding-y: .5rem !default;
-$dropdown-margin-top: .125rem !default;
+$dropdown-padding-y: 0.5rem !default;
+$dropdown-margin-top: 0.125rem !default;
 $dropdown-bg: $white !default;
-$dropdown-border-color: rgba($black, .15) !default;
-$dropdown-box-shadow: 0 .5rem 1rem rgba($black, .175) !default;
+$dropdown-border-color: rgba($black, 0.15) !default;
+$dropdown-box-shadow: 0 0.5rem 1rem rgba($black, 0.175) !default;
 // @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../bower_components/bootstrap/scss/bootstrap";
 @import "other/font-fix";
 @font-face {
-    font-family: "Opensans Semibold";
-    src: url('../fonts/OPENSANS-SEMIBOLD_3.TTF');
+  font-family: "Opensans Semibold";
+  src: url("../fonts/OPENSANS-SEMIBOLD_3.TTF");
 }
 
 @font-face {
-    font-family: "Opensans Regular";
-    src: url('../fonts/OPENSANS-REGULAR_3.TTF');
+  font-family: "Opensans Regular";
+  src: url("../fonts/OPENSANS-REGULAR_3.TTF");
 }
 
 @font-face {
-    font-family: "Opensans Light";
-    src: url('../fonts/OPENSANS-LIGHT_3.TTF');
+  font-family: "Opensans Light";
+  src: url("../fonts/OPENSANS-LIGHT_3.TTF");
 }
 
 @font-face {
-    font-family: "OpenSans-Bold";
-    src: url('../fonts/OpenSans-Bold.TTF');
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold.TTF");
 }
 
 .opensans-semibold {
-    font-family: "Opensans Semibold";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: "Opensans Semibold";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .opensans-bold {
-    font-family: "OpenSans-Bold";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: "OpenSans-Bold";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .opensans-regular {
-    font-family: "Opensans Regular";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: "Opensans Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .opensans-light {
-    font-family: "Opensans Light";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: "Opensans Light";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-    padding-top: 56px;
-    font-family: "Opensans Regular" !important;
+  padding-top: 56px;
+  font-family: "Opensans Regular" !important;
 }
 
 img.loading {
-    text-align: center;
-    opacity: 1;
-    width: 32px !important;
-    height: auto;
+  text-align: center;
+  opacity: 1;
+  width: 32px !important;
+  height: auto;
 }
 
 img {
-    opacity: 0;
-    transition: all 300ms ease;
+  opacity: 0;
+  transition: all 300ms ease;
 }
 
 img.doneLoading {
-    opacity: 1;
+  opacity: 1;
 }
 
 nav li:hover .dropdown-menu {
-    display: block;
+  display: block;
 }
 
 #map img {
-    opacity: 1;
+  opacity: 1;
 }
 
 a,
 .btn,
 [ui-sref] {
-    cursor: pointer;
-    transition: all ease 300ms;
+  cursor: pointer;
+  transition: all ease 300ms;
 }
 
 footer {
-    font-size: 18px;
-    color: #eee;
-    padding: 16px 0;
-    p {
-        margin: 0;
-    }
+  font-size: 18px;
+  color: #eee;
+  padding: 16px 0;
+  p {
+    margin: 0;
+  }
 }
 
 //bootstrap forms
 .input-lg,
-.input-group-lg>.form-control,
-.input-group-lg>.input-group-addon,
-.input-group-lg>.input-group-btn>.btn,
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn,
 .btn,
 .form-control {
-    border-radius: 0;
-    box-shadow: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .form-control:focus {
-    border-color: $brand-primary;
-    outline: 0;
-    box-shadow: none;
+  border-color: $brand-primary;
+  outline: 0;
+  box-shadow: none;
 }
 
 .form-group {
-    position: relative;
+  position: relative;
 }
 
 .form-invalid {
+  color: $brand-danger;
+  .form-control {
+    border-color: $brand-danger;
     color: $brand-danger;
-    .form-control {
-        border-color: $brand-danger;
-        color: $brand-danger;
-        &::-webkit-input-placeholder {
-            color: $brand-danger;
-        }
+    &::-webkit-input-placeholder {
+      color: $brand-danger;
     }
+  }
 }
 
 .form-submission {
-    min-height: 300px;
+  min-height: 300px;
 }
 
 //FLEX SLIDER FIXES
 .flex-direction-nav {
-    a {
-        height: auto;
-    }
-    .flex-prev {
-        left: 10px !important;
-    }
-    .flex-next {
-        right: 10px !important;
-    }
+  a {
+    height: auto;
+  }
+  .flex-prev {
+    left: 10px !important;
+  }
+  .flex-next {
+    right: 10px !important;
+  }
 }
 
 .content {
-    min-height: 450px;
+  min-height: 450px;
 }
 
 .img-full {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 header {
-    transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 .nav-up {
-    transform: translateY(-100%);
+  transform: translateY(-100%);
 }
 
 .fa-svg-icon {
-    display: inline-block;
-    vertical-align: middle;
-    min-width: 1em;
-    min-height: 1em;
-    height: 100%;
-    position: relative;
-    top: -1px;
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 1em;
+  min-height: 1em;
+  height: 100%;
+  position: relative;
+  top: -1px;
 }
 
 //rating
 .fa-svg-icon svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .ui-select-bootstrap.open .dropdown-menu {
-    display: block;
+  display: block;
 }
 
 .bg-color {
-    background-color: $bgcolor;
+  background-color: $bgcolor;
 }
 
 .bg-color-black {
-    background-color: $black;
+  background-color: $black;
 }
 
 .bg-team {
-    // background-color: rgba(38, 57, 115, 0.4);
-    background-image: url('../img/team-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 50px 0 60px;
+  // background-color: rgba(38, 57, 115, 0.4);
+  background-image: url("../img/team-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0 60px;
 }
 
 .color-white {
-    color: $white;
+  color: $white;
 }
 
 .color-bg {
-    color: $bgcolor;
+  color: $bgcolor;
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .m-auto {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .m-clear {
-    margin: 0;
+  margin: 0;
 }
 
 .pull-right {
-    float: right;
+  float: right;
 }
 
 .pull-left {
-    float: left;
+  float: left;
 }
 
 .display-ib {
-    display: inline-block;
+  display: inline-block;
 }
 
-.navbar-light .navbar-nav .show>.nav-link,
-.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    @extend .color-white;
+  @extend .color-white;
 }
 
 .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .banners-img {
-    position: relative;
-    .swiper-button-next,
-    .swiper-button-prev {
-        width: 30px;
-        height: 30px;
-        margin-top: 0;
-        background-size: contain;
-        transform: translateY(-50%);
-    }
+  position: relative;
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+    background-size: contain;
+    transform: translateY(-50%);
+  }
 }
 
 .media-group {
-    display: flex;
-    .media-list {
-        flex: 1;
-        &:hover {
-            border: 3px solid;
-            transform: scale(0.98);
-        }
+  display: flex;
+  .media-list {
+    flex: 1;
+    &:hover {
+      border: 3px solid;
+      transform: scale(0.98);
     }
+  }
 }
 
 .teams-logo {
-    position: relative;
-    .swiper-button-next,
-    .swiper-button-prev {
-        width: 30px;
-        height: 30px;
-        margin-top: 0;
-        background-size: contain;
-        transform: translateY(-50%);
+  position: relative;
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+    background-size: contain;
+    transform: translateY(-50%);
+  }
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    left: -40px; // background-image: url('../img/icon/prev-black.png');
+  }
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    right: -40px; // background-image: url('../img/icon/next-black.png');
+  }
+  .swiper-slide {
+    &:hover {
+      transform: scale(1.02);
     }
-    .swiper-button-prev,
-    .swiper-container-rtl .swiper-button-next {
-        left: -40px; // background-image: url('../img/icon/prev-black.png');
-    }
-    .swiper-button-next,
-    .swiper-container-rtl .swiper-button-prev {
-        right: -40px; // background-image: url('../img/icon/next-black.png');
-    }
-    .swiper-slide {
-        &:hover {
-            transform: scale(1.02);
-        }
-    }
+  }
 }
 
 .team-head {
-    h1 {
-        color: $white;
-        padding: 0 0 50px;
-        margin: 0;
-    }
+  h1 {
+    color: $white;
+    padding: 0 0 50px;
+    margin: 0;
+  }
 }
 
 .sold-player {
-    @extend .bg-team; // height: 100vh;
-    padding: 40px 0 60px;
-    table {
-        @extend .opensans-semibold;
-    }
-    .table-bordered th,
-    .table-bordered td {
-        background: #f3f3f3;
-        color: #121212;
-        text-transform: uppercase;
-        border: 1px solid #d7dce1;
-        padding: 10px 14px;
-    }
-    .table-bordered thead th,
-    .table-bordered thead td {
-        border-bottom-width: 2px;
-        background: #e71f31;
-        color: #fff;
-        text-transform: uppercase;
-        border: 1px solid #ce1a2b;
-        font-size: 1.1rem;
-    }
+  @extend .bg-team; // height: 100vh;
+  padding: 40px 0 60px;
+  table {
+    @extend .opensans-semibold;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    background: #f3f3f3;
+    color: #121212;
+    text-transform: uppercase;
+    border: 1px solid #d7dce1;
+    padding: 10px 14px;
+  }
+  .table-bordered thead th,
+  .table-bordered thead td {
+    border-bottom-width: 2px;
+    background: #e71f31;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #ce1a2b;
+    font-size: 1.1rem;
+  }
 }
 
 .player-image {
+  border: 2px solid #dbbd54;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 175px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0px 10px 2px #dbbd54;
+  box-shadow: 0 0px 10px 2px #dbbd54;
+  img {
     border: 2px solid #dbbd54;
     border-radius: 100%;
     overflow: hidden;
-    width: 175px;
-    margin: 0 auto;
-    -webkit-box-shadow: 0 0px 10px 2px #dbbd54;
-    box-shadow: 0 0px 10px 2px #dbbd54;
-    img {
-        border: 2px solid #dbbd54;
-        border-radius: 100%;
-        overflow: hidden;
-    }
+  }
 }
 
 .player-card {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .player-info {
-    background: #e71f31;
-    border-radius: 50px;
-    padding: 20px;
-    margin-top: -15px;
-    h4 {
-        margin: 0;
-        font-size: 1.25rem;
-    }
+  background: #e71f31;
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: -15px;
+  h4 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
 }
 
 .livestats {
-    .table-bordered th,
-    .table-bordered td {
-        background: #5596bf;
-        color: #121212;
-        text-transform: uppercase;
-        border: 1px solid #d7dce1;
-        padding: 10px;
+  .table-bordered th,
+  .table-bordered td {
+    background: #5596bf;
+    color: #121212;
+    text-transform: uppercase;
+    border: 1px solid #d7dce1;
+    padding: 10px;
+  }
+  .table-bordered th:first-child,
+  .table-bordered td:first-child {
+    background: #c0af48;
+  }
+  .player-info {
+    background: #5596bf;
+    padding: 9px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 0;
+    h4 {
+      font-size: 1.2rem;
     }
-    .table-bordered th:first-child,
-    .table-bordered td:first-child {
-        background: #c0af48;
+  }
+  .table {
+    h4 {
+      font-size: 1rem;
+      margin: 0;
     }
-    .player-info {
-        background: #5596bf;
-        padding: 9px;
-        margin: 10px 0;
-        border: 0;
-        border-radius: 0;
-        h4 {
-            font-size: 1.2rem;
-        }
+  }
+  .player-image {
+    border: 2px solid #dbbd54;
+    border-radius: 0;
+    overflow: visible;
+    width: 100%;
+    margin: 0 auto;
+    img {
+      border: 0;
+      border-radius: 0;
+      overflow: visible;
     }
-    .table {
-        h4 {
-            font-size: 1rem;
-            margin: 0;
-        }
-    }
-    .player-image {
-        border: 2px solid #dbbd54;
-        border-radius: 0;
-        overflow: visible;
-        width: 100%;
-        margin: 0 auto;
-        img {
-            border: 0;
-            border-radius: 0;
-            overflow: visible;
-        }
-    }
+  }
 }
 
 .team-btn {
-    margin: 0 0 30px;
-    font-size: 1.1rem;
+  margin: 0 0 30px;
+  font-size: 1.1rem;
 }
 
 .teamsquad {
-    .table-bordered th:first-child,
-    .table-bordered td:first-child {
-        background: #5596bf;
+  .table-bordered th:first-child,
+  .table-bordered td:first-child {
+    background: #5596bf;
+  }
+  .player-image {
+    width: 175px;
+  }
+  .player-info {
+    padding: 14px;
+  }
+  .player-info,
+  .table {
+    h4 {
+      font-size: 1rem;
     }
-    .player-image {
-        width: 175px;
-    }
-    .player-info {
-        padding: 14px;
-    }
-    .player-info,
-    .table {
-        h4 {
-            font-size: 1rem;
-        }
-    }
+  }
 }
 
 .teamstats {
-    .bucket-value {
-        font-size: 1.6rem;
-        margin: 0 0 30px;
-    }
-    .total-count {
-        font-size: 1.3rem;
-    }
+  .bucket-value {
+    font-size: 1.6rem;
+    margin: 0 0 30px;
+  }
+  .total-count {
+    font-size: 1.3rem;
+  }
 }
 
 .navbar-brand {
-    position: absolute;
-    top: 0;
-    padding: 0;
-    margin-right: 0;
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin-right: 0;
 }
 
 .navbar-collapse {
-    margin-left: 200px;
+  margin-left: 200px;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .navbar-nav {
-    li {
-        a {
-            font-size: 1rem;
-        }
+  li {
+    a {
+      font-size: 1rem;
     }
-    .dropdown-menu {
-        padding: 0;
-        margin: 0.4rem 0 0;
-    }
-    .active a {
-        color: #0eda85 !important;
-    }
-    .dropdown-item:hover,
-    .dropdown-item:focus {
-        background-color: rgba(38, 57, 115, 0.51);
-    }
-    .dropdown-menu::before {
-        width: 100%;
-        content: '';
-        height: 10px;
-        position: absolute;
-        top: -10px;
-        cursor: pointer;
-    }
+  }
+  .dropdown-menu {
+    padding: 0;
+    margin: 0.4rem 0 0;
+  }
+  .active a {
+    color: #0eda85 !important;
+  }
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: rgba(38, 57, 115, 0.51);
+  }
+  .dropdown-menu::before {
+    width: 100%;
+    content: "";
+    height: 10px;
+    position: absolute;
+    top: -10px;
+    cursor: pointer;
+  }
+}
+
+a.navbar-brand h1 {
+  color: #fff;
+  font-size: 1.6em;
+  padding-top: 8px;
 }
