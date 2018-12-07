@@ -1,6 +1,6 @@
 apps:
   - script: "app.js"
-    name: "auction - 1337"
+    name: "ccplauction - 1339"
     watch: false
     args: "--prod"
     exec_mode: "cluster"
