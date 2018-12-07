@@ -1,4 +1,7 @@
 /**
+ * "private_key_id": "8dc8692dae2b4d823d7128eca828263d272ea192",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/auction-player%40tough-star-221919.iam.gserviceaccount.com"
+ * 
  * Global Variable Configuration
  * (sails.config.globals)
  *
