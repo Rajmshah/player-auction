@@ -66,8 +66,8 @@ module.exports.globals = {
 
 global.mongoose = require("mongoose");
 // global.database = "aplauction";
-global.database = "auction";
-// global.database = "ccplauction";
+// global.database = "auction";
+global.database = "ccplauction";
 global.storageBucket = "auction-player";
 mongoose.Promise = global.Promise;
 global.mongourl = "mongodb://localhost:27017/" + database;

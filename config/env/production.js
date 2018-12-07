@@ -23,10 +23,10 @@ module.exports = {
    ***************************************************************************/
   // port: 1338,
   // realHost: "http://www.aplauction.com"
-  port: 1337,
-  realHost: "http://www.abbauction.in"
-  // port: 1339,
-  // realHost: "http://www.ccplauction.com"
+  // port: 1337,
+  // realHost: "http://www.abbauction.in"
+  port: 1339,
+  realHost: "http://www.ccplauction.com"
   // emails: ["chintan@wohlig.com", "jagruti@wohlig.com", "tushar@wohlig.com", "chirag@wohlig.com", "harsh@wohlig.com"]
   /***************************************************************************
    * Set the log level in production environment to "silent"                 *
