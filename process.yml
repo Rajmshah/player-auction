@@ -1,6 +1,6 @@
 apps:
   - script: "app.js"
-    name: "ccplauction - 1339"
+    name: "aplauction - 1338"
     watch: false
     args: "--prod"
     exec_mode: "cluster"
