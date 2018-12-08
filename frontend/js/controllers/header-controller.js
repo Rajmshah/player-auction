@@ -79,12 +79,12 @@ myApp.controller("headerCtrl", function(
         anchor: "sponsor",
         subnav: []
       },
-      {
-        name: "About Us",
-        classis: "active",
-        anchor: "about",
-        subnav: []
-      },
+      // {
+      //   name: "About Us",
+      //   classis: "active",
+      //   anchor: "about",
+      //   subnav: []
+      // },
       {
         name: "Live Stats",
         classis: "active",
