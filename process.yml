@@ -1,6 +1,6 @@
 apps:
   - script: "app.js"
-    name: "aplauction - 1338"
+    name: "sportsauction - 1340
     watch: false
     args: "--prod"
     exec_mode: "cluster"
