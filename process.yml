@@ -1,6 +1,6 @@
 apps:
   - script: "app.js"
-    name: "jypl - 1341"
+    name: "jypl - 1337"
     watch: false
     args: "--prod"
     exec_mode: "cluster"
