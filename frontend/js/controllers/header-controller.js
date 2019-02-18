@@ -55,6 +55,11 @@ myApp.controller("headerCtrl", function (
 
   if (_.isEmpty(teamSubtitle) && _.isEmpty(categorySubtitle)) {
     $scope.headerMenu = [{
+        name: "Home",
+        classis: "active",
+        anchor: "home",
+        subnav: []
+    },{
         name: "Auction Stats",
         classis: "active",
         anchor: "auction",
