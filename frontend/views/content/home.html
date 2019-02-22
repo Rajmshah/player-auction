@@ -17,7 +17,7 @@
 
 <!--Media Listing-->
 <section>
-    <div class="media-group">
+    <!--<div class="media-group">
         <div class="media-list pointer" ng-repeat="media in medias track by $index" ng-if="media.active">
             <div class="" ng-if="media.linkType == 'nolink'">
                 <a fancybox href="{{media.image|uploadpath}}"><img src="{{media.image|uploadpath}}" alt="" class="img-responsive"></a>
@@ -32,6 +32,27 @@
                 <a class="various fancybox.iframe" rel="gallery1" fancybox href="https://www.youtube.com/embed/{{media.link}}?autoplay=1&modestbranding=0&showinfo=0&rel=0&loop=1">
                     <div class="folder-box sf-relative">
                         <img ng-src="https://img.youtube.com/vi/{{media.link}}/sddefault.jpg" alt="Sports For All" class="img-responsive">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>-->
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 pointer m-tb" ng-repeat=" media in medias track by $index " ng-if="media.active ">
+            <div class=" " ng-if="media.linkType=='nolink' ">
+                <a fancybox href="{{media.image|uploadpath}} "><img src="{{media.image|uploadpath}} " alt=" " class="img-responsive "></a>
+            </div>
+            <div class=" " ng-if="media.linkType=='internal' ">
+                <a href="{{media.link}} "><img src="{{media.image|uploadpath}} " alt=" " class="img-responsive "></a>
+            </div>
+            <div class=" " ng-if="media.linkType=='external' ">
+                <a href="{{media.link}} " target="_blank "><img src="{{media.image|uploadpath}} " alt=" " class="img-responsive "></a>
+            </div>
+            <div class=" " ng-if="media.linkType=='videolink' ">
+                <a class="various fancybox.iframe " rel="gallery1 " fancybox href="https://www.youtube.com/embed/{{media.link}}?autoplay=1&modestbranding=0&showinfo=0&rel=0&loop=1 ">
+                    <div class="folder-box sf-relative ">
+                        <img ng-src="https://img.youtube.com/vi/{{media.link}}/sddefault.jpg " alt="Sports For All
+            " class="img-responsive ">
                     </div>
                 </a>
             </div>
@@ -72,7 +93,7 @@
 </section>
 
 <!--Sponsor-->
-<section ng-if="sponsors.length>0">
+<section ng-if="sponsors.length>0" class="m-top">
     <div class="bg-sponsor">
         <div class="sponsor-head">
             <h1 class="text-center text-uppercase opensans-semibold">Sponsor</h1>
