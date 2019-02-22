@@ -100,7 +100,8 @@ $btn-padding-x: 1rem !default;
 $btn-padding-y: 0.5rem !default;
 $btn-line-height: 1.25 !default;
 $btn-font-weight: $font-weight-normal !default;
-$btn-box-shadow: inset 0 1px 0 rgba($white, 0.15), 0 1px 1px rgba($black, 0.075) !default;
+$btn-box-shadow: inset 0 1px 0 rgba($white, 0.15),
+  0 1px 1px rgba($black, 0.075) !default;
 $btn-focus-box-shadow: 0 0 0 2px rgba($brand-primary, 0.25) !default;
 $btn-active-box-shadow: inset 0 3px 5px rgba($black, 0.125) !default;
 // Forms
@@ -308,7 +309,8 @@ header {
   background-color: $black;
 }
 
-.bg-team {
+.bg-team,
+.bg-sponsor {
   // background-color: rgba(38, 57, 115, 0.4);
   background-image: url("../img/team-bg.png");
   background-size: cover;
@@ -387,7 +389,8 @@ header {
   }
 }
 
-.teams-logo {
+.teams-logo,
+.sponsors-logo {
   position: relative;
   .swiper-button-next,
   .swiper-button-prev {
@@ -412,7 +415,8 @@ header {
   }
 }
 
-.team-head {
+.team-head,
+.sponsor-head {
   h1 {
     color: $white;
     padding: 0 0 50px;

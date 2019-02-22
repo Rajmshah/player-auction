@@ -40,7 +40,7 @@
 </section>
 
 <!--Team Scrolling-->
-<section>
+<section ng-if="teams.length>0">
     <div class="bg-team">
         <div class="team-head">
             <h1 class="text-center text-uppercase opensans-semibold">Team</h1>
@@ -52,13 +52,45 @@
                         <div class="swiper-slide hidden-xs" ng-repeat="team in teams track by $index">
                             <div class="bg-color-black registerplayer-team pointer" ui-sref="teamdetail({'id':team.team._id})">
                                 <div class="" ng-if="team.logo">
-                                    <img ng-src="{{team.logo|uploadpath}}" alt="Team Logo" class="img-responsive">
+                                    <img ng-src="{{team.logo|uploadpath}}" alt="Team Logo" class="img-responsive m-auto">
                                 </div>
                                 <div class="" ng-if="!team.logo">
                                     <img src="img/holder.png" alt="Team Logo" class="img-responsive">
                                 </div>
                                 <div class="">
                                     <h4 class="text-center text-uppercase color-white">{{team.team.name}}</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Sponsor-->
+<section ng-if="sponsors.length>0">
+    <div class="bg-sponsor">
+        <div class="sponsor-head">
+            <h1 class="text-center text-uppercase opensans-semibold">Sponsor</h1>
+        </div>
+        <div class="container">
+            <div class="sponsors-logo" ng-if="sponsors.length>0">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide hidden-xs" ng-repeat="sponsor in sponsors track by $index">
+                            <div class="bg-color-black registerplayer-sponsor pointer" ui-sref="sponsor">
+                                <div class="" ng-if="sponsor.logo">
+                                    <img ng-src="{{sponsor.logo|uploadpath}}" alt="Sponsor Logo" class="img-responsive m-auto">
+                                </div>
+                                <div class="" ng-if="!sponsor.logo">
+                                    <img src="img/holder.png" alt="sponsor Logo" class="img-responsive">
+                                </div>
+                                <div class="">
+                                    <h4 class="text-center text-uppercase color-white">{{sponsor.name}}</h4>
                                 </div>
                             </div>
                         </div>

@@ -8,14 +8,15 @@
     {
       "name": "Sponsor Banner",
       "isSort": "",
-      "tableRef": "banner"
+      "tableRef": "banner",
+      "type": "image"
     }
   ],
   "action": [
     {
       "name": "edit",
       "icon": "fa-pencil",
-      "buttonClass": "btn-primary",
+      "buttonClass": "btn-primary m-right",
       "type": "page",
       "action": "editSponsorBanner",
       "fieldsToSend": {
@@ -25,7 +26,7 @@
     {
       "name": "delete",
       "icon": "fa-trash",
-      "buttonClass": "btn-danger",
+      "buttonClass": "btn-danger m-left",
       "type": "apiCallConfirm",
       "title": "Delete Sponsor Banner",
       "content": "Are you sure you want to delete Sponsor Banner?",
