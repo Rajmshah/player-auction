@@ -1,0 +1,52 @@
+{
+  "title": "Sponsor Banner",
+  "description": "List of Sponsor Banner",
+  "pageType": "view",
+  "sendIdWithCreate": true,
+  "urlFields": ["_id"],
+  "fields": [
+    {
+      "name": "Sponsor Banner",
+      "isSort": "",
+      "tableRef": "banner"
+    }
+  ],
+  "action": [
+    {
+      "name": "edit",
+      "icon": "fa-pencil",
+      "buttonClass": "btn-primary",
+      "type": "page",
+      "action": "editSponsorBanner",
+      "fieldsToSend": {
+        "_id": "_id"
+      }
+    },
+    {
+      "name": "delete",
+      "icon": "fa-trash",
+      "buttonClass": "btn-danger",
+      "type": "apiCallConfirm",
+      "title": "Delete Sponsor Banner",
+      "content": "Are you sure you want to delete Sponsor Banner?",
+      "api": "SponsorBanner/delete",
+      "fieldsToSend": {
+        "name": "_id",
+        "value": "_id"
+      }
+    }
+  ],
+  "button": [
+    {
+      "name": "Create",
+      "icon": "plus",
+      "class": "btn-success",
+      "type": "page",
+      "action": "createSponsorBanner"
+    }
+  ],
+  "apiCall": {
+    "url": "SponsorBanner/search",
+    "params": "_id"
+  }
+}

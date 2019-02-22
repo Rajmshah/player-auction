@@ -1,0 +1,47 @@
+{
+  "title": "Create SponsorBanner",
+  "name": "SponsorBanner",
+  "jsonPage": "viewSponsorBanner",
+  "desciption": "",
+  "pageType": "create",
+  "urlFields": ["SponsorBanner"],
+  "fields": [
+    {
+      "name": "Sponsor Banner",
+      "type": "image",
+      "tableRef": "banner",
+      "size": "1920 x 720",
+      "placeholder": "Upload banner",
+      "id": "banner",
+      "view": true,
+      "disabled": true,
+      "validation": ["", "", ""],
+      "url": ""
+    }
+  ],
+  "action": [
+    {
+      "name": "submit",
+      "action": "submitSponsorBanner",
+      "stateName": {
+        "page": "page",
+        "json": {
+          "id": "viewSponsorBanner"
+        }
+      }
+    },
+    {
+      "name": "cancel",
+      "sideMenuRedirect": true,
+      "stateName": {
+        "page": "page",
+        "json": {
+          "id": "viewSponsorBanner"
+        }
+      }
+    }
+  ],
+  "apiCall": {
+    "url": "SponsorBanner/save"
+  }
+}

@@ -1,7 +1,3 @@
 module.exports = _.cloneDeep(require("sails-wohlig-controller"));
-var controller = {
-  getlist: function(req, res) {
-    Sponsor.find().exec(res.callback);
-  }
-};
+var controller = {};
 module.exports = _.assign(module.exports, controller);
