@@ -162,7 +162,7 @@ var models = {
     }
   },
   readAttachment: function(filename, callback) {
-    console.log("filename", filename);
+    // console.log("filename", filename);
     var readstream = gfs.createReadStream({
       filename: filename
     });
@@ -357,7 +357,7 @@ var models = {
   },
 
   importGS: function(filename, callback) {
-    console.log("global.storage", global.storage);
+    // console.log("global.storage", global.storage);
     var Storage = require("@google-cloud/storage");
     var projectId = "future-oasis-145313";
     var storage = new Storage({
@@ -377,11 +377,11 @@ var models = {
         var buffers = [];
         readstream.on("data", function(buffer) {
           buffers.push(buffer);
-          console.log("data", buffers);
+          // console.log("data", buffers);
         });
         readstream.on("end", function() {
           var buffer = Buffer.concat(buffers);
-          console.log("buffer", buffers);
+          // console.log("buffer", buffers);
           callback(null, Config.import(buffer));
         });
       } else {

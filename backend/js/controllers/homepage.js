@@ -28,7 +28,7 @@ myApp.controller('HomePageTableCtrl', function ($scope, TemplateService, Navigat
         $scope.url = "Homepage/search";
         $scope.formData.page = $scope.formData.page++;
         NavigationService.apiCall($scope.url, $scope.formData, function (data) {
-            console.log("data.value", data);
+            // console.log("data.value", data);
             $scope.items = data.data.results;
             $scope.totalItems = data.data.total;
             $scope.maxRow = data.data.options.count;
@@ -125,13 +125,13 @@ myApp.controller('HomePageDetailsCtrl', function ($scope, TemplateService, Navig
         crudService.saveData(data, url, state);
     }
     // SAVE BUTTON END
-    console.log("$stateParams.id", $stateParams.id);
+    // console.log("$stateParams.id", $stateParams.id);
     if ($stateParams.id) {
         $scope.title = 'Edit';
         var id = $stateParams.id;
         crudService.getOneData(url, id, function (data) {
             if (data) {
-                console.log(data, "edit")
+                // console.log(data, "edit")
                 $scope.formData = data;
             }
         });

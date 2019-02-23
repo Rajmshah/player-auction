@@ -27,7 +27,7 @@ myApp.controller('CategoryCtrl', function ($scope, TemplateService, NavigationSe
             id: categoryId
         };
         NavigationService.apiCall($scope.url, $scope.constraints, function (data) {
-            console.log('data', data);
+            // console.log('data', data);
             if (data.value == true) {
                 if (data.data.length == 0) {
                     toastr.info('No players for selected category.');

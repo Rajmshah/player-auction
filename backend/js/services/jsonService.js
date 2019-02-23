@@ -6,9 +6,9 @@ myApp.service('JsonService', function ($http, TemplateService, $state, toastr, $
   this.setKeyword = function (data) {
     try {
       this.keyword = JSON.parse(data);
-      console.log(this.keyword);
+      // console.log(this.keyword);
     } catch (e) {
-      console.log("keyword is not is json format");
+      // console.log("keyword is not is json format");
     }
   };
   this.getJson = function (page, callback) {
@@ -54,7 +54,7 @@ myApp.service('JsonService', function ($http, TemplateService, $state, toastr, $
 
   var openCustomModal = function (size, title, message) {
     // var actionToPerformOnConfirm = action;
-    console.log("in model");
+    // console.log("in model");
     var modalInstance = $uibModal.open({
       templateUrl: '/backend/views/modal/conf-delete.html',
       size: "lg",
@@ -66,7 +66,7 @@ myApp.service('JsonService', function ($http, TemplateService, $state, toastr, $
   };
 
   this.eventModal = function (value) {
-    console.log(value);
+    // console.log(value);
   };
 
 
@@ -74,11 +74,11 @@ myApp.service('JsonService', function ($http, TemplateService, $state, toastr, $
     var sendTo = {
       id: action.action
     };
-    console.log(action);
+    // console.log(action);
     if (action.type == "box") {
       JsonService.modal = action;
       globalfunction.openModal(function (data) {
-        console.log(data);
+        // console.log(data);
       });
     } else if (action.type == "redirect") {
       if (action.linkType == "admin") {

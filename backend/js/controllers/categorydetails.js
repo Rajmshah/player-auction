@@ -48,7 +48,7 @@ myApp.controller('CategoryDetailsTableCtrl', function ($scope, TemplateService, 
 
     $scope.excelUploaded = function () {
         NavigationService.uploadExcel("Categorydetail/uploadExcel", $scope.form, function (data) {
-            console.log(data);
+            // console.log(data);
             $scope.data = data.data;
             $scope.viewTable();
         });

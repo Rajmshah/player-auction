@@ -132,7 +132,7 @@ myApp.controller("DemoAPICtrl", function(
   $timeout
 ) {
   apiService.getDemo($scope.formData, function(data) {
-    console.log(data);
+    // console.log(data);
   });
 });
 
@@ -159,7 +159,7 @@ myApp.controller("DemoAPICtrl", function(
 //     }];
 
 //     $scope.submitForm = function (data) {
-//         console.log("This is it");
+//         // console.log("This is it");
 //         return new Promise(function (callback) {
 //             $timeout(function () {
 //                 callback();

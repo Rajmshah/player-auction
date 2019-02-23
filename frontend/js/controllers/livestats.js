@@ -10,7 +10,7 @@ myApp.controller('LiveStatsCtrl', function ($scope, TemplateService, NavigationS
             $scope.team = data.data;
             // $scope.team = _.groupBy($scope.allPlayers, 'team.name');
             $scope.teams = []
-            // console.log($scope.team);
+            // // console.log($scope.team);
             _.forEach($scope.team, function (value) {
                 $scope.teams.push({
                     'name': value.name,
@@ -39,7 +39,7 @@ myApp.controller('LiveStatsCtrl', function ($scope, TemplateService, NavigationS
                     'id': value.teamId
                 };
                 NavigationService.apiCall(url, constraints, function (data) {
-                    console.log(data);
+                    // console.log(data);
                     if (data.value) {
                         value.playerCount = data.data.length;
                     } else {
@@ -47,7 +47,7 @@ myApp.controller('LiveStatsCtrl', function ($scope, TemplateService, NavigationS
                     }
                 });
             })
-            console.log($scope.teams);
+            // console.log($scope.teams);
         });
     }
     $scope.getAllPlayers();
@@ -58,7 +58,7 @@ myApp.controller('LiveStatsCtrl', function ($scope, TemplateService, NavigationS
     //         $scope.allPlayers = data.data;
     //         $scope.team = _.groupBy($scope.allPlayers, 'team.name');
     //         $scope.teams = []
-    //         // console.log($scope.team);
+    //         // // console.log($scope.team);
     //         _.forEach($scope.team, function (value, key) {
     //             $scope.teams.push({
     //                 'name': key,
@@ -82,7 +82,7 @@ myApp.controller('LiveStatsCtrl', function ($scope, TemplateService, NavigationS
     //                 }
     //             });
     //         })
-    //         // console.log($scope.teams);
+    //         // // console.log($scope.teams);
     //     });
     // }
     // $scope.getAllPlayers();

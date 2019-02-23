@@ -55,7 +55,7 @@ myApp.filter("uploadpath", function() {
 
 myApp.filter("youtubethumb", function() {
   return function(input, onlyid, type) {
-    console.log(type);
+    // console.log(type);
     if (input) {
       if (onlyid == false) {
         if (type) {

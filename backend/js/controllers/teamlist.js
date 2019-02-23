@@ -28,7 +28,7 @@ myApp.controller('TeamListTableCtrl', function ($scope, TemplateService, Navigat
         $scope.url = "Teamlist/search";
         $scope.formData.page = $scope.formData.page++;
         NavigationService.apiCall($scope.url, $scope.formData, function (data) {
-            console.log("data.value", data);
+            // console.log("data.value", data);
             $scope.items = data.data.results;
             $scope.totalItems = data.data.total;
             $scope.maxRow = data.data.options.count;

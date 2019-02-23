@@ -24,7 +24,7 @@ myApp.controller('TeamCtrl', function ($scope, TemplateService, NavigationServic
             id: teamId
         };
         NavigationService.apiCall($scope.url, $scope.constraints, function (data) {
-            // console.log('data', data);
+            // // console.log('data', data);
             if (data.value == true) {
                 if (data.data.length == 0) {
                     toastr.info('No team details for selected team.');
@@ -52,7 +52,7 @@ myApp.controller('TeamCtrl', function ($scope, TemplateService, NavigationServic
             NavigationService.apiCall($scope.url, constraints, function (data) {
                 if (data.value) {
                     $scope.playerList = data.data;
-                    // console.log('playerlist', $scope.playerList);
+                    // // console.log('playerlist', $scope.playerList);
                 } else {
                     $scope.playerList = [];
                 }

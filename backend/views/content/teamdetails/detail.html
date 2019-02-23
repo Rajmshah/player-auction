@@ -110,6 +110,11 @@
                                                     Base Price
                                                 </div>
                                             </th>
+                                            <th>
+                                                <div>
+                                                    Player
+                                                </div>
+                                            </th>
                                         </thead>
                                         <tbody class="">
                                             <tr ng-repeat="value in formData.categoryValues track by $index">
@@ -136,6 +141,11 @@
                                                 <td>
                                                     <div class="">
                                                         <input type="number" class="form-control" ng-model="value.baseValue" placeholder="Enter Base Value">
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="">
+                                                        {{value.player.playerName || '-'}}
                                                     </div>
                                                 </td>
                                             </tr>

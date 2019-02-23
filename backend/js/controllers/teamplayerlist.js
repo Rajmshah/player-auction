@@ -25,7 +25,7 @@ myApp.controller('TeamPlayerListTableCtrl', function ($scope, TemplateService, N
                     'teamId': value[0].team._id
                 })
             });
-            console.log($scope.items);
+            // console.log($scope.items);
         });
     }
     $scope.getAllPlayers();
@@ -71,7 +71,7 @@ myApp.controller('TeamPlayerListTableCtrl', function ($scope, TemplateService, N
             id: teamId
         };
         NavigationService.apiCall($scope.url, $scope.constraints, function (data) {
-            console.log('data', data);
+            // console.log('data', data);
             if (data.value == true) {
                 if (data.data.length == 0) {
                     toastr.info('No team details for selected team.');
@@ -93,7 +93,7 @@ myApp.controller('TeamPlayerListTableCtrl', function ($scope, TemplateService, N
     //         team: $scope.teamDetail
     //     };
     //     NavigationService.apiCall($scope.url, $scope.constraints, function (data) {
-    //         // console.log('data', data);
+    //         // // console.log('data', data);
     //         toastr.info('Deleted Successfully.');
     //         $state.reload();
     //     });
@@ -120,9 +120,9 @@ myApp.controller('TeamPlayerListTableCtrl', function ($scope, TemplateService, N
             category: category,
             team: $scope.teamDetail
         };
-        console.log('hello');
+        // console.log('hello');
         NavigationService.apiCall($scope.url, $scope.constraints, function (data) {
-            // console.log('data', data);
+            // // console.log('data', data);
             modalInstance.close();
             toastr.info('Deleted Successfully.');
             $state.reload();
@@ -132,12 +132,12 @@ myApp.controller('TeamPlayerListTableCtrl', function ($scope, TemplateService, N
 
     // CLICK NO ON MODAL
     $scope.confirmNo = function () {
-        console.log("no click")
+        // console.log("no click")
         modalInstance.close();
     }
     // CLICK NO ON MODAL
     $scope.noShow = function () {
-        console.log("no click")
+        // console.log("no click")
         modalInstances.close();
     }
     // DELETE END

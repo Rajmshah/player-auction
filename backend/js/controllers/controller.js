@@ -92,7 +92,7 @@ myApp
 
     $interval(function() {
       count++;
-      console.log("Version 1.1");
+      // console.log("Version 1.1");
       generateCircle();
     }, 5000);
   })
@@ -147,12 +147,12 @@ myApp
               //   $scope.sendData($scope.list[0]._id, $scope.list[0].officeCode);
               // }
             } else {
-              console.log("Making this happen");
+              // console.log("Making this happen");
               // $scope.sendData(null, null);
             }
           }
         } else {
-          console.log("Making this happen2");
+          // console.log("Making this happen2");
           $scope.sendData(null, null);
         }
       });
@@ -296,7 +296,7 @@ myApp
     };
 
     // globalfunction.confDel(function (value) {
-    //     console.log(value);
+    //     // console.log(value);
     //     if (value) {
     //         NavigationService.apiCall(id, function (data) {
     //             if (data.value) {
@@ -385,8 +385,8 @@ myApp
     JsonService.setKeyword($stateParams.keyword);
     $scope.template = TemplateService;
     $scope.data = {};
-    console.log("detail controller");
-    console.log($scope.json);
+    // console.log("detail controller");
+    // console.log($scope.json);
 
     //  START FOR EDIT
     if ($scope.json.json.preApi) {
@@ -494,7 +494,7 @@ myApp
           function(data1) {
             $scope.items[$scope.type.tableRef] = data1.data.results;
             if ($scope.json.keyword._id) {
-              console.log(
+              // console.log(
                 "Edit multiCheckbox formData: ",
                 $scope.formData[$scope.type.tableRef]
               );
@@ -626,7 +626,7 @@ myApp
       };
     };
     $scope.deleteBox = function(index, data) {
-      console.log(data);
+      // console.log(data);
       data.splice(index, 1);
     };
 
@@ -667,7 +667,7 @@ myApp
     //     };
     // };
     // $scope.deleteBox = function (index, data) {
-    //     console.log(data);
+    //     // console.log(data);
     //     data.splice(index, 1);
     // };
 
@@ -794,7 +794,7 @@ myApp
     $scope.showAllCountries();
     $scope.deleteCountry = function(id) {
       globalfunction.confDel(function(value) {
-        console.log(value);
+        // console.log(value);
         if (value) {
           NavigationService.deleteCountry(id, function(data) {
             if (data.value) {
@@ -835,7 +835,7 @@ myApp
     };
     $scope.formData = {};
     $scope.saveCountry = function(formData) {
-      console.log($scope.formData);
+      // console.log($scope.formData);
       NavigationService.countrySave($scope.formData, function(data) {
         if (data.value === true) {
           $state.go("country-list");
@@ -987,7 +987,7 @@ myApp
     };
 
     $scope.submit = function(formData) {
-      console.log($scope.formData);
+      // console.log($scope.formData);
       NavigationService.assignmentSave($scope.formData, function(data) {
         if (data.value === true) {
           $state.go("assignment-list");
@@ -1052,8 +1052,8 @@ myApp
       $scope.formData.district = data.data.city.district._id;
       $scope.formData.city = data.data.city._id;
       $scope.formData.insuredOfficer = data.data.insuredOfficer._id;
-      console.log($scope.formData.policyDoc);
-      console.log($scope.formData);
+      // console.log($scope.formData.policyDoc);
+      // console.log($scope.formData);
     });
 
     $scope.refreshShareWith = function(data, office) {
@@ -1154,7 +1154,7 @@ myApp
     };
 
     $scope.submit = function(formData) {
-      console.log($scope.formData);
+      // console.log($scope.formData);
       NavigationService.assignmentSave($scope.formData, function(data) {
         if (data.value === true) {
           $state.go("assignment-list");
@@ -1194,14 +1194,14 @@ myApp
 
     NavigationService.getOneCountry($stateParams.id, function(data) {
       $scope.formData = data.data;
-      console.log("$scope.oneCountry", $scope.oneCountry);
+      // console.log("$scope.oneCountry", $scope.oneCountry);
     });
 
     $scope.saveCountry = function(formValid) {
       NavigationService.countryEditSave($scope.formData, function(data) {
         if (data.value === true) {
           $state.go("country-list");
-          console.log("Check this one");
+          // console.log("Check this one");
           toastr.success(
             "Country " + $scope.formData.name + " edited successfully.",
             "Country Edited"
@@ -1414,7 +1414,7 @@ myApp
     };
 
     $scope.excelUploaded = function() {
-      console.log("Excel is uploaded with name " + $scope.form.file);
+      // console.log("Excel is uploaded with name " + $scope.form.file);
       NavigationService.uploadExcel($scope.form, function(data) {
         $scope.data = data.data;
       });
@@ -1442,7 +1442,7 @@ myApp
     $rootScope
   ) {
     $scope.changeLanguage = function() {
-      console.log("Language CLicked");
+      // console.log("Language CLicked");
 
       if (!$.jStorage.get("language")) {
         $translate.use("hi");
