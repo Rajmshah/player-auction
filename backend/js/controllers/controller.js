@@ -13,7 +13,6 @@ myApp
     TemplateService.title = $scope.menutitle;
     $scope.navigation = NavigationService.getnav();
   })
-
   .controller("AccessController", function(
     $scope,
     TemplateService,
@@ -26,7 +25,6 @@ myApp
       // $state.go("login");
     }
   })
-
   .controller("JagzCtrl", function(
     $scope,
     TemplateService,
@@ -72,7 +70,7 @@ myApp
             // n.width = 3;
             // n.height = 3;
           }
-          var t = (index * Math.PI) / 180;
+          var t = index * Math.PI / 180;
           var x = 4.0 * Math.pow(Math.sin(t), 3);
           var y =
             3.0 * Math.cos(t) -
@@ -96,7 +94,6 @@ myApp
       generateCircle();
     }, 5000);
   })
-
   .controller("MultipleSelectCtrl", function(
     $scope,
     $window,
@@ -251,7 +248,6 @@ myApp
       }
     });
   })
-
   .controller("PageJsonCtrl", function(
     $scope,
     TemplateService,
@@ -309,7 +305,6 @@ myApp
     //     }
     // });
   })
-
   .controller("ViewCtrl", function(
     $scope,
     TemplateService,
@@ -370,7 +365,6 @@ myApp
     JsonService.refreshView = $scope.getAllItems;
     $scope.getAllItems();
   })
-
   .controller("DetailCtrl", function(
     $scope,
     TemplateService,
@@ -447,7 +441,6 @@ myApp
       );
     };
   })
-
   .controller("DetailFieldCtrl", function(
     $scope,
     TemplateService,
@@ -495,9 +488,9 @@ myApp
             $scope.items[$scope.type.tableRef] = data1.data.results;
             if ($scope.json.keyword._id) {
               // console.log(
-                "Edit multiCheckbox formData: ",
-                $scope.formData[$scope.type.tableRef]
-              );
+              //   "Edit multiCheckbox formData: ",
+              //   $scope.formData[$scope.type.tableRef]
+              // );
               for (
                 var idx = 0;
                 idx < $scope.items[$scope.type.tableRef].length;
@@ -703,7 +696,6 @@ myApp
       }
     };
   })
-
   .controller("LoginCtrl", function(
     $scope,
     TemplateService,
@@ -737,7 +729,6 @@ myApp
       NavigationService.removeAccessToken();
     }
   })
-
   .controller("CountryCtrl", function(
     $scope,
     TemplateService,
@@ -814,7 +805,6 @@ myApp
       });
     };
   })
-
   .controller("CreateCountryCtrl", function(
     $scope,
     TemplateService,
@@ -849,7 +839,6 @@ myApp
       });
     };
   })
-
   .controller("CreateAssignmentCtrl", function(
     $scope,
     TemplateService,
@@ -1004,7 +993,6 @@ myApp
       });
     };
   })
-
   .controller("EditAssignmentCtrl", function(
     $scope,
     TemplateService,
@@ -1171,7 +1159,6 @@ myApp
       });
     };
   })
-
   .controller("EditCountryCtrl", function(
     $scope,
     TemplateService,
@@ -1212,7 +1199,6 @@ myApp
       });
     };
   })
-
   .controller("SchemaCreatorCtrl", function(
     $scope,
     TemplateService,
@@ -1393,7 +1379,6 @@ myApp
       }
     };
   })
-
   .controller("ExcelUploadCtrl", function(
     $scope,
     TemplateService,
@@ -1420,7 +1405,6 @@ myApp
       });
     };
   })
-
   .controller("headerctrl", function($scope, TemplateService, $uibModal) {
     $scope.template = TemplateService;
     $scope.$on("$stateChangeSuccess", function(
@@ -1434,7 +1418,6 @@ myApp
     });
     $scope.adminurl = adminurl;
   })
-
   .controller("languageCtrl", function(
     $scope,
     TemplateService,
