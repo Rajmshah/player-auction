@@ -1,15 +1,25 @@
 {
-  "title": "Sponsor Banner",
-  "description": "List of Sponsor Banner",
+  "title": "Banner",
+  "description": "List of Banner",
   "pageType": "view",
   "sendIdWithCreate": true,
   "urlFields": ["_id"],
   "fields": [
     {
-      "name": "Sponsor Banner",
+      "name": "Banner",
       "isSort": "",
       "tableRef": "banner",
       "type": "image"
+    },
+    {
+      "name": "Is Whole",
+      "isSort": "",
+      "tableRef": "isWhole"
+    },
+    {
+      "name": "Page Name",
+      "isSort": "",
+      "tableRef": "pageName"
     }
   ],
   "action": [
@@ -18,7 +28,7 @@
       "icon": "fa-pencil",
       "buttonClass": "btn-primary m-right",
       "type": "page",
-      "action": "editSponsorBanner",
+      "action": "editBanner",
       "fieldsToSend": {
         "_id": "_id"
       }
@@ -28,9 +38,9 @@
       "icon": "fa-trash",
       "buttonClass": "btn-danger m-left",
       "type": "apiCallConfirm",
-      "title": "Delete Sponsor Banner",
-      "content": "Are you sure you want to delete Sponsor Banner?",
-      "api": "SponsorBanner/delete",
+      "title": "Delete Banner",
+      "content": "Are you sure you want to delete  Banner?",
+      "api": "Banner/delete",
       "fieldsToSend": {
         "name": "_id",
         "value": "_id"
@@ -43,11 +53,11 @@
       "icon": "plus",
       "class": "btn-success",
       "type": "page",
-      "action": "createSponsorBanner"
+      "action": "createBanner"
     }
   ],
   "apiCall": {
-    "url": "SponsorBanner/search",
+    "url": "Banner/search",
     "params": "_id"
   }
 }

@@ -17,7 +17,7 @@
                     <div class="widget-title ">
 
                         <div class="upload-button-media pull-right" style="margin:0px 10px">
-                            <upload-image no-view type="excel" ng-model="form.file" ng-callback="excelUploaded();" class="">CHOOSE</upload-image>
+                            <upload-image no-view type="excel" ng-model="form.file" ng-callback="excelUploaded();" class=""></upload-image>
                         </div>
                         <div class="pull-right">
                             <form class="search-form mr-form ">
@@ -26,6 +26,7 @@
                                 />
                             </form>
                             <a class="btn btn-primary" ng-click="generateExcel()"><i class="fa fa-download"></i>&nbsp;Sample Excel</a>
+                            <a class="btn btn-primary" ng-click="deleteAll()"><i class="fa fa-trash"></i>&nbsp;Delete All</a>
                         </div>
                         <h3>List of Category Details<span class="tableTotal">(Total : {{totalItems}}) </span></h3>
 
@@ -85,7 +86,7 @@
                     </div>
                     <ul ng-if="totalItems" ng-change="viewTable();" uib-pagination total-items="totalItems" items-per-page="maxRow" ng-model="formData.page"
                         max-size="template.pageMax" class="pagination-sm" boundary-links="true " force-ellipses="true "></ul>
-                    <!-- PAGINATION END -->
+                        <!-- PAGINATION END -->
                 </div>
             </div>
         </div>
