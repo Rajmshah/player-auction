@@ -203,6 +203,20 @@ var model = {
       .deepPopulate(deepSearch)
       .keyword(options)
       .page(options, callback);
+  },
+
+  deleteAll: function(callback) {
+    Categorydetail.find({ isSold: { $ne: false } }).exec(function(err, result) {
+      if (err) {
+        callback(err);
+      } else {
+        if (_.isEmpty(result)) {
+          Categorydetail.remove(callback);
+        } else {
+          callback("Few sold", err);
+        }
+      }
+    });
   }
 };
 module.exports = _.assign(module.exports, exports, model);

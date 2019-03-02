@@ -9,6 +9,19 @@
   </section>
 -->
 
+<section class="reportcard-page celebrity-page" ng-if="wholePage">
+  <div class="">
+    <div class="celebrity-holder">
+      <img ng-src="{{banner.banner|uploadpath}}" alt="" class="img-responsive">
+    </div>
+  </div>
+</section>
+
+<section class="reportcard-page celebrity-page" ng-if="!wholePage">
+  <!--Banner and Sponsors-->
+</section>
+
+
 <section class="reportcard-page celebrity-page" ng-if="adminurl == 'http://www.jypl.in/api/'">
   <div class="">
     <div class="celebrity-holder">
