@@ -1,0 +1,74 @@
+{
+  "title": "Edit Banner",
+  "name": "Banner",
+  "jsonPage": "viewBanner",
+  "desciption":
+    "(Upload image after compressing it as much as possible. For faster loading.)",
+  "pageType": "edit",
+  "urlFields": ["_id"],
+  "fields": [
+    {
+      "name": "Banner",
+      "type": "image",
+      "tableRef": "banner",
+      "size": "1920 x 720",
+      "placeholder": "Upload banner",
+      "id": "banner",
+      "view": true,
+      "disabled": true,
+      "validation": ["", "", ""],
+      "url": ""
+    },
+    {
+      "name": "Is Whole Page",
+      "type": "checkbox",
+      "tableRef": "isWhole",
+      "id": "isWhole",
+      "validation": ["", "", ""],
+      "url": ""
+    },
+    {
+      "name": "Page Name",
+      "type": "tags",
+      "tableRef": "pageName",
+      "placeholder": "Select Page Name",
+      "id": "pageName",
+      "validation": ["", "", ""],
+      "url": "",
+      "dropDownField": "",
+      "dropDownType": "single",
+      "onView": true,
+      "dropDown": ["Sponsor", "About"]
+    }
+  ],
+  "action": [
+    {
+      "name": "submit",
+      "action": "submitBanner",
+      "stateName": {
+        "page": "page",
+        "json": {
+          "id": "viewBanner"
+        }
+      }
+    },
+    {
+      "name": "cancel",
+      "sideMenuRedirect": true,
+      "stateName": {
+        "page": "page",
+        "json": {
+          "id": "viewBanner"
+        }
+      }
+    }
+  ],
+  "apiCall": {
+    "url": "Banner/save",
+    "params": "_id"
+  },
+  "preApi": {
+    "url": "Banner/getOne",
+    "params": "_id"
+  }
+}

@@ -1,5 +1,12 @@
-myApp.service('crudService', function ($http, TemplateService, $state, toastr, $uibModal, NavigationService, $timeout) {
-
+myApp.service("crudService", function(
+  $http,
+  TemplateService,
+  $state,
+  toastr,
+  $uibModal,
+  NavigationService,
+  $timeout
+) {
   // DELETE SERVICE
   // VARIABLES
   // var urlType;
@@ -8,7 +15,7 @@ myApp.service('crudService', function ($http, TemplateService, $state, toastr, $
   // VARIABLES
 
   // OPEN MODAL FUNCTION
-  this.confirmDelete = function (data, urlType, varScope) {
+  this.confirmDelete = function(data, urlType, varScope) {
     // console.log(varScope, "global variable");
     this.data = data;
     this.url = urlType;
@@ -16,46 +23,85 @@ myApp.service('crudService', function ($http, TemplateService, $state, toastr, $
     modalInstance = $uibModal.open({
       animation: true,
       scope: varScope,
-      backdrop: 'static',
+      backdrop: "static",
       keyboard: false,
-      templateUrl: 'views/modal/servicedelete.html',
-      size: 'sm',
-      windowClass: ''
-    })
-  }
+      templateUrl: "views/modal/servicedelete.html",
+      size: "sm",
+      windowClass: ""
+    });
+  };
+  // OPEN MODAL FUNCTION
+  this.confirmAllDelete = function(urlType, varScope) {
+    // console.log(varScope, "global variable");
+    // this.data = data;
+    this.url = urlType;
+    // console.log(data, urlType, "i am in service");
+    modalInstance = $uibModal.open({
+      animation: true,
+      scope: varScope,
+      backdrop: "static",
+      keyboard: false,
+      templateUrl: "views/modal/servicedeleteall.html",
+      size: "sm",
+      windowClass: ""
+    });
+  };
 
   // CLICK YES ON MODAL
-  this.confirmYes = function () {
+  this.confirmYes = function() {
     var constraints = {};
     constraints._id = this.data;
     // // console.log(constraints, "check this again");
     // // console.log(this.url, this.data, "check this");
-    NavigationService.apiCall(this.url, constraints, function (data) {
+    NavigationService.apiCall(this.url, constraints, function(data) {
       if (data.value) {
-        toastr.success("Successfully Deleted", 'Success');
+        toastr.success("Successfully Deleted", "Success");
         modalInstance.close();
         $state.reload();
       } else {
-        toastr.error("Something Went Wrong", 'Deleted');
+        toastr.error("Something Went Wrong", "Deleted");
       }
-    })
-  }
+    });
+  };
 
+  // CLICK YES ON MODAL
+  this.confirmAllYes = function() {
+    // var constraints = {};
+    // constraints._id = this.data;
+    // // console.log(constraints, "check this again");
+    // // console.log(this.url, this.data, "check this");
+    NavigationService.apiCallWOParam(this.url, function(data) {
+      if (data.value) {
+        toastr.success("Successfully Deleted All", "Success");
+        modalInstance.close();
+        $state.reload();
+      } else {
+        modalInstance.close();
+        toastr.error("Few Players are already sold.", "Deleted");
+      }
+    });
+  };
 
   // CLICK NO ON MODAL
-  this.confirmNo = function () {
+  this.confirmNo = function() {
     // console.log("no click")
     modalInstance.close();
-  }
+  };
   // DELETE SERVICE END
 
+  // CLICK NO ON MODAL
+  this.confirmAllNo = function() {
+    // console.log("no click")
+    modalInstance.close();
+  };
+  // DELETE SERVICE END
 
   // SAVE SERVICE
 
-  this.saveData = function (data, url, state) {
+  this.saveData = function(data, url, state) {
     // // console.log(data, url, state, "iam in save");
-    var newurl = url + '/' + 'Save';
-    NavigationService.apiCall(newurl, data, function (data) {
+    var newurl = url + "/" + "Save";
+    NavigationService.apiCall(newurl, data, function(data) {
       if (data.value) {
         if (data.data.nModified) {
           toastr.success("Data Modified Successfully", "Success");
@@ -72,14 +118,13 @@ myApp.service('crudService', function ($http, TemplateService, $state, toastr, $
 
   // SAVE SERVICE END
 
-
   // GET ONE DATA
-  this.getOneData = function (url, id, callback) {
-    var getUrl = url + '/' + 'getOne'; // CONCAT FOR getONE URL
+  this.getOneData = function(url, id, callback) {
+    var getUrl = url + "/" + "getOne"; // CONCAT FOR getONE URL
     // // console.log(id, "check")
     var paraM = {};
     paraM._id = id; //STATE PARAMS
-    NavigationService.apiCall(getUrl, paraM, function (data) {
+    NavigationService.apiCall(getUrl, paraM, function(data) {
       if (data.value) {
         var formData = {};
         formData = data.data; //FETCH THE DATA
@@ -91,10 +136,7 @@ myApp.service('crudService', function ($http, TemplateService, $state, toastr, $
   };
   // GET ONE DATA END
 
-
-
   // SEARCH DATA
 
   // SEARCH DATA END
-
 });

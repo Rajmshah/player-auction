@@ -54,9 +54,9 @@ myApp.factory("NavigationService", function($http) {
       icon: "phone"
     },
     {
-      name: "Sponsor Banner",
+      name: "Banner",
       classis: "activeColor",
-      sref: "#!/page/viewSponsorBanner//",
+      sref: "#!/page/viewBanner//",
       icon: "phone"
     }
   ];
@@ -125,6 +125,14 @@ myApp.factory("NavigationService", function($http) {
         callback(data);
       });
     },
+
+    apiCallWOParam: function(url, callback) {
+      $http.post(adminurl + url).then(function(data) {
+        data = data.data;
+        callback(data);
+      });
+    },
+
     searchCall: function(url, formData, i, callback) {
       $http.post(adminurl + url, formData).then(function(data) {
         data = data.data;

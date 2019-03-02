@@ -3,6 +3,15 @@
     Coming Soon
   </div>
 </section>-->
+
+<section class="reportcard-page celebrity-page" ng-if="banner">
+  <div class="">
+    <div class="celebrity-holder">
+      <img ng-src="{{banner.banner|uploadpath}}" alt="" class="img-responsive">
+    </div>
+  </div>
+</section>
+
 <section class="reportcard-page celebrity-page" ng-if="adminurl == 'http://www.jypl.in/api/'">
   <div class="">
     <div class="celebrity-holder">
@@ -10,7 +19,6 @@
     </div>
   </div>
 </section>
-
 
 <!-- Sports Domain -->
 <section class="reportcard-page celebrity-page" ng-if="adminurl == 'http://www.abbauction.in/api/'">
