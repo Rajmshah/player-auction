@@ -8,72 +8,130 @@
       </div>
   </section>
 -->
-
-<section class="reportcard-page celebrity-page" ng-if="wholePage">
-  <div class="">
-    <div class="celebrity-holder">
-      <img ng-src="{{banner.banner|uploadpath}}" alt="" class="img-responsive">
+<section ng-if="banner">
+  <section class="reportcard-page celebrity-page" ng-if="wholePage">
+    <div class="">
+      <div class="celebrity-holder">
+        <img ng-src="{{banner.banner|uploadpath}}" alt="" class="img-responsive">
+      </div>
     </div>
+  </section>
+
+  <section class="sponsor-page" ng-if="!wholePage">
+    <section ng-if="banner.banner">
+      <div class="banners-img">
+        <img ng-src="{{banner.banner|uploadpath}}" alt="Sponsor Banner" class="img-responsive">
+      </div>
+    </section>
+
+    <section ng-if="sponsorList">
+      <div class="bg-team sold-player livestats stats-placing sponsor-placing" " ng-style="sponsorList.length<=4?{ 'height':
+        '100vh'}:{ 'height': '100%'} ">
+        <div class="container ">
+          <!--<div class="row ">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
+              <div class="team-head ">
+                <h1 class="text-center text-uppercase opensans-semibold ">SPONSORS</h1>
+              </div>
+            </div>
+          </div>-->
+          <div class="row ">
+            <div class="col-lg-3 col-md-4 col-sm-4 " ng-repeat="sponsor in sponsorList ">
+              <a class="player-card pointer " ng-href="{{sponsor.link}} " target="_blank ">
+                <div class="sponsor-card ">
+                  <div class="player-image " ng-if="sponsor.logo ">
+                    <img ng-src="{{sponsor.logo|uploadpath}} " alt="{{sponsor.name}} " class="img-responsive ">
+                  </div>
+                  <div class="player-image " ng-if="!sponsor.logo ">
+                    <img src="img/holder.png " alt="{{sponsor.name}} " class="img-responsive ">
+                  </div>
+                  <div class="player-info ">
+                    <h4 class="text-capitalize text-center color-white ">{{sponsor.name}}</h4>
+                  </div>
+                  <!--<div class="player-info ">
+                  <h4 class="text-capitalize text-center color-white ">- {{sponsor.ownerName}}</h4>
+                </div>-->
+                  <div class=" ">
+                    <table class="table table-bordered ">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <h4 class="text-capitalize text-center color-white ">Type</h4>
+                          </td>
+                          <td>
+                            <h4 class="text-capitalize text-center color-white ">{{sponsor.sponsorType}}</h4>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <h4 class="text-capitalize text-center color-white ">Owner</h4>
+                          </td>
+                          <td>
+                            <h4 class="text-capitalize text-center color-white ">{{sponsor.ownerName}}</h4>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </section>
+</section>
+
+<section ng-if="!banner ">
+  <div class="text-center opensans-semibold text-uppercase coming-soon ">
+    <p>Coming</p>
+    <p>Soon</p>
   </div>
 </section>
 
-<!--<section class="reportcard-page celebrity-page" ng-if="!wholePage">
-  Banner and Sponsors
-</section>-->
-<section ng-if="!wholePage">
-  <div class="text-center opensans-semibold text-uppercase" style="padding:40px 0 0; height:100vh">
-    Coming Soon
-  </div>
-</section>
-
-<!--<section class="reportcard-page celebrity-page" ng-if="adminurl == 'http://www.jypl.in/api/'">
-  <div class="">
-    <div class="celebrity-holder">
-      <img src="img/sponsor.png" alt="" class="img-responsive">
+<!--<section class="reportcard-page celebrity-page " ng-if="adminurl=='http://www.jypl.in/api/' ">
+  <div class=" ">
+    <div class="celebrity-holder ">
+      <img src="img/sponsor.png " alt=" " class="img-responsive ">
     </div>
   </div>
 </section>-->
 
 <!-- Sports Domain -->
-<!--<section class="reportcard-page celebrity-page" ng-if="adminurl == 'http://www.sportssponsor.in/api/'">
-  <div class="">
-    <div class="celebrity-holder">
-      <img src="https://storage.cloud.google.com/auction-player/sportssponsor.jpg" alt="" class="img-responsive" />
+<!--<section class="reportcard-page celebrity-page " ng-if="adminurl=='http://www.sportssponsor.in/api/' ">
+  <div class=" ">
+    <div class="celebrity-holder ">
+      <img src="https://storage.cloud.google.com/auction-player/sportssponsor.jpg " alt=" " class="img-responsive " />
     </div>
   </div>
 </section>-->
 
 <!-- APL Domain -->
-<!--<section class="reportcard-page celebrity-page" ng-if="adminurl == 'http://www.aplauction.com/api/'">
-  <div class="">
-    <div class="celebrity-holder">
-      <img src="https://storage.cloud.google.com/auction-player/aplsponsor.jpg" alt="" class="img-responsive" />
+<!--<section class="reportcard-page celebrity-page " ng-if="adminurl=='http://www.aplauction.com/api/' ">
+  <div class=" ">
+    <div class="celebrity-holder ">
+      <img src="https://storage.cloud.google.com/auction-player/aplsponsor.jpg " alt=" " class="img-responsive " />
     </div>
   </div>
 </section>-->
 
 <!-- CCPL Domain -->
-<!--<section class="reportcard-page celebrity-page" ng-if="adminurl == 'http://www.ccplauction.com/api/'">
-  <div class="">
-    <div class="celebrity-holder">
-      <img src="https://storage.cloud.google.com/auction-player/ccplsponsor.jpg" alt="" class="img-responsive" />
+<!--<section class="reportcard-page celebrity-page " ng-if="adminurl=='http://www.ccplauction.com/api/' ">
+  <div class=" ">
+    <div class="celebrity-holder ">
+      <img src="https://storage.cloud.google.com/auction-player/ccplsponsor.jpg " alt=" " class="img-responsive " />
     </div>
   </div>
 </section>-->
 
 
 <!-- Sports Auction Domain -->
-<!--<section class="reportcard-page celebrity-page" ng-if="adminurl == 'http://www.sportsauction.in/api/'">
-  <div class="">
-    <div class="celebrity-holder">
-      <img src="https://storage.cloud.google.com/auction-house/sportsauctionsponsor.jpg" alt="" class="img-responsive" />
+<!--<section class="reportcard-page celebrity-page " ng-if="adminurl=='http://www.sportsauction.in/api/' ">
+  <div class=" ">
+    <div class="celebrity-holder ">
+      <img src="https://storage.cloud.google.com/auction-house/sportsauctionsponsor.jpg " alt=" " class="img-responsive " />
     </div>
-  </div>
-</section>-->
-
-
-<!--<section>
-  <div class="text-center opensans-semibold text-uppercase" style="padding:40px 0 0">
-    Coming Soon
   </div>
 </section>-->

@@ -542,6 +542,26 @@ header {
   }
 }
 
+.sponsor-page {
+  img {
+    opacity: 1;
+  }
+}
+
+.sponsor-placing {
+  .col-lg-3 {
+    max-width: 25%;
+  }
+  a {
+    &:hover {
+      text-decoration: none;
+      .sponsor-card {
+        transform: scale(1.02);
+      }
+    }
+  }
+}
+
 .team-btn {
   margin: 0 0 30px;
   font-size: 1.1rem;
@@ -623,4 +643,15 @@ a.navbar-brand h1 {
   color: #fff;
   font-size: 1.6em;
   padding-top: 8px;
+}
+
+.coming-soon {
+  p {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1;
+    color: $bgcolor;
+  }
+  padding: 40px 0 0;
+  height: 100vh;
 }
