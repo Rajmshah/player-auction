@@ -19,6 +19,12 @@ myApp.factory("NavigationService", function($http) {
         data = data.data;
         callback(data);
       });
+    },
+    getlist: function(url, callback) {
+      $http.post(adminurl + url).then(function(data) {
+        data = data.data;
+        callback(data);
+      });
     }
   };
 });
