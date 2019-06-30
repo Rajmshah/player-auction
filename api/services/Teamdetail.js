@@ -9,6 +9,9 @@ var schema = new Schema({
   banner: {
     type: String
   },
+  description: {
+    type: String
+  },
   purseValue: {
     type: Number
   },
@@ -49,6 +52,9 @@ schema.plugin(deepPopulate, {
       select: ""
     },
     "categoryValues.player": {
+      select: ""
+    },
+    "categoryValues.player.category": {
       select: ""
     }
   }

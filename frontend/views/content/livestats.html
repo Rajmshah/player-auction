@@ -1,44 +1,123 @@
 <section ng-if="teams.length>0">
-    <div class="bg-team sold-player livestats stats-placing" ng-style="teams.length<=2?{'height':'100vh'}:{'height':'100%'}">
-        <div class="team-head special-space">
-            <h1 class="text-center text-uppercase opensans-semibold">Team Stats</h1>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-4" ng-repeat="team in teams">
-                    <div class="player-card">
-                        <div class="player-image" ng-if="team.logo">
-                            <img ng-src="{{team.logo|uploadpath}}" alt="{{team.name}}" class="img-responsive">
-                        </div>
-                        <div class="player-image" ng-if="!team.logo">
-                            <img src="img/holder.png" alt="{{team.name}}" class="img-responsive">
-                        </div>
-                        <div class="player-info">
-                            <h4 class="text-capitalize text-center color-white">{{team.name}}</h4>
-                        </div>
-                        <div class="">
-                            <table class="table table-bordered">
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <h4 class="text-capitalize text-center color-white">{{team.playerCount}}</h4>
-                                        </td>
-                                        <td>
-                                            <h4 class="text-capitalize text-center color-white">{{team.bid|INR}}</h4>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div
+    class="bg-team sold-player livestats stats-placing"
+    ng-style="teams.length<=2?{'height':'100vh'}:{'height':'100%'}"
+  >
+    <div class="team-head special-space">
+      <h1 class="text-center text-uppercase opensans-semibold">
+        Live Stats
+      </h1>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div
+            class="color-white text-capitalize text-right opensans-semibold mb-3 view-size"
+          >
+            <a class="mr-3" ng-click="show('grid')">
+              <i class="fa fa-grip-horizontal pointer" title="Grid View"></i>
+            </a>
+            <a ng-click="show('list')">
+              <i class="fa fa-th-list pointer" title="List View"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row" ng-if="!showList">
+        <div class="col-md-12 col-sm-12">
+          <div
+            class="color-white text-capitalize text-center opensans-semibold mb-5"
+          >
+            ** To see particular team player list click Player count shown
+            beside bid price. **
+          </div>
+        </div>
+      </div>
+      <div class="row" ng-if="!showList">
+        <div class="col-lg-3 col-md-4 col-sm-4" ng-repeat="team in teams">
+          <div class="player-card">
+            <div class="" ui-sref="teamdetail({id:team.teamId})">
+              <div class="player-image" ng-if="team.logo">
+                <img
+                  ng-src="{{ team.logo | uploadpath }}"
+                  alt="{{ team.name }}"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="player-image" ng-if="!team.logo">
+                <img
+                  src="img/holder.png"
+                  alt="{{ team.name }}"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="player-info">
+                <h4 class="text-capitalize text-center color-white">
+                  {{ team.name }}
+                </h4>
+              </div>
+            </div>
+            <div class="">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td
+                      class="pointer"
+                      title="Click here for Players List"
+                      ng-click="openPlayerList(team.categoryValues,team.name)"
+                    >
+                      <h4 class="text-capitalize text-center color-white">
+                        {{ team.playerCount }}
+                      </h4>
+                    </td>
+                    <td>
+                      <h4 class="text-capitalize text-center color-white">
+                        {{ team.bid | INR }}
+                      </h4>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" ng-if="showList">
+        <div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 m-auto">
+          <div class="player-list">
+            <table class="table table-bordered">
+              <thead>
+                <th>No.</th>
+                <th>Team Name</th>
+                <th>Player Count</th>
+                <th>Bidding Value</th>
+                <th></th>
+              </thead>
+              <tbody>
+                <tr
+                  ng-repeat="team in teams | orderBy:'-createdAt' track by $index"
+                >
+                  <td>{{ $index + 1 }}</td>
+                  <td>{{ team.name }}</td>
+                  <td>{{ team.playerCount }}</td>
+                  <td>{{ team.bid | INR }}</td>
+                  <td
+                    ng-click="openPlayerList(team.categoryValues,team.name)"
+                    class="pointer"
+                  >
+                    Player List
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <section ng-if="teams.length==0">
-    <div class="bg-team sold-player text-center color-white" style="height:100vh">
-        <h4 class="opensans-semibold">No Live Stats Found</h4>
-    </div>
+  <div class="bg-team sold-player text-center color-white" style="height:100vh">
+    <h4 class="opensans-semibold">No Live Stats Found</h4>
+  </div>
 </section>
