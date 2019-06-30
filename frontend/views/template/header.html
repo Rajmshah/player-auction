@@ -1,18 +1,8 @@
 <header hide-on-scroll ng-controller="headerCtrl">
   <nav class="navbar navbar-expand-md navbar-light fixed-top bg-color">
-    <a class="navbar-brand" ng-if="adminurl !== 'http://www.jypl.in/api/' || adminurl !== 'http://www.sportsauction.in/api/'" ui-sref="home">
-      <img
-        src="img/abb_logo.png"
-        alt="logo"
-        width="150"
-        ng-if="adminurl == 'http://www.abbauction.in/api/'"
-      />
-      <img
-        src="img/ccpl-logo.png"
-        alt="logo"
-        width="150"
-        ng-if="adminurl == 'http://www.ccplauction.com/api/'"
-      />
+    <a class="navbar-brand" ng-if="adminurl !== 'http://www.sportsauction.in/api/'" ui-sref="home">
+      <img src="img/abb_logo.png" alt="logo" width="150" ng-if="adminurl == 'http://www.abbauction.in/api/'" />
+      <img src="img/ccpl-logo.png" alt="logo" width="150" ng-if="adminurl == 'http://www.ccplauction.com/api/'" />
       <!--
         <img
           src="img/abb_logo.png"
@@ -27,9 +17,9 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto" ng-include="template.menu"></ul>
-    </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" ng-include="template.menu"></ul>
+      </div>
   </nav>
 </header>
