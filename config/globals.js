@@ -65,19 +65,20 @@ module.exports.globals = {
 };
 
 global.mongoose = require("mongoose");
-//global.database = "jypl";
- global.database = "sportsauction";
+global.database = "jypl";
+//  global.database = "sportsauction";
 // global.database = "aplauction";
 // global.database = "auction";
 // global.database = "ccplauction";
-global.storageBucket = "auction-house";
+global.storageBucket = "jypl";
 mongoose.Promise = global.Promise;
 global.mongourl = "mongodb://localhost:27017/" + database;
 mongoose.connect(
-  mongourl, {
+  mongourl,
+  {
     useMongoClient: true
   },
-  function (err, db) {}
+  function(err, db) {}
 );
 
 // Mongoose Globals
@@ -130,16 +131,16 @@ global.jsFiles = require("../frontend/files.js");
 global.jsFilesBackend = require("../backend/files.js");
 
 //colored console
-global.blue = function (data) {
+global.blue = function(data) {
   console.log(chalk.blue(data));
 };
-global.red = function (data) {
+global.red = function(data) {
   console.log(chalk.red(data));
 };
-global.green = function (data) {
+global.green = function(data) {
   console.log(chalk.green(data));
 };
-global.log = function (data) {
+global.log = function(data) {
   console.log(data);
 };
 
