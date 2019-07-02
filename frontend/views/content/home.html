@@ -1,23 +1,31 @@
 <!--Banner-->
 <section>
-    <div class="banners-img" ng-if="banners.length>0">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide hidden-xs" ng-repeat="banner in banners track by $index" ng-if="banner.active">
-                    <div class="registerplayer-banner">
-                        <img ng-src="{{banner.image|uploadpath}}" alt="Player Registrations | Sports For All" class="img-responsive">
-                    </div>
-                </div>
-            </div>
+  <div class="banners-img" ng-if="banners.length>0">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide hidden-xs"
+          ng-repeat="banner in banners track by $index"
+          ng-if="banner.active"
+        >
+          <div class="registerplayer-banner">
+            <img
+              ng-src="{{ banner.image | uploadpath }}"
+              alt="Player Registrations | Sports For All"
+              class="img-responsive"
+            />
+          </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+      </div>
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
 </section>
 
 <!--Media Listing-->
 <section>
-    <!--<div class="media-group">
+  <!--<div class="media-group">
         <div class="media-list pointer" ng-repeat="media in medias track by $index" ng-if="media.active">
             <div class="" ng-if="media.linkType == 'nolink'">
                 <a fancybox href="{{media.image|uploadpath}}"><img src="{{media.image|uploadpath}}" alt="" class="img-responsive"></a>
@@ -37,91 +45,154 @@
             </div>
         </div>
     </div>-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 pointer m-tb" ng-repeat=" media in medias track by $index " ng-if="media.active ">
-                <div class=" " ng-if="media.linkType=='nolink' ">
-                    <a fancybox href="{{media.image|uploadpath}} "><img src="{{media.image|uploadpath}} " alt=" " class="img-responsive "></a>
-                </div>
-                <div class=" " ng-if="media.linkType=='internal' ">
-                    <a href="{{media.link}} "><img src="{{media.image|uploadpath}} " alt=" " class="img-responsive "></a>
-                </div>
-                <div class=" " ng-if="media.linkType=='external' ">
-                    <a href="{{media.link}} " target="_blank "><img src="{{media.image|uploadpath}} " alt=" " class="img-responsive "></a>
-                </div>
-                <div class=" " ng-if="media.linkType=='videolink' ">
-                    <a class="various fancybox.iframe " rel="gallery1 " fancybox href="https://www.youtube.com/embed/{{media.link}}?autoplay=1&modestbranding=0&showinfo=0&rel=0&loop=1 ">
-                        <div class="folder-box sf-relative ">
-                            <img ng-src="https://img.youtube.com/vi/{{media.link}}/sddefault.jpg " alt="Sports For All
-            " class="img-responsive ">
-                        </div>
-                    </a>
-                </div>
-            </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div
+        class="col-lg-4 col-md-4 col-sm-4 pointer m-tb"
+        ng-repeat=" media in medias track by $index "
+        ng-if="media.active "
+      >
+        <div class=" " ng-if="media.linkType=='nolink' ">
+          <a fancybox href="{{ media.image | uploadpath }} "
+            ><img
+              src="{{ media.image | uploadpath }} "
+              alt=" "
+              class="img-responsive "
+          /></a>
         </div>
+        <div class=" " ng-if="media.linkType=='internal' ">
+          <a href="{{ media.link }} "
+            ><img
+              src="{{ media.image | uploadpath }} "
+              alt=" "
+              class="img-responsive "
+          /></a>
+        </div>
+        <div class=" " ng-if="media.linkType=='external' ">
+          <a href="{{ media.link }} " target="_blank "
+            ><img
+              src="{{ media.image | uploadpath }} "
+              alt=" "
+              class="img-responsive "
+          /></a>
+        </div>
+        <div class=" " ng-if="media.linkType=='videolink' ">
+          <a
+            class="various fancybox.iframe "
+            rel="gallery1 "
+            fancybox
+            href="https://www.youtube.com/embed/{{
+              media.link
+            }}?autoplay=1&modestbranding=0&showinfo=0&rel=0&loop=1 "
+          >
+            <div class="folder-box sf-relative ">
+              <img
+                ng-src="https://img.youtube.com/vi/{{
+                  media.link
+                }}/sddefault.jpg "
+                alt="Sports For All
+            "
+                class="img-responsive "
+              />
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <!--Team Scrolling-->
 <section ng-if="teams.length>0">
-    <div class="bg-team">
-        <div class="team-head">
-            <h1 class="text-center text-uppercase opensans-semibold">Team</h1>
-        </div>
-        <div class="container">
-            <div class="teams-logo" ng-if="teams.length>0">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide hidden-xs" ng-repeat="team in teams track by $index">
-                            <div class="bg-color-black registerplayer-team pointer" ui-sref="teamdetail({'id':team.team._id})">
-                                <div class="" ng-if="team.logo">
-                                    <img ng-src="{{team.logo|uploadpath}}" alt="Team Logo" class="img-responsive m-auto">
-                                </div>
-                                <div class="" ng-if="!team.logo">
-                                    <img src="img/holder.png" alt="Team Logo" class="img-responsive">
-                                </div>
-                                <div class="">
-                                    <h4 class="text-center text-uppercase color-white">{{team.team.name}}</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </div>
+  <div class="bg-team">
+    <div class="team-head">
+      <h1 class="text-center text-uppercase opensans-semibold">Team</h1>
     </div>
+    <div class="container">
+      <div class="teams-logo" ng-if="teams.length>0">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide hidden-xs"
+              ng-repeat="team in teams track by $index"
+            >
+              <div
+                class="bg-color-black registerplayer-team pointer"
+                ui-sref="teamdetail({'id':team.team._id})"
+              >
+                <div class="" ng-if="team.logo">
+                  <img
+                    ng-src="{{ team.logo | uploadpath }}"
+                    alt="Team Logo"
+                    class="img-responsive m-auto"
+                  />
+                </div>
+                <div class="" ng-if="!team.logo">
+                  <img
+                    src="img/holder.png"
+                    alt="Team Logo"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="">
+                  <h4 class="text-center text-uppercase color-white">
+                    {{ team.team.name }}
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!--Sponsor-->
 <section ng-if="sponsors.length>0" class="m-top">
-    <div class="bg-sponsor">
-        <div class="sponsor-head">
-            <h1 class="text-center text-uppercase opensans-semibold">Sponsor</h1>
-        </div>
-        <div class="container">
-            <div class="sponsors-logo" ng-if="sponsors.length>0">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide hidden-xs" ng-repeat="sponsor in sponsors track by $index">
-                            <div class="bg-color-black registerplayer-sponsor pointer" ui-sref="sponsor">
-                                <div class="" ng-if="sponsor.logo">
-                                    <img ng-src="{{sponsor.logo|uploadpath}}" alt="Sponsor Logo" class="img-responsive m-auto">
-                                </div>
-                                <div class="" ng-if="!sponsor.logo">
-                                    <img src="img/holder.png" alt="sponsor Logo" class="img-responsive">
-                                </div>
-                                <div class="">
-                                    <h4 class="text-center text-uppercase color-white">{{sponsor.name}}</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </div>
+  <div class="bg-sponsor">
+    <div class="sponsor-head">
+      <h1 class="text-center text-uppercase opensans-semibold">Sponsor</h1>
     </div>
+    <div class="container">
+      <div class="sponsors-logo sponsor-placing" ng-if="sponsors.length>0">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide hidden-xs"
+              ng-repeat="sponsor in sponsors track by $index"
+            >
+              <div class="bg-color-black registerplayer-sponsor pointer">
+                <a href="{{ sponsor.link }}" target="_blank">
+                  <div class="" ng-if="sponsor.logo">
+                    <img
+                      ng-src="{{ sponsor.logo | uploadpath }}"
+                      alt="Sponsor Logo"
+                      class="img-responsive m-auto"
+                    />
+                  </div>
+                  <div class="" ng-if="!sponsor.logo">
+                    <img
+                      src="img/holder.png"
+                      alt="sponsor Logo"
+                      class="img-responsive"
+                    />
+                  </div>
+                  <div class="">
+                    <h4 class="text-center text-uppercase color-white">
+                      {{ sponsor.name }}
+                    </h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
 </section>

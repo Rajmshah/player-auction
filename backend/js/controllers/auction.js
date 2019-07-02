@@ -89,9 +89,10 @@ myApp.controller("AuctionCtrl", function(
     // // console.log(data.player.baseValue);
     // // console.log(data.soldValue >= data.player.baseValue);
     if (
-      data.soldValue &&
-      data.soldValue >= data.player.baseValue &&
-      data.soldValue <= data.teamDetail.maxBidValue
+      data.soldValue == 0 ||
+      (data.soldValue &&
+        data.soldValue >= data.player.baseValue &&
+        data.soldValue <= data.teamDetail.maxBidValue)
     ) {
       saveCategory.soldValue = data.soldValue;
       saveCategory.isSold = true;
