@@ -22,6 +22,10 @@ var schema = new Schema({
     type: Boolean,
     default: false
   },
+  // isRetained: {
+  //   type: Boolean,
+  //   default: false
+  // },
   soldValue: {
     type: Number
   },
