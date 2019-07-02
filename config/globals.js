@@ -70,7 +70,7 @@ global.database = "sportsauction";
 // global.database = "aplauction";
 // global.database = "auction";
 // global.database = "ccplauction";
-global.storageBucket = "jypl";
+global.storageBucket = "auction-house";
 mongoose.Promise = global.Promise;
 global.mongourl = "mongodb://localhost:27017/" + database;
 mongoose.connect(
