@@ -65,8 +65,8 @@ module.exports.globals = {
 };
 
 global.mongoose = require("mongoose");
-// global.database = "jypl";
-global.database = "sportsauction";
+ global.database = "jypl";
+// global.database = "sportsauction";
 // global.database = "aplauction";
 // global.database = "auction";
 // global.database = "ccplauction";
