@@ -66,11 +66,14 @@ module.exports.globals = {
 
 global.mongoose = require("mongoose");
 // global.database = "jypl";
-global.database = "sportsauction";
+// global.database = "sportsauction";
+global.database = "sosent";
 // global.database = "aplauction";
 // global.database = "auction";
 // global.database = "ccplauction";
-global.storageBucket = "jypl";
+// global.storageBucket = "auction-house";
+// global.storageBucket = "jypl";
+global.storageBucket = "sosent";
 mongoose.Promise = global.Promise;
 global.mongourl = "mongodb://localhost:27017/" + database;
 mongoose.connect(

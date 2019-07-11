@@ -1,6 +1,6 @@
 apps:
   - script: "app.js"
-    name: "sports-auction - 1340"
+    name: "SOS Enertainment - 1341"
     watch: false
     args: "--prod"
     exec_mode: "cluster"
