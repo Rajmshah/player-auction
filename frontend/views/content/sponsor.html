@@ -69,10 +69,10 @@
                   <!--<div class="player-info">
                   <h4 class="text-capitalize text-center color-white">- {{sponsor.ownerName}}</h4>
                 </div>-->
-                  <div class="hide">
+                  <div class="" ng-if="sponsor.sponsorType && sponsor.ownerName">
                     <table class="table table-bordered">
                       <tbody>
-                        <tr>
+                        <tr ng-if="sponsor.sponsorType">
                           <td>
                             <h4 class="text-capitalize text-center color-white">
                               Type
@@ -84,7 +84,7 @@
                             </h4>
                           </td>
                         </tr>
-                        <tr>
+                        <tr ng-if="sponsor.ownerName">
                           <td>
                             <h4 class="text-capitalize text-center color-white">
                               Owner
