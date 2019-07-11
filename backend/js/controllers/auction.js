@@ -141,6 +141,7 @@ myApp.controller("AuctionCtrl", function(
           saveTeam.minimumBaseValue;
         saveTeam.categoryValues = data.teamDetail.categoryValues;
         if (saveTeam && saveCategory) {
+          saveCategory.soldDate = new Date();
           var constraints = {
             saveTeam: saveTeam,
             saveCategory: saveCategory

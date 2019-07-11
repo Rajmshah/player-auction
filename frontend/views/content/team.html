@@ -45,16 +45,17 @@
         <div class="d-flex justify-content-around align-items-center">
           <div class="opensans-semibold color-white bucket-value">
             <div class="">
-              <p>Purse Value : {{ (teamDetail.purseValue | INR) || 0 }}</p>
-              <p>Money Spent :{{ (teamDetail.moneySpent | INR) || 0 }}</p>
+              <p>Total Points : {{ (teamDetail.purseValue | INR) || 0 }}</p>
+              <p>Points Spent :{{ (teamDetail.moneySpent | INR) || 0 }}</p>
             </div>
           </div>
           <div class="opensans-semibold color-white bucket-value">
             <div class="">
               <p>
-                Min. Base Val. : {{ (teamDetail.minimumBaseValue | INR) || 0 }}
+                Min. Base Points. :
+                {{ (teamDetail.minimumBaseValue | INR) || 0 }}
               </p>
-              <p>Max Bid Price : {{ (teamDetail.maxBidValue | INR) || 0 }}</p>
+              <p>Max Bid Points : {{ (teamDetail.maxBidValue | INR) || 0 }}</p>
             </div>
           </div>
         </div>
@@ -74,14 +75,19 @@
               <th>No.</th>
               <th>Player Name</th>
               <th>Group</th>
-              <th>Sold Price</th>
+              <th>Sold Points</th>
             </thead>
             <tbody>
               <tr ng-repeat="list in teamDetail.categoryValues track by $index">
                 <td>{{ $index + 1 }}</td>
                 <td>{{ list.player.playerName || "-" }}</td>
                 <td>{{ list.player.category.name || "-" }}</td>
-                <td>{{ (list.player.soldValue | INR) || "-" }}</td>
+                <td ng-if="list.player.soldValue == 0">
+                  -
+                </td>
+                <td ng-if="list.player.soldValue !== 0">
+                  {{ (list.player.soldValue | INR) || "-" }}
+                </td>
               </tr>
             </tbody>
             <tfoot>
@@ -168,9 +174,14 @@
                         {{ team.category.name }}
                       </h4>
                     </td>
-                    <td>
+                    <td ng-if="team.soldValue == 0">
                       <h4 class="text-capitalize text-center color-white">
-                        {{ team.soldValue | INR }}
+                        -
+                      </h4>
+                    </td>
+                    <td ng-if="team.soldValue !== 0">
+                      <h4 class="text-capitalize text-center color-white">
+                        {{ (team.soldValue | INR) || "-" }}
                       </h4>
                     </td>
                   </tr>

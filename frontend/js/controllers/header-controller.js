@@ -100,3 +100,19 @@ myApp.controller("headerCtrl", function(
     ];
   }
 });
+
+myApp.controller("footerCtrl", function(
+  $scope,
+  TemplateService,
+  NavigationService
+) {
+  $scope.template = TemplateService;
+  if (
+    adminurl == "http://www.sportsauction.in/api/" ||
+    adminurl == "http://www.jypl.in/api/"
+  ) {
+    $scope.showFooter = false;
+  } else {
+    $scope.showFooter = true;
+  }
+});
