@@ -22,6 +22,9 @@ var schema = new Schema({
     type: Boolean,
     default: false
   },
+  soldDate: {
+    type: Date
+  },
   // isRetained: {
   //   type: Boolean,
   //   default: false
