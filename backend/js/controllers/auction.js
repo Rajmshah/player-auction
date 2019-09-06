@@ -116,13 +116,20 @@ myApp.controller("AuctionCtrl", function(
         }
       });
       console.log("temp", temp);
-      if (temp.length > 0) {
-        _.each(temp, function(value, key) {
-          if (key !== 0 && key !== 1) {
-            temp1.push(value);
-          }
-        });
-
+      if (temp.length > 1) {
+        if (temp.length > 2) {
+          _.each(temp, function(value, key) {
+            if (key !== 0 && key !== 1) {
+              temp1.push(value);
+            }
+          });
+        } else if (temp.length == 2) {
+          _.each(temp, function(value, key) {
+            if (key !== 0) {
+              temp1.push(value);
+            }
+          });
+        }
         _.each(temp1, function(vals, key) {
           saveTeam.minimumBaseValue =
             saveTeam.minimumBaseValue + vals.baseValue;
@@ -134,7 +141,16 @@ myApp.controller("AuctionCtrl", function(
             saveCategory.minimumBasePriceValue = value.baseValue;
           }
         });
-      } else {
+      } else if (temp.length == 1) {
+        _.each(data.teamDetail.categoryValues, function(value, key) {
+          if (value._id == temp[0]._id && !value.status) {
+            value.status = true;
+            value.player = data.player._id;
+            saveCategory.minimumBasePriceValue = value.baseValue;
+          }
+        });
+        temp1.push({});
+      } else if (temp.length == 0) {
         temp1.push({});
       }
       if (temp1.length > 0) {
