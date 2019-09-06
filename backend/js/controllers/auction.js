@@ -104,11 +104,11 @@ myApp.controller("AuctionCtrl", function(
       saveTeam._id = data.teamDetail._id;
       saveTeam.minimumBaseValue = 0;
       saveTeam.moneySpent = data.teamDetail.moneySpent + data.soldValue;
-      _.each(categoryClone, function(value, key) {
-        if (key == 0 && !value.status) {
-          value.status = true;
-        }
-      });
+      // _.each(categoryClone, function(value, key) {
+      //   if (key == 0 && !value.status) {
+      //     value.status = true;
+      //   }
+      // });
       temp = _.filter(categoryClone, function(val) {
         if (!val.status) {
           return val;
