@@ -123,6 +123,10 @@ myApp.controller("AuctionCtrl", function(
               temp1.push(value);
             }
           });
+          _.each(temp1, function(vals, key) {
+            saveTeam.minimumBaseValue =
+              saveTeam.minimumBaseValue + vals.baseValue;
+          });
         } else if (temp.length == 2) {
           _.each(temp, function(value, key) {
             if (key !== 0) {
