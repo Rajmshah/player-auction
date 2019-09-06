@@ -110,7 +110,7 @@ myApp.controller("AuctionCtrl", function(
       //   }
       // });
       temp = _.filter(categoryClone, function(val) {
-        if (!val.status) {
+        if (!val.player) {
           return val;
         }
       });
