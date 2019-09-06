@@ -142,6 +142,9 @@ myApp.controller("AuctionCtrl", function(
           }
         });
       } else if (temp.length == 1) {
+        _.each(temp, function(value, key) {
+          temp1.push(value);
+        });
         _.each(data.teamDetail.categoryValues, function(value, key) {
           if (value._id == temp[0]._id && !value.status) {
             value.status = true;
@@ -149,7 +152,6 @@ myApp.controller("AuctionCtrl", function(
             saveCategory.minimumBasePriceValue = value.baseValue;
           }
         });
-        temp1.push({});
       } else if (temp.length == 0) {
         temp1.push({});
       }
