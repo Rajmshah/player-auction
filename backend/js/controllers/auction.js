@@ -130,10 +130,6 @@ myApp.controller("AuctionCtrl", function(
             }
           });
         }
-        _.each(temp1, function(vals, key) {
-          saveTeam.minimumBaseValue =
-            saveTeam.minimumBaseValue + vals.baseValue;
-        });
         _.each(data.teamDetail.categoryValues, function(value, key) {
           if (value._id == temp[0]._id && !value.status) {
             value.status = true;
