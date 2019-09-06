@@ -109,17 +109,20 @@ myApp.controller("AuctionCtrl", function(
       //     value.status = true;
       //   }
       // });
+      console.log("categoryClone", categoryClone);
       temp = _.filter(categoryClone, function(val) {
         if (!val.player) {
           return val;
         }
       });
+      console.log("temp", temp);
       if (temp.length > 0) {
         _.each(temp, function(value, key) {
-          if (key !== 0) {
+          if (key !== 0 && key !== 1) {
             temp1.push(value);
           }
         });
+
         _.each(temp1, function(vals, key) {
           saveTeam.minimumBaseValue =
             saveTeam.minimumBaseValue + vals.baseValue;
