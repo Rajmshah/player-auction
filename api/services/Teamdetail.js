@@ -96,11 +96,14 @@ var model = {
                 saveCategory.playerVillage = data.category.playerVillage;
                 saveCategory.category = data.category.category._id;
                 saveCategory.baseValue = data.category.baseValue;
-                Categorydetail.saveData(saveCategory, function(err, data) {
+                Categorydetail.saveData(saveCategory, function(
+                  err,
+                  categoryData
+                ) {
                   if (err) {
                     callback(err, null);
                   } else {
-                    callback(null, data);
+                    callback(null, categoryData);
                   }
                 });
               }
@@ -109,7 +112,7 @@ var model = {
         },
         function(secondFunction, callback) {
           //   console.log(secondFunction);
-          //   console.log("CATEGORY", data.category);
+          console.log("CATEGORY", data);
           //   console.log("TEAM", data.team);
           saveTeam._id = data.team._id;
           saveTeam.moneySpent = data.team.moneySpent - data.category.soldValue;
@@ -118,10 +121,14 @@ var model = {
           saveTeam.categoryValues = [];
           _.each(categoryClone, function(val) {
             if (val.player == data.category._id) {
-              saveTeam.categoryValues.push({
-                baseValue: val.baseValue,
-                _id: val._id
-              });
+              delete val.status;
+              delete val.player;
+              var baseValue = val.baseValue;
+              var id = val._id;
+              val = {};
+              val.baseValue = baseValue;
+              val._id = id;
+              saveTeam.categoryValues.push(val);
             } else {
               saveTeam.categoryValues.push(val);
             }

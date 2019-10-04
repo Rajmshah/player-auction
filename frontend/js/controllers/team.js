@@ -52,6 +52,28 @@ myApp.controller("TeamCtrl", function(
     });
   };
 
+  $scope.getPlayersTeamWise = function(team) {
+    $scope.url = "Categorydetail/getPlayersTeamWise";
+    $scope.constraints = {
+      teamId: team
+    };
+    NavigationService.apiCall($scope.url, $scope.constraints, function(data) {
+      // // console.log('data', data);
+      if (data.value == true) {
+        if (data.data.length == 0) {
+          toastr.info("No team details for selected team.");
+          $scope.playerDetail = {};
+          $state.go("home");
+        } else {
+          $scope.playerDetail = data.data;
+        }
+      } else {
+        toastr.info("Something is Wrong.");
+        $state.go("home");
+      }
+    });
+  };
+
   $scope.showTable = function(formData) {
     if (formData) {
       $scope.url = "Categorydetail/getTeamPlayers";
@@ -71,6 +93,7 @@ myApp.controller("TeamCtrl", function(
   if ($stateParams.id) {
     $scope.showTable($stateParams.id);
     $scope.getTeamDetail($stateParams.id);
+    $scope.getPlayersTeamWise($stateParams.id);
     $scope.teamId = $stateParams.id;
   } else {
     toastr.info("No Details Found");

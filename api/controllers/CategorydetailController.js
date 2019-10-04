@@ -57,6 +57,10 @@ var controller = {
 
   deleteAll: function(req, res) {
     Categorydetail.deleteAll(res.callback);
+  },
+
+  getPlayersTeamWise: function(req, res) {
+    Categorydetail.getPlayersTeamWise(req.body.teamId, res.callback);
   }
 };
 module.exports = _.assign(module.exports, controller);

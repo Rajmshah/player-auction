@@ -224,6 +224,47 @@ var model = {
         }
       }
     });
+  },
+
+  getPlayersTeamWise: function(teamId, callback) {
+    Categorydetail.find({
+      team: teamId
+    })
+      .deepPopulate("category")
+      .sort({ soldDate: 1 })
+      .exec(function(err, players) {
+        if (err) callback(err);
+        if (_.isEmpty(players)) {
+          Teamdetail.findOne({
+            team: teamId
+          }).exec(function(err, team) {
+            if (err) callback(err);
+            if (_.isEmpty(team)) {
+              callback(null, []);
+            } else {
+              var tempArr = _.times(team.playerCount, function(count) {
+                return {
+                  playerName: "",
+                  category: "",
+                  soldValue: 0
+                };
+              });
+              console.log("tempArr", tempArr);
+              callback(null, tempArr);
+            }
+          });
+        } else {
+          var teamPlayers = [];
+          _.each(players, function(player) {
+            var obj = {};
+            obj.playerName = player.playerName;
+            obj.category = player.category.name;
+            obj.soldValue = player.soldValue;
+            teamPlayers.push(obj);
+          });
+          callback(null, teamPlayers);
+        }
+      });
   }
 };
 module.exports = _.assign(module.exports, exports, model);

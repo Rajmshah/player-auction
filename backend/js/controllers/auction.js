@@ -79,7 +79,9 @@ myApp.controller("AuctionCtrl", function(
   // SAVE FUNCTION
   var state = "categorydetails";
   $scope.saveData = function(data) {
+    console.log("savedata", data);
     var categoryClone = _.cloneDeep(data.teamDetail.categoryValues);
+    var finalValues = _.cloneDeep(data.teamDetail.categoryValues);
     var saveTeam = {};
     var saveCategory = {};
     var temp = [];
@@ -117,16 +119,19 @@ myApp.controller("AuctionCtrl", function(
       });
       console.log("temp", temp);
       if (temp.length > 1) {
+        console.log("Enter temp length > 1");
         if (temp.length > 2) {
           _.each(temp, function(value, key) {
             if (key !== 0 && key !== 1) {
+              saveTeam.minimumBaseValue =
+                saveTeam.minimumBaseValue + value.baseValue;
               temp1.push(value);
             }
           });
-          _.each(temp1, function(vals, key) {
-            saveTeam.minimumBaseValue =
-              saveTeam.minimumBaseValue + vals.baseValue;
-          });
+          // _.each(temp1, function(vals, key) {
+          //   saveTeam.minimumBaseValue =
+          //     saveTeam.minimumBaseValue + vals.baseValue;
+          // });
         } else if (temp.length == 2) {
           _.each(temp, function(value, key) {
             if (key !== 0) {
@@ -134,7 +139,7 @@ myApp.controller("AuctionCtrl", function(
             }
           });
         }
-        _.each(data.teamDetail.categoryValues, function(value, key) {
+        _.each(finalValues, function(value, key) {
           if (value._id == temp[0]._id && !value.status) {
             value.status = true;
             value.player = data.player._id;
@@ -142,10 +147,11 @@ myApp.controller("AuctionCtrl", function(
           }
         });
       } else if (temp.length == 1) {
+        console.log("Enter temp length == 1");
         _.each(temp, function(value, key) {
           temp1.push(value);
         });
-        _.each(data.teamDetail.categoryValues, function(value, key) {
+        _.each(finalValues, function(value, key) {
           if (value._id == temp[0]._id && !value.status) {
             value.status = true;
             value.player = data.player._id;
@@ -153,22 +159,30 @@ myApp.controller("AuctionCtrl", function(
           }
         });
       } else if (temp.length == 0) {
+        console.log("Enter temp length == 0");
         temp1.push({});
       }
       if (temp1.length > 0) {
+        console.log("Enter temp1 length > 0", temp1.length);
         saveTeam.maxBidValue =
           data.teamDetail.purseValue -
           saveTeam.moneySpent -
           saveTeam.minimumBaseValue;
-        saveTeam.categoryValues = data.teamDetail.categoryValues;
+        console.log(
+          "During assigning actual values",
+          data.teamDetail.categoryValues
+        );
+        console.log("During assigning cloned and derived", finalValues);
+        saveTeam.categoryValues = finalValues;
         if (saveTeam && saveCategory) {
           saveCategory.soldDate = new Date();
+          console.log("saveTeam", saveTeam);
+          console.log("saveCategory", saveCategory);
           var constraints = {
             saveTeam: saveTeam,
             saveCategory: saveCategory
           };
           $scope.url = "Auction/saveSoldPlayer";
-          //   // console.log("constraints", constraints);
           NavigationService.apiCall($scope.url, constraints, function(data) {
             // console.log("data.value", data);
             if (data.value) {
