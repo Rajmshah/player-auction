@@ -73,16 +73,32 @@ var exports = _.cloneDeep(
 var model = {
   allDelete: function(data, callback) {
     var categoryClone = _.cloneDeep(data.team.categoryValues);
+    var categoryData = _.cloneDeep(data.category);
+    var teamData = _.cloneDeep(data.team);
     var saveTeam = {};
     var saveCategory = {};
     var temp = [];
     var temp1 = [];
+    // console.log("data", data);
+    // console.log("categoryClone", categoryClone);
+    console.log("categoryData soldValue", categoryData.soldValue);
+    console.log(
+      "categoryData minimumBasePriceValue",
+      categoryData.minimumBasePriceValue
+    );
+    console.log("categoryData _id", categoryData._id);
+    console.log("teamData._id", teamData._id);
+    console.log("teamData.moneySpent", teamData.moneySpent);
+    console.log("teamData.minimumBaseValue", teamData.minimumBaseValue);
+    console.log("teamData.maxBidValue", teamData.maxBidValue);
+    console.log("teamData.purseValue", teamData.purseValue);
+
     async.waterfall(
       [
         function(callback) {
           Categorydetail.deleteData(
             {
-              _id: data.category._id
+              _id: categoryData._id
             },
             function(err, deleted) {
               if (err) {
@@ -90,20 +106,20 @@ var model = {
               } else if (_.isEmpty(deleted)) {
                 callback(null, []);
               } else if (deleted) {
-                saveCategory.playerName = data.category.playerName;
-                saveCategory.playerAge = data.category.playerAge;
-                saveCategory.playerImage = data.category.playerImage;
-                saveCategory.playerVillage = data.category.playerVillage;
-                saveCategory.category = data.category.category._id;
-                saveCategory.baseValue = data.category.baseValue;
+                saveCategory.playerName = categoryData.playerName;
+                saveCategory.playerAge = categoryData.playerAge;
+                saveCategory.playerImage = categoryData.playerImage;
+                saveCategory.playerVillage = categoryData.playerVillage;
+                saveCategory.category = categoryData.category._id;
+                saveCategory.baseValue = categoryData.baseValue;
                 Categorydetail.saveData(saveCategory, function(
                   err,
-                  categoryData
+                  categoryDetail
                 ) {
                   if (err) {
                     callback(err, null);
                   } else {
-                    callback(null, categoryData);
+                    callback(null, categoryDetail);
                   }
                 });
               }
@@ -111,29 +127,6 @@ var model = {
           );
         },
         function(secondFunction, callback) {
-          //   console.log(secondFunction);
-          console.log("CATEGORY", data);
-          //   console.log("TEAM", data.team);
-          saveTeam._id = data.team._id;
-          saveTeam.moneySpent = data.team.moneySpent - data.category.soldValue;
-          saveTeam.minimumBaseValue =
-            data.team.minimumBaseValue + data.category.minimumBasePriceValue;
-          saveTeam.categoryValues = [];
-          _.each(categoryClone, function(val) {
-            if (val.player == data.category._id) {
-              delete val.status;
-              delete val.player;
-              var baseValue = val.baseValue;
-              var id = val._id;
-              val = {};
-              val.baseValue = baseValue;
-              val._id = id;
-              saveTeam.categoryValues.push(val);
-            } else {
-              saveTeam.categoryValues.push(val);
-            }
-          });
-
           //******************OLD CODE********************//
           //   saveTeam.minimumBaseValue = 0;
           //   saveTeam.categoryValues = [];
@@ -159,18 +152,52 @@ var model = {
           //     saveTeam.minimumBaseValue = saveTeam.minimumBaseValue + n.baseValue;
           //   });
           //******************OLD CODE END********************//
+          saveTeam._id = teamData._id;
+          saveTeam.moneySpent = teamData.moneySpent - categoryData.soldValue;
+          saveTeam.minimumBaseValue =
+            teamData.minimumBaseValue + categoryData.minimumBasePriceValue;
+          saveTeam.categoryValues = [];
+          _.each(categoryClone, function(val) {
+            if (val.player) {
+              console.log(
+                "player",
+                val.player._id,
+                "categoryData",
+                categoryData._id,
+                val._id
+              );
+              if (val.player._id == categoryData._id) {
+                console.log("enter if");
+                delete val.status;
+                delete val.player;
+                var baseValue = val.baseValue;
+                var id = val._id;
+                val = {};
+                val.baseValue = baseValue;
+                val._id = id;
+                saveTeam.categoryValues.push(val);
+              } else {
+                console.log("enter else");
+                saveTeam.categoryValues.push(val);
+              }
+            } else {
+              console.log("enter else 1st");
+              saveTeam.categoryValues.push(val);
+            }
+          });
           saveTeam.maxBidValue =
-            data.team.purseValue -
+            teamData.purseValue -
             saveTeam.moneySpent -
             saveTeam.minimumBaseValue;
-          //   console.log("Show", saveTeam);
+          console.log("saveTeam", saveTeam);
+
           Teamdetail.update(
             {
-              _id: data.team._id
+              _id: teamData._id
             },
             saveTeam
           ).exec(function(err, match) {
-            // console.log("updated", match);
+            console.log("updated", match);
             callback(null, "Updated");
           });
         }
