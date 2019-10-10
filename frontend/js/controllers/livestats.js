@@ -44,7 +44,8 @@ myApp.controller("LiveStatsCtrl", function(
         NavigationService.apiCall(url, constraints, function(data) {
           if (data.value) {
             value.logo = data.data.logo;
-            value.bid = data.data.maxBidValue;
+            value.bid = data.data.moneySpent;
+//             value.bid = data.data.maxBidValue;
             value.categoryValues = data.data.categoryValues;
           } else {
             value.logo = "";
