@@ -46,16 +46,17 @@
           <div class="opensans-semibold color-white bucket-value">
             <div class="">
               <p>Total Points : {{ (teamDetail.purseValue | INR) || 0 }}</p>
-              <p>Points Spent :{{ (teamDetail.moneySpent | INR) || 0 }}</p>
             </div>
           </div>
           <div class="opensans-semibold color-white bucket-value">
             <div class="">
-              <p>
+             <p>Points Spent :{{ (teamDetail.moneySpent | INR) || 0 }}</p>
+
+<!--               <p>
                 Min. Base Points. :
                 {{ (teamDetail.minimumBaseValue | INR) || 0 }}
               </p>
-              <p>Max Bid Points : {{ (teamDetail.maxBidValue | INR) || 0 }}</p>
+              <p>Max Bid Points : {{ (teamDetail.maxBidValue | INR) || 0 }}</p> -->
             </div>
           </div>
         </div>
