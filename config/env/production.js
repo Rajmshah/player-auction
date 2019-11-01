@@ -21,12 +21,12 @@ module.exports = {
   /***************************************************************************
    * Set the port in the production environment to 80                        *
    ***************************************************************************/
-  port: 1337,
-  realHost: "http://www.jypl.in"
+  // port: 1337,
+  // realHost: "http://www.jypl.in"
   //  port: 1340,
   //  realHost: "http://www.sportsauction.in"
-  // port: 1338,
-  // realHost: "http://www.aplauction.com"
+  port: 1338,
+  realHost: "http://www.aplauction.com"
   // port: 1337,
   // realHost: "http://www.abbauction.in"
   // port: 1339,
