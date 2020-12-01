@@ -1,6 +1,6 @@
 server {
 	listen 80;
-	server_name sportsauction.in;
+	server_name sportsauction.in www.sportsauction.in;
 	location /api {
 		proxy_pass http://127.0.0.1:1337;
 		proxy_set_header Host $host;
