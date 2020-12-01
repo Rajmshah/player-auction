@@ -1,6 +1,6 @@
 server {
 	listen 80;
-	server_name www.ccplauction.com;
+	server_name sportsauction.in;
 	location /api {
 		proxy_pass http://127.0.0.1:1337;
 		proxy_set_header Host $host;
@@ -16,7 +16,8 @@ server {
 		proxy_set_header X-Forwarded-Proto $scheme;
 	}
 	location /backend {
-		root /home/projects/player-auction;
+		root /home/projects/sportsauction;
 		index index.html index.htm;
+                try_files $uri $uri/ /index.html =404;
 	}
 }
