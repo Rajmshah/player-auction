@@ -1,0 +1,1890 @@
+{ 
+    "_id" : ObjectId("5c31ef4317878329ac0da821"), 
+    "createdAt" : ISODate("2019-01-06T12:06:27.584+0000"), 
+    "updatedAt" : ISODate("2019-01-06T12:06:27.584+0000"), 
+    "name" : "samplecategorydetail-Jan-06-2019-11-26-06-am.xlsx", 
+    "size" : NumberInt(10911), 
+    "storageName" : "82304bab-e667-4d0c-b295-c3d4ee266752.xlsx", 
+    "location" : "https://storage.googleapis.com/auction-house/82304bab-e667-4d0c-b295-c3d4ee266752.xlsx", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/82304bab-e667-4d0c-b295-c3d4ee266752.xlsx?generation=1546776387561528&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c31f03e17878329ac0da83f"), 
+    "createdAt" : ISODate("2019-01-06T12:10:38.887+0000"), 
+    "updatedAt" : ISODate("2019-01-06T12:10:38.887+0000"), 
+    "name" : "samplecategorydetail-Jan-06-2019-11-26-06-am.xlsx", 
+    "size" : NumberInt(10924), 
+    "storageName" : "f35f3030-8a4f-46a7-9e3e-4ad371419a25.xlsx", 
+    "location" : "https://storage.googleapis.com/auction-house/f35f3030-8a4f-46a7-9e3e-4ad371419a25.xlsx", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/f35f3030-8a4f-46a7-9e3e-4ad371419a25.xlsx?generation=1546776638870842&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c31f1fc17878329ac0da8fc"), 
+    "createdAt" : ISODate("2019-01-06T12:18:04.420+0000"), 
+    "updatedAt" : ISODate("2019-01-06T12:18:04.420+0000"), 
+    "name" : "samplecategorydetail-Jan-06-2019-11-26-06-am.xlsx", 
+    "size" : NumberInt(10924), 
+    "storageName" : "266cc114-c4ef-4cfd-b076-6be327c30171.xlsx", 
+    "location" : "https://storage.googleapis.com/auction-house/266cc114-c4ef-4cfd-b076-6be327c30171.xlsx", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/266cc114-c4ef-4cfd-b076-6be327c30171.xlsx?generation=1546777084404147&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e4c017878329ac0da95c"), 
+    "createdAt" : ISODate("2019-01-07T05:33:52.326+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:33:52.326+0000"), 
+    "name" : "WhatsApp Image 2019-01-07 at 06.58.46.jpeg", 
+    "size" : NumberInt(123907), 
+    "storageName" : "f04918af-089f-4a09-b966-e5009e282570.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/f04918af-089f-4a09-b966-e5009e282570.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/f04918af-089f-4a09-b966-e5009e282570.jpeg?generation=1546839232309693&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e5bd17878329ac0da961"), 
+    "createdAt" : ISODate("2019-01-07T05:38:05.617+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:38:05.617+0000"), 
+    "name" : "Slider_2.jpg", 
+    "size" : NumberInt(89903), 
+    "storageName" : "262f0d63-904c-4bf9-b6fd-808565181437.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/262f0d63-904c-4bf9-b6fd-808565181437.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/262f0d63-904c-4bf9-b6fd-808565181437.jpg?generation=1546839485598693&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e5e717878329ac0da963"), 
+    "createdAt" : ISODate("2019-01-07T05:38:47.301+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:38:47.301+0000"), 
+    "name" : "Slider_2.jpeg", 
+    "size" : NumberInt(89903), 
+    "storageName" : "6403e58a-2702-4eea-99fa-3163f6b3f17e.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/6403e58a-2702-4eea-99fa-3163f6b3f17e.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/6403e58a-2702-4eea-99fa-3163f6b3f17e.jpeg?generation=1546839527283559&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e8d117878329ac0da96d"), 
+    "createdAt" : ISODate("2019-01-07T05:51:13.286+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:51:13.286+0000"), 
+    "name" : "11.jpeg", 
+    "size" : NumberInt(94292), 
+    "storageName" : "dc9f7024-269d-43a7-8d93-3a094b30c97c.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/dc9f7024-269d-43a7-8d93-3a094b30c97c.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/dc9f7024-269d-43a7-8d93-3a094b30c97c.jpeg?generation=1546840273268737&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e90617878329ac0da972"), 
+    "createdAt" : ISODate("2019-01-07T05:52:06.622+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:52:06.622+0000"), 
+    "name" : "33.jpeg", 
+    "size" : NumberInt(90383), 
+    "storageName" : "f367f8cb-cbde-4af2-b494-3914fc91ce4f.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/f367f8cb-cbde-4af2-b494-3914fc91ce4f.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/f367f8cb-cbde-4af2-b494-3914fc91ce4f.jpeg?generation=1546840326605965&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e90e17878329ac0da973"), 
+    "createdAt" : ISODate("2019-01-07T05:52:14.576+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:52:14.576+0000"), 
+    "name" : "22.jpeg", 
+    "size" : NumberInt(98574), 
+    "storageName" : "1964c300-9631-49b6-a98e-7ef6b8b4098f.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/1964c300-9631-49b6-a98e-7ef6b8b4098f.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/1964c300-9631-49b6-a98e-7ef6b8b4098f.jpeg?generation=1546840334560902&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e91d17878329ac0da978"), 
+    "createdAt" : ISODate("2019-01-07T05:52:29.382+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:52:29.382+0000"), 
+    "name" : "33.jpeg", 
+    "size" : NumberInt(90383), 
+    "storageName" : "cbb87fbb-90bc-40a7-8b30-2bcc788517dc.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/cbb87fbb-90bc-40a7-8b30-2bcc788517dc.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/cbb87fbb-90bc-40a7-8b30-2bcc788517dc.jpeg?generation=1546840349364660&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e93617878329ac0da97d"), 
+    "createdAt" : ISODate("2019-01-07T05:52:54.251+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:52:54.251+0000"), 
+    "name" : "55.jpeg", 
+    "size" : NumberInt(89906), 
+    "storageName" : "98180a0e-9de5-4d8e-9a9d-d092a3c8a697.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/98180a0e-9de5-4d8e-9a9d-d092a3c8a697.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/98180a0e-9de5-4d8e-9a9d-d092a3c8a697.jpeg?generation=1546840374235600&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e93e17878329ac0da97e"), 
+    "createdAt" : ISODate("2019-01-07T05:53:02.435+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:53:02.435+0000"), 
+    "name" : "44.jpeg", 
+    "size" : NumberInt(92156), 
+    "storageName" : "8d6966c8-5c5e-4073-b098-d5d337ce7c60.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/8d6966c8-5c5e-4073-b098-d5d337ce7c60.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/8d6966c8-5c5e-4073-b098-d5d337ce7c60.jpeg?generation=1546840382419241&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e94d17878329ac0da983"), 
+    "createdAt" : ISODate("2019-01-07T05:53:17.910+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:53:17.909+0000"), 
+    "name" : "55.jpeg", 
+    "size" : NumberInt(89906), 
+    "storageName" : "510a853f-d3b4-4974-b78b-775f469ed81d.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/510a853f-d3b4-4974-b78b-775f469ed81d.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/510a853f-d3b4-4974-b78b-775f469ed81d.jpeg?generation=1546840397892688&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e95c17878329ac0da988"), 
+    "createdAt" : ISODate("2019-01-07T05:53:32.268+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:53:32.268+0000"), 
+    "name" : "66.jpeg", 
+    "size" : NumberInt(98965), 
+    "storageName" : "9df5ee08-14ee-4f32-b8ed-c3e21ad0096d.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/9df5ee08-14ee-4f32-b8ed-c3e21ad0096d.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/9df5ee08-14ee-4f32-b8ed-c3e21ad0096d.jpeg?generation=1546840412250746&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e9af17878329ac0da98b"), 
+    "createdAt" : ISODate("2019-01-07T05:54:55.086+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:54:55.086+0000"), 
+    "name" : "Age-Group-35-&-Above.jpeg", 
+    "size" : NumberInt(48719), 
+    "storageName" : "868efb56-dc37-4f28-96a2-933aac62e427.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/868efb56-dc37-4f28-96a2-933aac62e427.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/868efb56-dc37-4f28-96a2-933aac62e427.jpeg?generation=1546840495070474&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e9b717878329ac0da98c"), 
+    "createdAt" : ISODate("2019-01-07T05:55:03.061+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:55:03.061+0000"), 
+    "name" : "Age-Group32-TO-35.jpeg", 
+    "size" : NumberInt(45143), 
+    "storageName" : "2ff99a99-641d-483e-b6da-b0cede4dbb1d.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/2ff99a99-641d-483e-b6da-b0cede4dbb1d.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/2ff99a99-641d-483e-b6da-b0cede4dbb1d.jpeg?generation=1546840503044870&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32e9d717878329ac0da98e"), 
+    "createdAt" : ISODate("2019-01-07T05:55:35.678+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:55:35.678+0000"), 
+    "name" : "Age-Group-35-&-Above.jpeg", 
+    "size" : NumberInt(48719), 
+    "storageName" : "a2f419c7-75d4-4191-ad77-779c1e399957.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/a2f419c7-75d4-4191-ad77-779c1e399957.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/a2f419c7-75d4-4191-ad77-779c1e399957.jpeg?generation=1546840535661440&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32eb9317878329ac0da997"), 
+    "createdAt" : ISODate("2019-01-07T06:02:59.295+0000"), 
+    "updatedAt" : ISODate("2019-01-07T06:02:59.295+0000"), 
+    "name" : "1.jpeg", 
+    "size" : NumberInt(102816), 
+    "storageName" : "b62dab53-cef3-49bb-b3d0-91d3204005f2.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/b62dab53-cef3-49bb-b3d0-91d3204005f2.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/b62dab53-cef3-49bb-b3d0-91d3204005f2.jpeg?generation=1546840979279896&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32ebfb17878329ac0da99d"), 
+    "createdAt" : ISODate("2019-01-07T06:04:43.672+0000"), 
+    "updatedAt" : ISODate("2019-01-07T06:04:43.672+0000"), 
+    "name" : "bafna.jpeg", 
+    "size" : NumberInt(89421), 
+    "storageName" : "f6e0631b-ef51-4eed-a46e-4500670d2451.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/f6e0631b-ef51-4eed-a46e-4500670d2451.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/f6e0631b-ef51-4eed-a46e-4500670d2451.jpeg?generation=1546841083656563&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32ecd117878329ac0da9a3"), 
+    "createdAt" : ISODate("2019-01-07T06:08:17.692+0000"), 
+    "updatedAt" : ISODate("2019-01-07T06:08:17.692+0000"), 
+    "name" : "hundia.jpeg", 
+    "size" : NumberInt(94705), 
+    "storageName" : "ab6117df-501f-4a2c-a3ca-5b63c2be4a1b.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/ab6117df-501f-4a2c-a3ca-5b63c2be4a1b.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/ab6117df-501f-4a2c-a3ca-5b63c2be4a1b.jpeg?generation=1546841297676299&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32ecdf17878329ac0da9a8"), 
+    "createdAt" : ISODate("2019-01-07T06:08:31.092+0000"), 
+    "updatedAt" : ISODate("2019-01-07T06:08:31.092+0000"), 
+    "name" : "mumbai.jpeg", 
+    "size" : NumberInt(87577), 
+    "storageName" : "687373a7-6dab-431a-80d7-a9105e7df8e7.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/687373a7-6dab-431a-80d7-a9105e7df8e7.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/687373a7-6dab-431a-80d7-a9105e7df8e7.jpeg?generation=1546841311076591&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32ecef17878329ac0da9ad"), 
+    "createdAt" : ISODate("2019-01-07T06:08:47.562+0000"), 
+    "updatedAt" : ISODate("2019-01-07T06:08:47.562+0000"), 
+    "name" : "ranka.jpeg", 
+    "size" : NumberInt(98159), 
+    "storageName" : "56ef0273-7e56-4a08-9dc4-7aae368d1243.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/56ef0273-7e56-4a08-9dc4-7aae368d1243.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/56ef0273-7e56-4a08-9dc4-7aae368d1243.jpeg?generation=1546841327546049&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c32ecf917878329ac0da9b2"), 
+    "createdAt" : ISODate("2019-01-07T06:08:57.126+0000"), 
+    "updatedAt" : ISODate("2019-01-07T06:08:57.125+0000"), 
+    "name" : "saji.jpeg", 
+    "size" : NumberInt(98273), 
+    "storageName" : "cda32972-e161-4911-bece-38183c02b67a.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/cda32972-e161-4911-bece-38183c02b67a.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/cda32972-e161-4911-bece-38183c02b67a.jpeg?generation=1546841337102139&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c332dfb17878329ac0daae1"), 
+    "createdAt" : ISODate("2019-01-07T10:46:19.876+0000"), 
+    "updatedAt" : ISODate("2019-01-07T10:46:19.876+0000"), 
+    "name" : "samplecategorydetail-Jan-06-2019-11-26-06-am.xlsx", 
+    "size" : NumberInt(10900), 
+    "storageName" : "af04ea46-073a-4ad0-abf2-c15a6fc7a005.xlsx", 
+    "location" : "https://storage.googleapis.com/auction-house/af04ea46-073a-4ad0-abf2-c15a6fc7a005.xlsx", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/af04ea46-073a-4ad0-abf2-c15a6fc7a005.xlsx?generation=1546857979858590&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33418b17878329ac0dab40"), 
+    "createdAt" : ISODate("2019-01-07T12:09:47.085+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:09:47.085+0000"), 
+    "name" : "AASHISH.JOGANI.jpeg", 
+    "size" : NumberInt(78785), 
+    "storageName" : "a16438e5-b74b-4ec9-b2b3-c3ded2c718b3.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/a16438e5-b74b-4ec9-b2b3-c3ded2c718b3.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/a16438e5-b74b-4ec9-b2b3-c3ded2c718b3.jpeg?generation=1546862987068535&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3341a917878329ac0dab46"), 
+    "createdAt" : ISODate("2019-01-07T12:10:17.953+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:10:17.953+0000"), 
+    "name" : "ANAND. BAFNA.jpeg", 
+    "size" : NumberInt(53742), 
+    "storageName" : "c2dde1b6-3f14-42ed-899e-804dc7b6ec81.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/c2dde1b6-3f14-42ed-899e-804dc7b6ec81.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/c2dde1b6-3f14-42ed-899e-804dc7b6ec81.jpeg?generation=1546863017935953&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3341fc17878329ac0dab51"), 
+    "createdAt" : ISODate("2019-01-07T12:11:40.103+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:11:40.103+0000"), 
+    "name" : "BHARAT.BOHRA.jpeg", 
+    "size" : NumberInt(74133), 
+    "storageName" : "cb85d53c-ffe0-4633-a892-75fcb4e75aad.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/cb85d53c-ffe0-4633-a892-75fcb4e75aad.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/cb85d53c-ffe0-4633-a892-75fcb4e75aad.jpeg?generation=1546863100084774&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33421717878329ac0dab57"), 
+    "createdAt" : ISODate("2019-01-07T12:12:07.723+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:12:07.723+0000"), 
+    "name" : "BHARAT.JOGANI.jpeg", 
+    "size" : NumberInt(82159), 
+    "storageName" : "bb0b1ee8-9c5b-4953-b7ba-0272e7544e6b.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/bb0b1ee8-9c5b-4953-b7ba-0272e7544e6b.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/bb0b1ee8-9c5b-4953-b7ba-0272e7544e6b.jpeg?generation=1546863127708729&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33422717878329ac0dab5d"), 
+    "createdAt" : ISODate("2019-01-07T12:12:23.683+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:12:23.683+0000"), 
+    "name" : "BHARAT.M.SHAH.jpeg", 
+    "size" : NumberInt(81904), 
+    "storageName" : "7e2cd04d-9c46-4dae-8598-1ad02d7a2aad.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/7e2cd04d-9c46-4dae-8598-1ad02d7a2aad.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/7e2cd04d-9c46-4dae-8598-1ad02d7a2aad.jpeg?generation=1546863143666513&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33425417878329ac0dab63"), 
+    "createdAt" : ISODate("2019-01-07T12:13:08.765+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:13:08.765+0000"), 
+    "name" : "BHARAT.P. MEHTA.jpeg", 
+    "size" : NumberInt(81162), 
+    "storageName" : "18cc7c91-a82f-4229-a78d-49f80e8a2cde.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/18cc7c91-a82f-4229-a78d-49f80e8a2cde.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/18cc7c91-a82f-4229-a78d-49f80e8a2cde.jpeg?generation=1546863188749797&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33443217878329ac0dab7e"), 
+    "createdAt" : ISODate("2019-01-07T12:21:06.413+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:21:06.413+0000"), 
+    "name" : "CHETAN.M.SHAH.jpeg", 
+    "size" : NumberInt(63273), 
+    "storageName" : "ad037178-abc4-4175-80a4-030800814536.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/ad037178-abc4-4175-80a4-030800814536.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/ad037178-abc4-4175-80a4-030800814536.jpeg?generation=1546863666397162&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33443e17878329ac0dab84"), 
+    "createdAt" : ISODate("2019-01-07T12:21:18.008+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:21:18.008+0000"), 
+    "name" : "CHIRAG.HARAN.jpeg", 
+    "size" : NumberInt(74267), 
+    "storageName" : "74b6e112-0dc3-407c-b014-408c7d996a5f.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/74b6e112-0dc3-407c-b014-408c7d996a5f.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/74b6e112-0dc3-407c-b014-408c7d996a5f.jpeg?generation=1546863677991255&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33445117878329ac0dab8b"), 
+    "createdAt" : ISODate("2019-01-07T12:21:37.982+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:21:37.982+0000"), 
+    "name" : "CHIRAG.S.DHOKAD.jpeg", 
+    "size" : NumberInt(53932), 
+    "storageName" : "39f594ef-b0ed-4426-8325-518bbd2ba564.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/39f594ef-b0ed-4426-8325-518bbd2ba564.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/39f594ef-b0ed-4426-8325-518bbd2ba564.jpeg?generation=1546863697966130&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33446017878329ac0dab92"), 
+    "createdAt" : ISODate("2019-01-07T12:21:52.448+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:21:52.448+0000"), 
+    "name" : "DEEPAK.BAFNA.jpeg", 
+    "size" : NumberInt(111506), 
+    "storageName" : "265b1049-4cf3-4dc1-aabc-c6ca7b1c9f84.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/265b1049-4cf3-4dc1-aabc-c6ca7b1c9f84.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/265b1049-4cf3-4dc1-aabc-c6ca7b1c9f84.jpeg?generation=1546863712431339&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33446b17878329ac0dab93"), 
+    "createdAt" : ISODate("2019-01-07T12:22:03.684+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:22:03.684+0000"), 
+    "name" : "DEEPAK.MEHTA.jpeg", 
+    "size" : NumberInt(97662), 
+    "storageName" : "67fb2d78-a07b-4a15-8100-ff08d3be268a.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/67fb2d78-a07b-4a15-8100-ff08d3be268a.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/67fb2d78-a07b-4a15-8100-ff08d3be268a.jpeg?generation=1546863723667437&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33448917878329ac0dab9a"), 
+    "createdAt" : ISODate("2019-01-07T12:22:33.422+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:22:33.422+0000"), 
+    "name" : "HITESH.BAFNA.jpeg", 
+    "size" : NumberInt(100799), 
+    "storageName" : "553494b1-ad6e-4247-baf3-64bd2cb0ec79.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/553494b1-ad6e-4247-baf3-64bd2cb0ec79.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/553494b1-ad6e-4247-baf3-64bd2cb0ec79.jpeg?generation=1546863753406936&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3344c017878329ac0dab9b"), 
+    "createdAt" : ISODate("2019-01-07T12:23:28.715+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:23:28.715+0000"), 
+    "name" : "HITESH.CHOPRA.jpeg", 
+    "size" : NumberInt(70857), 
+    "storageName" : "782325dc-2585-4b82-a274-d1ea6ec2877e.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/782325dc-2585-4b82-a274-d1ea6ec2877e.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/782325dc-2585-4b82-a274-d1ea6ec2877e.jpeg?generation=1546863808700175&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33450e17878329ac0dabaa"), 
+    "createdAt" : ISODate("2019-01-07T12:24:46.394+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:24:46.394+0000"), 
+    "name" : "NARAESH.HARAN.jpeg", 
+    "size" : NumberInt(83242), 
+    "storageName" : "58b63d51-d2c0-408e-97a7-f37408e34354.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/58b63d51-d2c0-408e-97a7-f37408e34354.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/58b63d51-d2c0-408e-97a7-f37408e34354.jpeg?generation=1546863886376933&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33451b17878329ac0dabb1"), 
+    "createdAt" : ISODate("2019-01-07T12:24:59.104+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:24:59.103+0000"), 
+    "name" : "TAPAS.HUNDIA.jpeg", 
+    "size" : NumberInt(67879), 
+    "storageName" : "b35af9b0-973d-4416-9a53-6da3eb8914d2.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/b35af9b0-973d-4416-9a53-6da3eb8914d2.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/b35af9b0-973d-4416-9a53-6da3eb8914d2.jpeg?generation=1546863899088579&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33452a17878329ac0dabb8"), 
+    "createdAt" : ISODate("2019-01-07T12:25:14.010+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:25:14.010+0000"), 
+    "name" : "SUNNY.KOTHARI.jpeg", 
+    "size" : NumberInt(78149), 
+    "storageName" : "cce5cb2d-a043-4f44-bc96-0913d4c28132.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/cce5cb2d-a043-4f44-bc96-0913d4c28132.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/cce5cb2d-a043-4f44-bc96-0913d4c28132.jpeg?generation=1546863913991452&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33453617878329ac0dabbf"), 
+    "createdAt" : ISODate("2019-01-07T12:25:26.172+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:25:26.172+0000"), 
+    "name" : "SUNIL.C.RANKA.jpeg", 
+    "size" : NumberInt(63591), 
+    "storageName" : "0c32d195-7045-4c9c-bf95-ad236df8d678.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/0c32d195-7045-4c9c-bf95-ad236df8d678.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/0c32d195-7045-4c9c-bf95-ad236df8d678.jpeg?generation=1546863926156006&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33456b17878329ac0dabd6"), 
+    "createdAt" : ISODate("2019-01-07T12:26:19.573+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:26:19.573+0000"), 
+    "name" : "RAVI.A.JAIN.jpeg", 
+    "size" : NumberInt(74344), 
+    "storageName" : "b8417154-a6be-4794-a42c-548964f93489.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/b8417154-a6be-4794-a42c-548964f93489.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/b8417154-a6be-4794-a42c-548964f93489.jpeg?generation=1546863979557462&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33458b17878329ac0dabde"), 
+    "createdAt" : ISODate("2019-01-07T12:26:51.480+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:26:51.480+0000"), 
+    "name" : "RAVI.KOTHARI.jpeg", 
+    "size" : NumberInt(104192), 
+    "storageName" : "ac1097bd-fbb1-4eb2-bad1-129dcc538f1c.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/ac1097bd-fbb1-4eb2-bad1-129dcc538f1c.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/ac1097bd-fbb1-4eb2-bad1-129dcc538f1c.jpeg?generation=1546864011463404&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c334c4217878329ac0dac66"), 
+    "createdAt" : ISODate("2019-01-07T12:55:30.019+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:55:30.019+0000"), 
+    "name" : "BHARAT.BOHRA.jpeg", 
+    "size" : NumberInt(74133), 
+    "storageName" : "004f87e4-a7e9-4cae-9afe-e3f5544c4527.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/004f87e4-a7e9-4cae-9afe-e3f5544c4527.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/004f87e4-a7e9-4cae-9afe-e3f5544c4527.jpeg?generation=1546865730002119&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c334c8417878329ac0dac7c"), 
+    "createdAt" : ISODate("2019-01-07T12:56:36.615+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:56:36.615+0000"), 
+    "name" : "BHAVESH.BOHRA.jpeg", 
+    "size" : NumberInt(78441), 
+    "storageName" : "91f8e992-c61e-4038-a793-15fb963d9fdc.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/91f8e992-c61e-4038-a793-15fb963d9fdc.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/91f8e992-c61e-4038-a793-15fb963d9fdc.jpeg?generation=1546865796600265&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c334c9517878329ac0dac82"), 
+    "createdAt" : ISODate("2019-01-07T12:56:53.697+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:56:53.697+0000"), 
+    "name" : "BHAVESH HUNDIA.jpeg", 
+    "size" : NumberInt(57937), 
+    "storageName" : "e7d62223-ff94-4765-9867-1e1d618094d3.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/e7d62223-ff94-4765-9867-1e1d618094d3.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/e7d62223-ff94-4765-9867-1e1d618094d3.jpeg?generation=1546865813680354&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c334caa17878329ac0dac88"), 
+    "createdAt" : ISODate("2019-01-07T12:57:14.728+0000"), 
+    "updatedAt" : ISODate("2019-01-07T12:57:14.728+0000"), 
+    "name" : "BHAVESH.BOHRA.jpeg", 
+    "size" : NumberInt(78441), 
+    "storageName" : "ec1beb0c-10d4-4fb1-8eee-909d02acbe3c.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/ec1beb0c-10d4-4fb1-8eee-909d02acbe3c.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/ec1beb0c-10d4-4fb1-8eee-909d02acbe3c.jpeg?generation=1546865834713859&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c334f0e17878329ac0dacaf"), 
+    "createdAt" : ISODate("2019-01-07T13:07:26.175+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:07:26.174+0000"), 
+    "name" : "BHARAT P BOHRA.jpeg", 
+    "size" : NumberInt(38586), 
+    "storageName" : "dc9820e4-a917-45da-9887-825f2758b6e8.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/dc9820e4-a917-45da-9887-825f2758b6e8.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/dc9820e4-a917-45da-9887-825f2758b6e8.jpeg?generation=1546866446159067&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33513517878329ac0dacc6"), 
+    "createdAt" : ISODate("2019-01-07T13:16:37.540+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:16:37.540+0000"), 
+    "name" : "MANISH.DOSHI.jpeg", 
+    "size" : NumberInt(70392), 
+    "storageName" : "f8b8e1e0-21ec-4701-96d7-803727fdb521.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/f8b8e1e0-21ec-4701-96d7-803727fdb521.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/f8b8e1e0-21ec-4701-96d7-803727fdb521.jpeg?generation=1546866997523836&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33518517878329ac0dacd3"), 
+    "createdAt" : ISODate("2019-01-07T13:17:57.003+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:17:57.003+0000"), 
+    "name" : "RITESH JAIN.jpeg", 
+    "size" : NumberInt(33306), 
+    "storageName" : "2ab3943f-0828-451c-858f-4d604d48cd7d.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/2ab3943f-0828-451c-858f-4d604d48cd7d.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/2ab3943f-0828-451c-858f-4d604d48cd7d.jpeg?generation=1546867076986282&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3351e917878329ac0dace0"), 
+    "createdAt" : ISODate("2019-01-07T13:19:37.592+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:19:37.592+0000"), 
+    "name" : "VICKY CHOPDA.jpeg", 
+    "size" : NumberInt(69912), 
+    "storageName" : "97b46343-d6e3-4e7e-be52-e2b19813d576.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/97b46343-d6e3-4e7e-be52-e2b19813d576.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/97b46343-d6e3-4e7e-be52-e2b19813d576.jpeg?generation=1546867177575275&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33520517878329ac0dace7"), 
+    "createdAt" : ISODate("2019-01-07T13:20:05.814+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:20:05.814+0000"), 
+    "name" : "SURYANK BAFNA.jpeg", 
+    "size" : NumberInt(24256), 
+    "storageName" : "e6bfdb64-9236-4fee-9227-137454ef6561.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/e6bfdb64-9236-4fee-9227-137454ef6561.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/e6bfdb64-9236-4fee-9227-137454ef6561.jpeg?generation=1546867205798013&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33523e17878329ac0dacee"), 
+    "createdAt" : ISODate("2019-01-07T13:21:02.282+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:21:02.282+0000"), 
+    "name" : " MUKESH.VARDHAN.jpeg", 
+    "size" : NumberInt(98158), 
+    "storageName" : "4131d0e8-4507-4c67-849c-6b7bd08efe65.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/4131d0e8-4507-4c67-849c-6b7bd08efe65.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/4131d0e8-4507-4c67-849c-6b7bd08efe65.jpeg?generation=1546867262266548&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3352a317878329ac0dacfb"), 
+    "createdAt" : ISODate("2019-01-07T13:22:43.465+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:22:43.465+0000"), 
+    "name" : "BHARAT.BOHRA.jpeg", 
+    "size" : NumberInt(74133), 
+    "storageName" : "c814d2ef-9f84-4e10-9fbf-ae0d077e9df5.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/c814d2ef-9f84-4e10-9fbf-ae0d077e9df5.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/c814d2ef-9f84-4e10-9fbf-ae0d077e9df5.jpeg?generation=1546867363448664&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33534617878329ac0dad10"), 
+    "createdAt" : ISODate("2019-01-07T13:25:26.717+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:25:26.717+0000"), 
+    "name" : "VIKRAM.BAFNA.jpeg", 
+    "size" : NumberInt(78832), 
+    "storageName" : "94d03c1d-499b-49ae-bbba-cd3740cd0ec4.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/94d03c1d-499b-49ae-bbba-cd3740cd0ec4.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/94d03c1d-499b-49ae-bbba-cd3740cd0ec4.jpeg?generation=1546867526699631&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33539217878329ac0dad1d"), 
+    "createdAt" : ISODate("2019-01-07T13:26:42.986+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:26:42.986+0000"), 
+    "name" : "DILIP.S.GOWANI.jpeg", 
+    "size" : NumberInt(83326), 
+    "storageName" : "c9f1c480-481d-4669-bec8-a68f23b0125e.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/c9f1c480-481d-4669-bec8-a68f23b0125e.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/c9f1c480-481d-4669-bec8-a68f23b0125e.jpeg?generation=1546867602970425&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3353ae17878329ac0dad24"), 
+    "createdAt" : ISODate("2019-01-07T13:27:10.354+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:27:10.354+0000"), 
+    "name" : "DINESH.KOTHARI.jpeg", 
+    "size" : NumberInt(95505), 
+    "storageName" : "ed5d463d-31e5-4815-9865-144b8ee14913.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/ed5d463d-31e5-4815-9865-144b8ee14913.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/ed5d463d-31e5-4815-9865-144b8ee14913.jpeg?generation=1546867630339695&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3353cc17878329ac0dad2b"), 
+    "createdAt" : ISODate("2019-01-07T13:27:40.387+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:27:40.387+0000"), 
+    "name" : "HEMAL.BHANDARI.jpeg", 
+    "size" : NumberInt(76408), 
+    "storageName" : "83068bd4-0b76-4333-b67b-06227d502fa1.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/83068bd4-0b76-4333-b67b-06227d502fa1.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/83068bd4-0b76-4333-b67b-06227d502fa1.jpeg?generation=1546867660368994&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3353fd17878329ac0dad33"), 
+    "createdAt" : ISODate("2019-01-07T13:28:29.156+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:28:29.156+0000"), 
+    "name" : "HIRALAL CHOPRA .jpeg", 
+    "size" : NumberInt(92110), 
+    "storageName" : "75ca64e7-be08-45e5-b068-0cd12729edc6.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/75ca64e7-be08-45e5-b068-0cd12729edc6.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/75ca64e7-be08-45e5-b068-0cd12729edc6.jpeg?generation=1546867709141183&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33541d17878329ac0dad3b"), 
+    "createdAt" : ISODate("2019-01-07T13:29:01.002+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:29:01.002+0000"), 
+    "name" : "HITESH.BAFNA.jpeg", 
+    "size" : NumberInt(100799), 
+    "storageName" : "21db4665-1ea5-4966-89a3-55282bc4b864.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/21db4665-1ea5-4966-89a3-55282bc4b864.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/21db4665-1ea5-4966-89a3-55282bc4b864.jpeg?generation=1546867740982604&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33543c17878329ac0dad49"), 
+    "createdAt" : ISODate("2019-01-07T13:29:32.603+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:29:32.603+0000"), 
+    "name" : "KAILASH.B.CHOPRA.jpeg", 
+    "size" : NumberInt(81604), 
+    "storageName" : "36f3ac24-8dfb-4b07-aaff-1783b1b73474.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/36f3ac24-8dfb-4b07-aaff-1783b1b73474.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/36f3ac24-8dfb-4b07-aaff-1783b1b73474.jpeg?generation=1546867772588720&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33545517878329ac0dad50"), 
+    "createdAt" : ISODate("2019-01-07T13:29:57.129+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:29:57.129+0000"), 
+    "name" : "KALPESH.HARAN.jpeg", 
+    "size" : NumberInt(67729), 
+    "storageName" : "908c0b17-d8fa-41ef-b50f-c26254f7f6be.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/908c0b17-d8fa-41ef-b50f-c26254f7f6be.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/908c0b17-d8fa-41ef-b50f-c26254f7f6be.jpeg?generation=1546867797113536&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33546517878329ac0dad57"), 
+    "createdAt" : ISODate("2019-01-07T13:30:13.994+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:30:13.994+0000"), 
+    "name" : "KALPESH.T.BHIMANI.jpeg", 
+    "size" : NumberInt(75866), 
+    "storageName" : "87802d8e-5539-45cc-9d67-db7f598b4257.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/87802d8e-5539-45cc-9d67-db7f598b4257.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/87802d8e-5539-45cc-9d67-db7f598b4257.jpeg?generation=1546867813976924&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33548717878329ac0dad5e"), 
+    "createdAt" : ISODate("2019-01-07T13:30:47.039+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:30:47.039+0000"), 
+    "name" : "KAMLESH.RANKA.jpeg", 
+    "size" : NumberInt(87358), 
+    "storageName" : "b711526c-e1d5-431c-b1d6-4e6b3f328d9a.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/b711526c-e1d5-431c-b1d6-4e6b3f328d9a.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/b711526c-e1d5-431c-b1d6-4e6b3f328d9a.jpeg?generation=1546867847020968&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3354b417878329ac0dad6b"), 
+    "createdAt" : ISODate("2019-01-07T13:31:32.582+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:31:32.582+0000"), 
+    "name" : "KSHITIZ.M.RANKA.jpeg", 
+    "size" : NumberInt(78572), 
+    "storageName" : "3f54ac8f-8e2a-42b7-af6d-a9bf8ee9b02b.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/3f54ac8f-8e2a-42b7-af6d-a9bf8ee9b02b.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/3f54ac8f-8e2a-42b7-af6d-a9bf8ee9b02b.jpeg?generation=1546867892562894&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3354d317878329ac0dad72"), 
+    "createdAt" : ISODate("2019-01-07T13:32:03.179+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:32:03.178+0000"), 
+    "name" : "MANISH.BAFNA.jpeg", 
+    "size" : NumberInt(68892), 
+    "storageName" : "4075de38-36ce-455e-a6ce-9d067e760616.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/4075de38-36ce-455e-a6ce-9d067e760616.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/4075de38-36ce-455e-a6ce-9d067e760616.jpeg?generation=1546867923163400&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3354e717878329ac0dad79"), 
+    "createdAt" : ISODate("2019-01-07T13:32:23.341+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:32:23.341+0000"), 
+    "name" : "MAYANK.T.RANKA.jpeg", 
+    "size" : NumberInt(95237), 
+    "storageName" : "c012d4ee-06e0-48c8-a9e4-74aacaabd32a.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/c012d4ee-06e0-48c8-a9e4-74aacaabd32a.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/c012d4ee-06e0-48c8-a9e4-74aacaabd32a.jpeg?generation=1546867943326236&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3354fa17878329ac0dad80"), 
+    "createdAt" : ISODate("2019-01-07T13:32:42.790+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:32:42.790+0000"), 
+    "name" : "MITESH.JANIKAR.jpeg", 
+    "size" : NumberInt(74237), 
+    "storageName" : "b5afd6a3-6d3b-4967-85ac-21892d545d2f.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/b5afd6a3-6d3b-4967-85ac-21892d545d2f.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/b5afd6a3-6d3b-4967-85ac-21892d545d2f.jpeg?generation=1546867962771852&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33554017878329ac0dad8d"), 
+    "createdAt" : ISODate("2019-01-07T13:33:52.378+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:33:52.377+0000"), 
+    "name" : "PRAVEEN.C.JAIN.jpeg", 
+    "size" : NumberInt(80156), 
+    "storageName" : "6c199c5f-4827-4360-ac9c-e065e0c17862.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/6c199c5f-4827-4360-ac9c-e065e0c17862.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/6c199c5f-4827-4360-ac9c-e065e0c17862.jpeg?generation=1546868032362399&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33555517878329ac0dad94"), 
+    "createdAt" : ISODate("2019-01-07T13:34:13.593+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:34:13.593+0000"), 
+    "name" : "VINOD.RANKA.jpeg", 
+    "size" : NumberInt(76025), 
+    "storageName" : "efb6c28d-a7a2-4469-ae4f-9c16e152b287.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/efb6c28d-a7a2-4469-ae4f-9c16e152b287.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/efb6c28d-a7a2-4469-ae4f-9c16e152b287.jpeg?generation=1546868053578684&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33557117878329ac0dad9b"), 
+    "createdAt" : ISODate("2019-01-07T13:34:41.936+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:34:41.936+0000"), 
+    "name" : "VINOD JAIN.jpeg", 
+    "size" : NumberInt(39266), 
+    "storageName" : "9a870fda-8115-4a83-b0f2-96293da50b1e.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/9a870fda-8115-4a83-b0f2-96293da50b1e.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/9a870fda-8115-4a83-b0f2-96293da50b1e.jpeg?generation=1546868081712941&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3355a917878329ac0dada3"), 
+    "createdAt" : ISODate("2019-01-07T13:35:37.067+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:35:37.067+0000"), 
+    "name" : "VIKRAM.SANGVI.jpeg", 
+    "size" : NumberInt(99635), 
+    "storageName" : "c326ac21-4a6d-4a85-bf36-42f4610950c7.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/c326ac21-4a6d-4a85-bf36-42f4610950c7.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/c326ac21-4a6d-4a85-bf36-42f4610950c7.jpeg?generation=1546868137051781&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3355ba17878329ac0dadab"), 
+    "createdAt" : ISODate("2019-01-07T13:35:54.739+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:35:54.739+0000"), 
+    "name" : "VIKESH.SETH.jpeg", 
+    "size" : NumberInt(96215), 
+    "storageName" : "a5e51c09-9226-47f6-ac29-1b4dd67c4ab1.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/a5e51c09-9226-47f6-ac29-1b4dd67c4ab1.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/a5e51c09-9226-47f6-ac29-1b4dd67c4ab1.jpeg?generation=1546868154724417&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3355d417878329ac0dadb2"), 
+    "createdAt" : ISODate("2019-01-07T13:36:20.748+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:36:20.748+0000"), 
+    "name" : "VICKY SALECHA.jpeg", 
+    "size" : NumberInt(96790), 
+    "storageName" : "2d5da382-253d-4de0-84d6-8d90277b1350.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/2d5da382-253d-4de0-84d6-8d90277b1350.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/2d5da382-253d-4de0-84d6-8d90277b1350.jpeg?generation=1546868180734042&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3355ec17878329ac0dadb9"), 
+    "createdAt" : ISODate("2019-01-07T13:36:44.960+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:36:44.960+0000"), 
+    "name" : "SHRENIK .VANIGOTA.jpeg", 
+    "size" : NumberInt(76541), 
+    "storageName" : "44eab3cd-c1e4-4461-b3cb-65f87ebb7b01.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/44eab3cd-c1e4-4461-b3cb-65f87ebb7b01.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/44eab3cd-c1e4-4461-b3cb-65f87ebb7b01.jpeg?generation=1546868204944183&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33560817878329ac0dadc0"), 
+    "createdAt" : ISODate("2019-01-07T13:37:12.526+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:37:12.526+0000"), 
+    "name" : "SHIRISH.SALECHA.jpeg", 
+    "size" : NumberInt(55882), 
+    "storageName" : "f601c454-ecb9-4013-bd5a-65354bf05e88.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/f601c454-ecb9-4013-bd5a-65354bf05e88.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/f601c454-ecb9-4013-bd5a-65354bf05e88.jpeg?generation=1546868232510461&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33562717878329ac0dadc7"), 
+    "createdAt" : ISODate("2019-01-07T13:37:43.260+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:37:43.260+0000"), 
+    "name" : "SHAILESH.P BOHRA.jpeg", 
+    "size" : NumberInt(97994), 
+    "storageName" : "f0d57a73-8cdd-4163-a198-902f511bc187.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/f0d57a73-8cdd-4163-a198-902f511bc187.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/f0d57a73-8cdd-4163-a198-902f511bc187.jpeg?generation=1546868263245346&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33563817878329ac0dadce"), 
+    "createdAt" : ISODate("2019-01-07T13:38:00.821+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:38:00.821+0000"), 
+    "name" : "SHAILESH.S.BOHRA.jpeg", 
+    "size" : NumberInt(80695), 
+    "storageName" : "19e406ed-d961-4c56-bed8-140125bf8faf.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/19e406ed-d961-4c56-bed8-140125bf8faf.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/19e406ed-d961-4c56-bed8-140125bf8faf.jpeg?generation=1546868280801277&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33564a17878329ac0dadd5"), 
+    "createdAt" : ISODate("2019-01-07T13:38:18.695+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:38:18.695+0000"), 
+    "name" : "SHAILESH.BAFNA.jpeg", 
+    "size" : NumberInt(82154), 
+    "storageName" : "d6599f30-83e9-4e96-8c88-e50f78a5b553.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/d6599f30-83e9-4e96-8c88-e50f78a5b553.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/d6599f30-83e9-4e96-8c88-e50f78a5b553.jpeg?generation=1546868298678338&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33565d17878329ac0daddc"), 
+    "createdAt" : ISODate("2019-01-07T13:38:37.741+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:38:37.741+0000"), 
+    "name" : "SANJAY.DHOKAD.jpeg", 
+    "size" : NumberInt(76573), 
+    "storageName" : "ffaa4733-f291-4c1e-a57f-0d7edb60128a.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/ffaa4733-f291-4c1e-a57f-0d7edb60128a.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/ffaa4733-f291-4c1e-a57f-0d7edb60128a.jpeg?generation=1546868317724716&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33569917878329ac0dade4"), 
+    "createdAt" : ISODate("2019-01-07T13:39:37.364+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:39:37.364+0000"), 
+    "name" : "RAVI VARDHAN.jpeg", 
+    "size" : NumberInt(43281), 
+    "storageName" : "10f58e21-9bf4-4dc1-8c86-be028a79504f.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/10f58e21-9bf4-4dc1-8c86-be028a79504f.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/10f58e21-9bf4-4dc1-8c86-be028a79504f.jpeg?generation=1546868377344685&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3356af17878329ac0dadeb"), 
+    "createdAt" : ISODate("2019-01-07T13:39:59.683+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:39:59.683+0000"), 
+    "name" : "RITESH SHAH.jpeg", 
+    "size" : NumberInt(51832), 
+    "storageName" : "3979eb15-ccf0-477b-a081-1324de664bc7.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/3979eb15-ccf0-477b-a081-1324de664bc7.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/3979eb15-ccf0-477b-a081-1324de664bc7.jpeg?generation=1546868399666700&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3356d017878329ac0dadf3"), 
+    "createdAt" : ISODate("2019-01-07T13:40:32.644+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:40:32.644+0000"), 
+    "name" : "RAKESH.KOTHARI.jpeg", 
+    "size" : NumberInt(91399), 
+    "storageName" : "d1069580-3005-4f73-b05b-320656ba2c12.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/d1069580-3005-4f73-b05b-320656ba2c12.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/d1069580-3005-4f73-b05b-320656ba2c12.jpeg?generation=1546868432627946&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33570e17878329ac0dadfa"), 
+    "createdAt" : ISODate("2019-01-07T13:41:34.080+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:41:34.080+0000"), 
+    "name" : "RAJESH.JOGANI.jpeg", 
+    "size" : NumberInt(86276), 
+    "storageName" : "710d5b44-9625-4245-9498-55e132b31715.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/710d5b44-9625-4245-9498-55e132b31715.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/710d5b44-9625-4245-9498-55e132b31715.jpeg?generation=1546868494062932&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33572e17878329ac0dae02"), 
+    "createdAt" : ISODate("2019-01-07T13:42:06.502+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:42:06.502+0000"), 
+    "name" : "RITESH.BAFNA.jpeg", 
+    "size" : NumberInt(74680), 
+    "storageName" : "7b208bbd-7755-4dfc-8aae-d8ea8cec746a.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/7b208bbd-7755-4dfc-8aae-d8ea8cec746a.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/7b208bbd-7755-4dfc-8aae-d8ea8cec746a.jpeg?generation=1546868526483979&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33578f17878329ac0dae15"), 
+    "createdAt" : ISODate("2019-01-07T13:43:43.035+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:43:43.035+0000"), 
+    "name" : "BHARAT B MEHTA.jpeg", 
+    "size" : NumberInt(103377), 
+    "storageName" : "16fd75e5-651e-4511-89cf-6e4bab47e1d5.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/16fd75e5-651e-4511-89cf-6e4bab47e1d5.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/16fd75e5-651e-4511-89cf-6e4bab47e1d5.jpeg?generation=1546868623019371&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3357cc17878329ac0dae22"), 
+    "createdAt" : ISODate("2019-01-07T13:44:44.246+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:44:44.246+0000"), 
+    "name" : "PRAVIN.M.VANIGOTA.jpeg", 
+    "size" : NumberInt(84708), 
+    "storageName" : "aa5f2e4e-b2a7-4799-ab4d-185a6c8605e1.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/aa5f2e4e-b2a7-4799-ab4d-185a6c8605e1.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/aa5f2e4e-b2a7-4799-ab4d-185a6c8605e1.jpeg?generation=1546868684229541&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3357ee17878329ac0dae29"), 
+    "createdAt" : ISODate("2019-01-07T13:45:18.974+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:45:18.974+0000"), 
+    "name" : "MUKESH.JAIN.jpeg", 
+    "size" : NumberInt(89515), 
+    "storageName" : "52675294-f8e9-4d48-b65b-4d107d80c60e.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/52675294-f8e9-4d48-b65b-4d107d80c60e.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/52675294-f8e9-4d48-b65b-4d107d80c60e.jpeg?generation=1546868718958918&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33581317878329ac0dae31"), 
+    "createdAt" : ISODate("2019-01-07T13:45:55.247+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:45:55.247+0000"), 
+    "name" : "MUKESH BAFNA.jpeg", 
+    "size" : NumberInt(48633), 
+    "storageName" : "65412130-af87-4258-bb3b-e6674ee66a9e.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/65412130-af87-4258-bb3b-e6674ee66a9e.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/65412130-af87-4258-bb3b-e6674ee66a9e.jpeg?generation=1546868755230946&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33582217878329ac0dae38"), 
+    "createdAt" : ISODate("2019-01-07T13:46:10.456+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:46:10.456+0000"), 
+    "name" : "MUKESH BAFNA.jpeg", 
+    "size" : NumberInt(48633), 
+    "storageName" : "e544f1e6-224c-4575-a710-c5d1689b08c8.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/e544f1e6-224c-4575-a710-c5d1689b08c8.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/e544f1e6-224c-4575-a710-c5d1689b08c8.jpeg?generation=1546868770438675&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33583a17878329ac0dae3f"), 
+    "createdAt" : ISODate("2019-01-07T13:46:34.491+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:46:34.491+0000"), 
+    "name" : "MUKESH RANKA.jpeg", 
+    "size" : NumberInt(84334), 
+    "storageName" : "9ed45aae-6253-418c-b333-9d18e40a989b.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/9ed45aae-6253-418c-b333-9d18e40a989b.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/9ed45aae-6253-418c-b333-9d18e40a989b.jpeg?generation=1546868794472896&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33588217878329ac0dae46"), 
+    "createdAt" : ISODate("2019-01-07T13:47:46.789+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:47:46.789+0000"), 
+    "name" : "PRAVEEN.C.JAIN.jpeg", 
+    "size" : NumberInt(80156), 
+    "storageName" : "fe87112a-e9f1-42d8-9fb2-7400b7bbdbc9.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/fe87112a-e9f1-42d8-9fb2-7400b7bbdbc9.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/fe87112a-e9f1-42d8-9fb2-7400b7bbdbc9.jpeg?generation=1546868866773883&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3358a117878329ac0dae53"), 
+    "createdAt" : ISODate("2019-01-07T13:48:17.370+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:48:17.370+0000"), 
+    "name" : "PRAVIN.JAIN ( Haran ).jpeg", 
+    "size" : NumberInt(69764), 
+    "storageName" : "612cce84-6875-48af-9ab8-93bfb2b930a6.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/612cce84-6875-48af-9ab8-93bfb2b930a6.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/612cce84-6875-48af-9ab8-93bfb2b930a6.jpeg?generation=1546868897353705&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3358d217878329ac0dae5a"), 
+    "createdAt" : ISODate("2019-01-07T13:49:06.281+0000"), 
+    "updatedAt" : ISODate("2019-01-07T13:49:06.281+0000"), 
+    "name" : "KIRAN RANKA.jpeg", 
+    "size" : NumberInt(45573), 
+    "storageName" : "e60a3d82-b6c2-48ee-8234-dc8f28ca5af6.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/e60a3d82-b6c2-48ee-8234-dc8f28ca5af6.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/e60a3d82-b6c2-48ee-8234-dc8f28ca5af6.jpeg?generation=1546868946256818&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c335ba117878329ac0dae7a"), 
+    "createdAt" : ISODate("2019-01-07T14:01:05.628+0000"), 
+    "updatedAt" : ISODate("2019-01-07T14:01:05.628+0000"), 
+    "name" : "IMG-20190107-WA0025.jpg", 
+    "size" : NumberInt(43552), 
+    "storageName" : "adab96c3-9c21-42a0-919a-8188210a7a02.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/adab96c3-9c21-42a0-919a-8188210a7a02.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/adab96c3-9c21-42a0-919a-8188210a7a02.jpg?generation=1546869665611574&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c335bae17878329ac0dae81"), 
+    "createdAt" : ISODate("2019-01-07T14:01:18.161+0000"), 
+    "updatedAt" : ISODate("2019-01-07T14:01:18.161+0000"), 
+    "name" : "ANIL JAIN.jpeg", 
+    "size" : NumberInt(38493), 
+    "storageName" : "c6fb0e56-8714-4552-be4b-79cc7be9535f.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/c6fb0e56-8714-4552-be4b-79cc7be9535f.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/c6fb0e56-8714-4552-be4b-79cc7be9535f.jpeg?generation=1546869678145650&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c335cb017878329ac0dae94"), 
+    "createdAt" : ISODate("2019-01-07T14:05:36.311+0000"), 
+    "updatedAt" : ISODate("2019-01-07T14:05:36.311+0000"), 
+    "name" : "RAVI VARDHAN.jpeg", 
+    "size" : NumberInt(43281), 
+    "storageName" : "815f3d24-d4b9-45d2-9a6f-7c03d2d2ed54.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/815f3d24-d4b9-45d2-9a6f-7c03d2d2ed54.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/815f3d24-d4b9-45d2-9a6f-7c03d2d2ed54.jpeg?generation=1546869936294804&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33616117878329ac0daeb8"), 
+    "createdAt" : ISODate("2019-01-07T14:25:37.873+0000"), 
+    "updatedAt" : ISODate("2019-01-07T14:25:37.873+0000"), 
+    "name" : " RAVI.C.RANKA.jpeg", 
+    "size" : NumberInt(72569), 
+    "storageName" : "0e2cb9fd-03e3-451d-901f-61c8f1dc0601.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/0e2cb9fd-03e3-451d-901f-61c8f1dc0601.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/0e2cb9fd-03e3-451d-901f-61c8f1dc0601.jpeg?generation=1546871137857333&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33675b17878329ac0daf47"), 
+    "createdAt" : ISODate("2019-01-07T14:51:07.545+0000"), 
+    "updatedAt" : ISODate("2019-01-07T14:51:07.545+0000"), 
+    "name" : "BHARAT B MEHTA.jpeg", 
+    "size" : NumberInt(103377), 
+    "storageName" : "2d0447b5-a143-4259-a8a9-0f833f46dc62.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/2d0447b5-a143-4259-a8a9-0f833f46dc62.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/2d0447b5-a143-4259-a8a9-0f833f46dc62.jpeg?generation=1546872667528911&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33679817878329ac0daf4e"), 
+    "createdAt" : ISODate("2019-01-07T14:52:08.167+0000"), 
+    "updatedAt" : ISODate("2019-01-07T14:52:08.167+0000"), 
+    "name" : "PRAVIN.CHOPRA.jpeg", 
+    "size" : NumberInt(87675), 
+    "storageName" : "c646736b-2a00-4229-8f62-ba543822d750.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/c646736b-2a00-4229-8f62-ba543822d750.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/c646736b-2a00-4229-8f62-ba543822d750.jpeg?generation=1546872728151243&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c33706817878329ac0db006"), 
+    "createdAt" : ISODate("2019-01-07T15:29:44.322+0000"), 
+    "updatedAt" : ISODate("2019-01-07T15:29:44.322+0000"), 
+    "name" : "RAJESH.BAFNA.jpeg", 
+    "size" : NumberInt(102569), 
+    "storageName" : "44a2bdb3-3cf2-46b1-b1b8-7e7b6c87067a.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/44a2bdb3-3cf2-46b1-b1b8-7e7b6c87067a.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/44a2bdb3-3cf2-46b1-b1b8-7e7b6c87067a.jpeg?generation=1546874984305989&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c3377f317878329ac0db09a"), 
+    "createdAt" : ISODate("2019-01-07T16:01:55.243+0000"), 
+    "updatedAt" : ISODate("2019-01-07T16:01:55.243+0000"), 
+    "name" : "RAVI VARDHAN.jpeg", 
+    "size" : NumberInt(26168), 
+    "storageName" : "9239f915-24d4-4688-b4ae-1fd03fb897c3.jpeg", 
+    "location" : "https://storage.googleapis.com/auction-house/9239f915-24d4-4688-b4ae-1fd03fb897c3.jpeg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/9239f915-24d4-4688-b4ae-1fd03fb897c3.jpeg?generation=1546876915221085&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c7a19b540326a6880be8a9c"), 
+    "createdAt" : ISODate("2019-03-02T05:50:45.285+0000"), 
+    "updatedAt" : ISODate("2019-03-02T05:50:45.285+0000"), 
+    "name" : "Home-banner_1.jpg", 
+    "size" : NumberInt(101747), 
+    "storageName" : "924a4855-f2bc-483b-a37c-922793fc405c.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/924a4855-f2bc-483b-a37c-922793fc405c.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/924a4855-f2bc-483b-a37c-922793fc405c.jpg?generation=1551505845263609&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c7a19b940326a6880be8a9d"), 
+    "createdAt" : ISODate("2019-03-02T05:50:49.104+0000"), 
+    "updatedAt" : ISODate("2019-03-02T05:50:49.104+0000"), 
+    "name" : "Home-banner.jpg", 
+    "size" : NumberInt(79969), 
+    "storageName" : "1ac84e88-619c-4d6b-a3e0-cd6876cdbdd6.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/1ac84e88-619c-4d6b-a3e0-cd6876cdbdd6.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/1ac84e88-619c-4d6b-a3e0-cd6876cdbdd6.jpg?generation=1551505849083766&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0b65ef4868947bddb7ce10"), 
+    "createdAt" : ISODate("2019-06-20T10:54:39.714+0000"), 
+    "updatedAt" : ISODate("2019-06-20T10:54:39.714+0000"), 
+    "name" : "template.jpg", 
+    "size" : NumberInt(16813), 
+    "storageName" : "223dd63e-d054-47d9-ab8d-a49ac95e206f.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/223dd63e-d054-47d9-ab8d-a49ac95e206f.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/223dd63e-d054-47d9-ab8d-a49ac95e206f.jpg?generation=1561028079692076&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0b66784868947bddb7ce15"), 
+    "createdAt" : ISODate("2019-06-20T10:56:56.263+0000"), 
+    "updatedAt" : ISODate("2019-06-20T10:56:56.263+0000"), 
+    "name" : "template (1).jpg", 
+    "size" : NumberInt(22361), 
+    "storageName" : "c0847820-a8ed-40e2-8507-c4ae33789c6c.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/c0847820-a8ed-40e2-8507-c4ae33789c6c.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/c0847820-a8ed-40e2-8507-c4ae33789c6c.jpg?generation=1561028216241400&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0b667e4868947bddb7ce16"), 
+    "createdAt" : ISODate("2019-06-20T10:57:02.181+0000"), 
+    "updatedAt" : ISODate("2019-06-20T10:57:02.181+0000"), 
+    "name" : "template (1).jpg", 
+    "size" : NumberInt(22361), 
+    "storageName" : "ac93a04b-bebd-4808-be1b-7e38ab1108ab.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/ac93a04b-bebd-4808-be1b-7e38ab1108ab.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/ac93a04b-bebd-4808-be1b-7e38ab1108ab.jpg?generation=1561028222162410&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0b66824868947bddb7ce17"), 
+    "createdAt" : ISODate("2019-06-20T10:57:06.477+0000"), 
+    "updatedAt" : ISODate("2019-06-20T10:57:06.477+0000"), 
+    "name" : "template (1).jpg", 
+    "size" : NumberInt(22361), 
+    "storageName" : "122ea005-b492-4745-8521-e032fd0db2de.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/122ea005-b492-4745-8521-e032fd0db2de.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/122ea005-b492-4745-8521-e032fd0db2de.jpg?generation=1561028226462031&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0b7f054868947bddb7cefd"), 
+    "createdAt" : ISODate("2019-06-20T12:41:41.370+0000"), 
+    "updatedAt" : ISODate("2019-06-20T12:41:41.370+0000"), 
+    "name" : "samplecategorydetail-Jun-20-2019-12-30-44-pm.xlsx", 
+    "size" : NumberInt(12019), 
+    "storageName" : "197a90e6-c66f-4a05-8ed5-486b2d244bc0.xlsx", 
+    "location" : "https://storage.googleapis.com/auction-house/197a90e6-c66f-4a05-8ed5-486b2d244bc0.xlsx", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/197a90e6-c66f-4a05-8ed5-486b2d244bc0.xlsx?generation=1561034501350173&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f34204868947bddb7d027"), 
+    "createdAt" : ISODate("2019-06-23T08:11:12.257+0000"), 
+    "updatedAt" : ISODate("2019-06-23T08:11:12.257+0000"), 
+    "name" : "samplecategorydetail-Jun-20-2019-12-30-44-pm.xlsx", 
+    "size" : NumberInt(11863), 
+    "storageName" : "e8e6bc6e-dcf2-4baf-bc74-7a563c4af1c0.xlsx", 
+    "location" : "https://storage.googleapis.com/auction-house/e8e6bc6e-dcf2-4baf-bc74-7a563c4af1c0.xlsx", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/e8e6bc6e-dcf2-4baf-bc74-7a563c4af1c0.xlsx?generation=1561277472238313&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f420b4868947bddb7d1e8"), 
+    "createdAt" : ISODate("2019-06-23T09:10:35.775+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:10:35.775+0000"), 
+    "name" : "template (2).jpg", 
+    "size" : NumberInt(70996), 
+    "storageName" : "138b3c60-bcce-47bb-a996-aa59df1f2674.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/138b3c60-bcce-47bb-a996-aa59df1f2674.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/138b3c60-bcce-47bb-a996-aa59df1f2674.jpg?generation=1561281035748905&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42104868947bddb7d1e9"), 
+    "createdAt" : ISODate("2019-06-23T09:10:40.141+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:10:40.141+0000"), 
+    "name" : "template (8).jpg", 
+    "size" : NumberInt(12468), 
+    "storageName" : "2b502ca3-09b1-4d9f-8785-12d6a56f0aff.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/2b502ca3-09b1-4d9f-8785-12d6a56f0aff.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/2b502ca3-09b1-4d9f-8785-12d6a56f0aff.jpg?generation=1561281040108111&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42524868947bddb7d1ef"), 
+    "createdAt" : ISODate("2019-06-23T09:11:46.491+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:11:46.491+0000"), 
+    "name" : "template (8).jpg", 
+    "size" : NumberInt(12468), 
+    "storageName" : "8be0a35e-f55e-4cb5-85e8-6ef3a6ddbf4b.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/8be0a35e-f55e-4cb5-85e8-6ef3a6ddbf4b.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/8be0a35e-f55e-4cb5-85e8-6ef3a6ddbf4b.jpg?generation=1561281106472755&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42554868947bddb7d1f0"), 
+    "createdAt" : ISODate("2019-06-23T09:11:49.860+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:11:49.860+0000"), 
+    "name" : "template (2).jpg", 
+    "size" : NumberInt(70996), 
+    "storageName" : "e290497f-b70b-4537-8392-c032f2380137.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/e290497f-b70b-4537-8392-c032f2380137.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/e290497f-b70b-4537-8392-c032f2380137.jpg?generation=1561281109843622&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42694868947bddb7d1f9"), 
+    "createdAt" : ISODate("2019-06-23T09:12:09.832+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:12:09.832+0000"), 
+    "name" : "template (9).jpg", 
+    "size" : NumberInt(12225), 
+    "storageName" : "6220ed81-d728-4a35-99ea-3ed1b3a9b07e.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/6220ed81-d728-4a35-99ea-3ed1b3a9b07e.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/6220ed81-d728-4a35-99ea-3ed1b3a9b07e.jpg?generation=1561281129816322&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f426d4868947bddb7d1fa"), 
+    "createdAt" : ISODate("2019-06-23T09:12:13.989+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:12:13.989+0000"), 
+    "name" : "template (1).jpg", 
+    "size" : NumberInt(72363), 
+    "storageName" : "f1a1f02d-2d2a-4488-8a17-ee2644f21951.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/f1a1f02d-2d2a-4488-8a17-ee2644f21951.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/f1a1f02d-2d2a-4488-8a17-ee2644f21951.jpg?generation=1561281133973582&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42814868947bddb7d1fb"), 
+    "createdAt" : ISODate("2019-06-23T09:12:33.985+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:12:33.985+0000"), 
+    "name" : "template.jpg", 
+    "size" : NumberInt(66637), 
+    "storageName" : "290ac78c-6a41-42ae-95da-ed1aa270a9d4.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/290ac78c-6a41-42ae-95da-ed1aa270a9d4.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/290ac78c-6a41-42ae-95da-ed1aa270a9d4.jpg?generation=1561281153969435&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f428d4868947bddb7d200"), 
+    "createdAt" : ISODate("2019-06-23T09:12:45.558+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:12:45.558+0000"), 
+    "name" : "template (10).jpg", 
+    "size" : NumberInt(13211), 
+    "storageName" : "d1f4403f-62f9-4246-85e8-b57f0be5d0f4.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/d1f4403f-62f9-4246-85e8-b57f0be5d0f4.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/d1f4403f-62f9-4246-85e8-b57f0be5d0f4.jpg?generation=1561281165539985&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42914868947bddb7d201"), 
+    "createdAt" : ISODate("2019-06-23T09:12:49.985+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:12:49.985+0000"), 
+    "name" : "template (1).jpg", 
+    "size" : NumberInt(72363), 
+    "storageName" : "8e7011b1-6304-4193-9fa2-6474559b5e05.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/8e7011b1-6304-4193-9fa2-6474559b5e05.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/8e7011b1-6304-4193-9fa2-6474559b5e05.jpg?generation=1561281169968073&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42b54868947bddb7d20a"), 
+    "createdAt" : ISODate("2019-06-23T09:13:25.097+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:13:25.096+0000"), 
+    "name" : "template (11).jpg", 
+    "size" : NumberInt(13284), 
+    "storageName" : "824eecd1-8db0-4f58-a1c7-1045c2e9bd00.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/824eecd1-8db0-4f58-a1c7-1045c2e9bd00.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/824eecd1-8db0-4f58-a1c7-1045c2e9bd00.jpg?generation=1561281205079247&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42ba4868947bddb7d20b"), 
+    "createdAt" : ISODate("2019-06-23T09:13:30.117+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:13:30.117+0000"), 
+    "name" : "template (3).jpg", 
+    "size" : NumberInt(61481), 
+    "storageName" : "88f72710-e004-4e09-b9ac-2b3e437709f9.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/88f72710-e004-4e09-b9ac-2b3e437709f9.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/88f72710-e004-4e09-b9ac-2b3e437709f9.jpg?generation=1561281210100366&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42e44868947bddb7d210"), 
+    "createdAt" : ISODate("2019-06-23T09:14:12.015+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:14:12.015+0000"), 
+    "name" : "template (12).jpg", 
+    "size" : NumberInt(10354), 
+    "storageName" : "82f83f79-7f11-479f-9c43-b54e83718549.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/82f83f79-7f11-479f-9c43-b54e83718549.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/82f83f79-7f11-479f-9c43-b54e83718549.jpg?generation=1561281251998238&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f42f24868947bddb7d211"), 
+    "createdAt" : ISODate("2019-06-23T09:14:26.498+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:14:26.498+0000"), 
+    "name" : "template (4).jpg", 
+    "size" : NumberInt(51606), 
+    "storageName" : "a2e50dae-0a95-4884-8d0a-96cde2922fb6.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/a2e50dae-0a95-4884-8d0a-96cde2922fb6.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/a2e50dae-0a95-4884-8d0a-96cde2922fb6.jpg?generation=1561281266483345&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f43054868947bddb7d21a"), 
+    "createdAt" : ISODate("2019-06-23T09:14:45.162+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:14:45.162+0000"), 
+    "name" : "template (13).jpg", 
+    "size" : NumberInt(17906), 
+    "storageName" : "5fbd8520-bb47-402e-912b-a9df1286b4b2.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/5fbd8520-bb47-402e-912b-a9df1286b4b2.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/5fbd8520-bb47-402e-912b-a9df1286b4b2.jpg?generation=1561281285146839&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f430a4868947bddb7d21b"), 
+    "createdAt" : ISODate("2019-06-23T09:14:50.714+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:14:50.714+0000"), 
+    "name" : "template (5).jpg", 
+    "size" : NumberInt(74465), 
+    "storageName" : "8f2c5e9a-58ea-415c-b396-a45785becc07.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/8f2c5e9a-58ea-415c-b396-a45785becc07.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/8f2c5e9a-58ea-415c-b396-a45785becc07.jpg?generation=1561281290697262&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f431d4868947bddb7d220"), 
+    "createdAt" : ISODate("2019-06-23T09:15:09.385+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:15:09.385+0000"), 
+    "name" : "template (14).jpg", 
+    "size" : NumberInt(14861), 
+    "storageName" : "70f3feca-89a1-47a7-8be2-87d5485bb413.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/70f3feca-89a1-47a7-8be2-87d5485bb413.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/70f3feca-89a1-47a7-8be2-87d5485bb413.jpg?generation=1561281309364590&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f43224868947bddb7d221"), 
+    "createdAt" : ISODate("2019-06-23T09:15:14.811+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:15:14.811+0000"), 
+    "name" : "template (6).jpg", 
+    "size" : NumberInt(68155), 
+    "storageName" : "3d0d9545-0a67-4d62-a5fb-ba5d917e6904.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/3d0d9545-0a67-4d62-a5fb-ba5d917e6904.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/3d0d9545-0a67-4d62-a5fb-ba5d917e6904.jpg?generation=1561281314795306&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f432f4868947bddb7d226"), 
+    "createdAt" : ISODate("2019-06-23T09:15:27.791+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:15:27.791+0000"), 
+    "name" : "template (15).jpg", 
+    "size" : NumberInt(13152), 
+    "storageName" : "ed43aca2-b93b-4f54-9e35-1da06a70c046.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/ed43aca2-b93b-4f54-9e35-1da06a70c046.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/ed43aca2-b93b-4f54-9e35-1da06a70c046.jpg?generation=1561281327776455&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d0f43354868947bddb7d227"), 
+    "createdAt" : ISODate("2019-06-23T09:15:33.306+0000"), 
+    "updatedAt" : ISODate("2019-06-23T09:15:33.306+0000"), 
+    "name" : "template (7).jpg", 
+    "size" : NumberInt(61815), 
+    "storageName" : "bce69956-0ef6-4306-a471-bfbb0026611c.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/bce69956-0ef6-4306-a471-bfbb0026611c.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/bce69956-0ef6-4306-a471-bfbb0026611c.jpg?generation=1561281333289979&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf1c2f1122887b10f7f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:13.964+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:13.964+0000"), 
+    "name" : "Adidas import.xlsx", 
+    "size" : NumberInt(15354), 
+    "storageName" : "e59087d8-156b-4cfb-be6f-2d899a9da405.xlsx", 
+    "location" : "https://storage.googleapis.com/auction-house/e59087d8-156b-4cfb-be6f-2d899a9da405.xlsx", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/e59087d8-156b-4cfb-be6f-2d899a9da405.xlsx?generation=1561381873940654&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d18433fc2f1122887b11110"), 
+    "createdAt" : ISODate("2019-06-30T05:06:07.868+0000"), 
+    "updatedAt" : ISODate("2019-06-30T05:06:07.868+0000"), 
+    "name" : "template (8).jpg", 
+    "size" : NumberInt(12468), 
+    "storageName" : "d0c014db-2a0c-4e3d-ab43-bae7e353c905.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/d0c014db-2a0c-4e3d-ab43-bae7e353c905.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/d0c014db-2a0c-4e3d-ab43-bae7e353c905.jpg?generation=1561871167850622&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d184641c2f1122887b11126"), 
+    "createdAt" : ISODate("2019-06-30T05:18:57.762+0000"), 
+    "updatedAt" : ISODate("2019-06-30T05:18:57.762+0000"), 
+    "name" : "template (3).jpg", 
+    "size" : NumberInt(61481), 
+    "storageName" : "306a6194-c974-442b-9884-839e1e79930e.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/306a6194-c974-442b-9884-839e1e79930e.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/306a6194-c974-442b-9884-839e1e79930e.jpg?generation=1561871937742163&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d18685bc2f1122887b11135"), 
+    "createdAt" : ISODate("2019-06-30T07:44:27.040+0000"), 
+    "updatedAt" : ISODate("2019-06-30T07:44:27.040+0000"), 
+    "name" : "template (8).jpg", 
+    "size" : NumberInt(12468), 
+    "storageName" : "a1587c49-a1c6-4ebd-a231-cf3c1aa87dd3.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/a1587c49-a1c6-4ebd-a231-cf3c1aa87dd3.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/a1587c49-a1c6-4ebd-a231-cf3c1aa87dd3.jpg?generation=1561880667018689&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d18688fc2f1122887b1113d"), 
+    "createdAt" : ISODate("2019-06-30T07:45:19.847+0000"), 
+    "updatedAt" : ISODate("2019-06-30T07:45:19.846+0000"), 
+    "name" : "template (12).jpg", 
+    "size" : NumberInt(10354), 
+    "storageName" : "38a4f762-7c4c-42f5-aaa7-e38365dd67aa.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/38a4f762-7c4c-42f5-aaa7-e38365dd67aa.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/38a4f762-7c4c-42f5-aaa7-e38365dd67aa.jpg?generation=1561880719826558&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d18689ec2f1122887b11142"), 
+    "createdAt" : ISODate("2019-06-30T07:45:34.099+0000"), 
+    "updatedAt" : ISODate("2019-06-30T07:45:34.099+0000"), 
+    "name" : "template (11).jpg", 
+    "size" : NumberInt(13284), 
+    "storageName" : "d1fcea96-69d5-499c-b12b-6217ea08ef00.jpg", 
+    "location" : "https://storage.googleapis.com/auction-house/d1fcea96-69d5-499c-b12b-6217ea08ef00.jpg", 
+    "downloadLink" : "https://www.googleapis.com/download/storage/v1/b/auction-house/o/d1fcea96-69d5-499c-b12b-6217ea08ef00.jpg?generation=1561880734082700&alt=media", 
+    "sizes" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}

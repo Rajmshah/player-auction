@@ -1,0 +1,2605 @@
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f81"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.175+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.175+0000"), 
+    "playerName" : "ABDUL AJMAL", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f82"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.180+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.180+0000"), 
+    "playerName" : "ADNAN YALIGAR", 
+    "playerAge" : 8.5, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f83"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.181+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.181+0000"), 
+    "playerName" : "AKASH ANIL", 
+    "playerAge" : 8.2, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : true, 
+    "__v" : NumberInt(0), 
+    "minimumBasePriceValue" : NumberInt(0), 
+    "soldValue" : NumberInt(11000), 
+    "team" : ObjectId("5d10c967c2f1122887b10f55")
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f84"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.182+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.182+0000"), 
+    "playerName" : "ALUMAIR ANSARI", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f85"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.183+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.183+0000"), 
+    "playerName" : "AMIT G", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f86"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.184+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.184+0000"), 
+    "playerName" : "BLOECHER MENDES", 
+    "playerAge" : 8.5, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f87"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.185+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.185+0000"), 
+    "playerName" : "CLAYTON FERNANDES", 
+    "playerAge" : 8.5, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f88"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.186+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.186+0000"), 
+    "playerName" : "COSWIL CARDOZ", 
+    "playerAge" : 7.8, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f89"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.186+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.186+0000"), 
+    "playerName" : "DIVESH PAMNANI", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f8a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.187+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.187+0000"), 
+    "playerName" : "DYLAN MONTEIRO", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f8b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.188+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.188+0000"), 
+    "playerName" : "FAIZAN PATHAN", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f8c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.189+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.189+0000"), 
+    "playerName" : "ISMAIL ZABEEH", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f8d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.190+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.190+0000"), 
+    "playerName" : "KAMLESH NEGI", 
+    "playerAge" : 8.3, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f8e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.191+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.191+0000"), 
+    "playerName" : "KENRICK PERIERA", 
+    "playerAge" : 8.5, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f8f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.192+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.192+0000"), 
+    "playerName" : "MADAN TAKALIKAR", 
+    "playerAge" : 8.5, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f90"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.193+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.193+0000"), 
+    "playerName" : "MANTHAN GAONKAR", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f91"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.194+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.194+0000"), 
+    "playerName" : "MERWYN FERNANDES", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f92"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.194+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.194+0000"), 
+    "playerName" : "NELSON ARANHA", 
+    "playerAge" : 7.8, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f93"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.195+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.195+0000"), 
+    "playerName" : "NIVAS NAIK", 
+    "playerAge" : 7.8, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f94"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.196+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.196+0000"), 
+    "playerName" : "PRITISH ROONGTA", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f95"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.197+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.197+0000"), 
+    "playerName" : "REUBEN FERNANDES", 
+    "playerAge" : 8.5, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f96"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.198+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.198+0000"), 
+    "playerName" : "SAIRAJ NAIDU", 
+    "playerAge" : 8.5, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f97"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.199+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.199+0000"), 
+    "playerName" : "SANCHIT SHETTY", 
+    "playerAge" : 8.6, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f98"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.200+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.200+0000"), 
+    "playerName" : "SHAF SHAHID", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f99"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.200+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.200+0000"), 
+    "playerName" : "SHELDON MENEZES", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f9a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.201+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.201+0000"), 
+    "playerName" : "UTSAV BACHANI", 
+    "playerAge" : 8.5, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f9b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.202+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.202+0000"), 
+    "playerName" : "VARUN SEKHRI", 
+    "playerAge" : 8.3, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f9c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.203+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.203+0000"), 
+    "playerName" : "ZEESHAN SHAIKH", 
+    "playerAge" : 9.2, 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f9d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.204+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.204+0000"), 
+    "playerName" : "MOIN KHAN", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f9e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.205+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.205+0000"), 
+    "playerName" : "UMANG LAKHANI", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10f9f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.205+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.205+0000"), 
+    "playerName" : "CONAN ALMEIDA", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa0"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.206+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.206+0000"), 
+    "playerName" : "YASH MEHTA", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa1"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.207+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.207+0000"), 
+    "playerName" : "AHMEDALI MADRASWALA", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa2"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.208+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.208+0000"), 
+    "playerName" : "PRANAY CHALKE", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa3"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.209+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.209+0000"), 
+    "playerName" : "RISSHI RAMANATHKAR", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : true, 
+    "__v" : NumberInt(0), 
+    "minimumBasePriceValue" : NumberInt(0), 
+    "soldValue" : NumberInt(10001), 
+    "team" : ObjectId("5d10c967c2f1122887b10f55")
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa4"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.210+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.210+0000"), 
+    "playerName" : "VATSAL BHATIA", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa5"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.211+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.211+0000"), 
+    "playerName" : "SHOUNAK POTDAR", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa6"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.211+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.211+0000"), 
+    "playerName" : "MANAV DAMANI", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa7"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.212+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.212+0000"), 
+    "playerName" : "HARPRABH MALHOTRA", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa8"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.218+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.218+0000"), 
+    "playerName" : "VISHVAS DEO", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fa9"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.219+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.219+0000"), 
+    "playerName" : "SHAUN PAIS", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10faa"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.220+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.219+0000"), 
+    "playerName" : "NAVEEN PETER", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fab"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.220+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.220+0000"), 
+    "playerName" : "ROHIT KULSHRESTHA", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fac"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.221+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.221+0000"), 
+    "playerName" : "VATSAL SHARMA", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fad"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.225+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.225+0000"), 
+    "playerName" : "ANIRUDH MISHRA", 
+    "category" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fae"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.226+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.226+0000"), 
+    "playerName" : "AARISH MATCHESWALLA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10faf"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.226+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.226+0000"), 
+    "playerName" : "ABHIJIT SHETTY", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb0"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.227+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.227+0000"), 
+    "playerName" : "ABHISHEK BARTHWAL", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb1"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.228+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.228+0000"), 
+    "playerName" : "ABHISHEK PATIL", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb2"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.229+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.229+0000"), 
+    "playerName" : "ABHISHEK PATIL", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb3"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.229+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.229+0000"), 
+    "playerName" : "ABHISHEK SARMALKAR", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb4"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.231+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.231+0000"), 
+    "playerName" : "ABHISHEK WAGHELA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb5"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.231+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.231+0000"), 
+    "playerName" : "ADITHYA HEMNANI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb6"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.232+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.232+0000"), 
+    "playerName" : "ADITYA DIGHE", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb7"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.233+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.233+0000"), 
+    "playerName" : "ADITYA GOEL", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb8"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.234+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.234+0000"), 
+    "playerName" : "ADITYA METHIL", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fb9"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.235+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.235+0000"), 
+    "playerName" : "ADITYA SINGH", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fba"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.235+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.235+0000"), 
+    "playerName" : "AHAAN MALKANI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fbb"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.236+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.236+0000"), 
+    "playerName" : "AJAY SAROJ", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fbc"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.237+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.237+0000"), 
+    "playerName" : "AKSHAY DEVADIGA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fbd"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.238+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.238+0000"), 
+    "playerName" : "AKSHAY JAIN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fbe"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.238+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.238+0000"), 
+    "playerName" : "AKSHAY S PATIL", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fbf"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.239+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.239+0000"), 
+    "playerName" : "ALAN FERNANDES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc0"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.241+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.241+0000"), 
+    "playerName" : "ALAN RODRIGUES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc1"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.241+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.241+0000"), 
+    "playerName" : "ALLAN JOSEPH", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc2"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.242+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.242+0000"), 
+    "playerName" : "AMAN JANGID", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc3"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.243+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.243+0000"), 
+    "playerName" : "AMARTYA SINHA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc4"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.244+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.244+0000"), 
+    "playerName" : "ANAS BAIG", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc5"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.245+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.244+0000"), 
+    "playerName" : "ANDREW STELONE", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc6"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.245+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.245+0000"), 
+    "playerName" : "ANDY VON EICH", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc7"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.246+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.246+0000"), 
+    "playerName" : "ANMOL KAMERKAR", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc8"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.247+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.247+0000"), 
+    "playerName" : "APOORV BHAGAT", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fc9"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.248+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.248+0000"), 
+    "playerName" : "ARNAV CHOPRA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fca"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.248+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.248+0000"), 
+    "playerName" : "ARNOLD MISQUITTA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fcb"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.249+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.249+0000"), 
+    "playerName" : "ASHISH JADHAV", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fcc"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.250+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.250+0000"), 
+    "playerName" : "ASHISH WAKODE", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fcd"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.251+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.251+0000"), 
+    "playerName" : "ASHWIN SUBRAMANIAN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fce"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.252+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.251+0000"), 
+    "playerName" : "ASIF H KHAN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fcf"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.253+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.253+0000"), 
+    "playerName" : "ASIF KHAN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd0"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.254+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.254+0000"), 
+    "playerName" : "ATUL SHARMA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd1"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.255+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.255+0000"), 
+    "playerName" : "AVINASH PANDEY", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd2"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.255+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.255+0000"), 
+    "playerName" : "AZAM KHAN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd3"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.256+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.256+0000"), 
+    "playerName" : "BHAWESH JOSHI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd4"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.257+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.257+0000"), 
+    "playerName" : "BILAL ZAVERI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd5"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.258+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.258+0000"), 
+    "playerName" : "BOSCO DMELLO", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd6"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.258+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.258+0000"), 
+    "playerName" : "BRENDAN D'MELLO", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd7"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.259+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.259+0000"), 
+    "playerName" : "BRENDAN GOMENDES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd8"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.260+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.260+0000"), 
+    "playerName" : "BRIJRAJ ANAND", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fd9"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.266+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.266+0000"), 
+    "playerName" : "BRYAN FERNANDES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fda"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.267+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.267+0000"), 
+    "playerName" : "CARLTON MIRANDA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fdb"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.268+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.268+0000"), 
+    "playerName" : "CHIRAG MADAAN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fdc"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.269+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.269+0000"), 
+    "playerName" : "CHIRAG MASAND", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fdd"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.270+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.270+0000"), 
+    "playerName" : "CHIRANTAN JAIN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fde"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.270+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.270+0000"), 
+    "playerName" : "CONROY CONCESSIO", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fdf"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.271+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.271+0000"), 
+    "playerName" : "DANISH SALIM QUADRI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe0"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.275+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.275+0000"), 
+    "playerName" : "DANSTON RODRIGUES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe1"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.276+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.276+0000"), 
+    "playerName" : "DARREN SOANS", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe2"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.277+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.277+0000"), 
+    "playerName" : "DARSH JAIN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe3"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.277+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.277+0000"), 
+    "playerName" : "DARSHAN JAGTAP", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe4"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.278+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.278+0000"), 
+    "playerName" : "DARSHIT PATEL", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe5"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.286+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.286+0000"), 
+    "playerName" : "DEEP DAS", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe6"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.287+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.287+0000"), 
+    "playerName" : "DEEPAK WASHIST", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe7"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.287+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.287+0000"), 
+    "playerName" : "DERWIN FERNANDES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe8"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.288+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.288+0000"), 
+    "playerName" : "DEV SHETH", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fe9"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.296+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.296+0000"), 
+    "playerName" : "DEVRAJ SHASTRI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fea"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.297+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.297+0000"), 
+    "playerName" : "DHAVAL WAGHELA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10feb"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.298+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.298+0000"), 
+    "playerName" : "DHRISH SAGGI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fec"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.298+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.298+0000"), 
+    "playerName" : "DHRUVA MADHAVAN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fed"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.299+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.299+0000"), 
+    "playerName" : "DILSHAD AGWAN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fee"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.300+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.300+0000"), 
+    "playerName" : "DINESH KATARIA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fef"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.301+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.301+0000"), 
+    "playerName" : "FABIAN ANTHONY", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff0"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.301+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.301+0000"), 
+    "playerName" : "FAISAL QURESHI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff1"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.302+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.302+0000"), 
+    "playerName" : "FRANCO FERNANDES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff2"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.303+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.303+0000"), 
+    "playerName" : "GURJIT SINGH SOKHI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff3"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.304+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.304+0000"), 
+    "playerName" : "GURU NANI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff4"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.304+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.304+0000"), 
+    "playerName" : "HALWAI OSAMA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff5"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.305+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.305+0000"), 
+    "playerName" : "HANIF AZEEM KHAN", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff6"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.306+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.306+0000"), 
+    "playerName" : "HARISH KUNDAPUR", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff7"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.307+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.307+0000"), 
+    "playerName" : "HARSH GANDHI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff8"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.307+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.307+0000"), 
+    "playerName" : "HARSH RAGHANI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ff9"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.308+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.308+0000"), 
+    "playerName" : "HARSH SINGH", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ffa"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.309+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.309+0000"), 
+    "playerName" : "HITESH THAKUR", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ffb"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.310+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.310+0000"), 
+    "playerName" : "HRIDAY MEHTA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ffc"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.311+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.311+0000"), 
+    "playerName" : "HRUSHIKESH MURKUTE", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ffd"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.311+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.311+0000"), 
+    "playerName" : "HUSSAIN BADRI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10ffe"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.312+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.312+0000"), 
+    "playerName" : "HUSSAIN GHADIYALI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b10fff"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.313+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.313+0000"), 
+    "playerName" : "HUSSAIN LADHANI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11000"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.314+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.314+0000"), 
+    "playerName" : "IBADUR REHMAN HAQUE", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11001"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.314+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.314+0000"), 
+    "playerName" : "ISHAAN SAMEL", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11002"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.315+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.315+0000"), 
+    "playerName" : "JACK FERNANDES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11003"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.316+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.316+0000"), 
+    "playerName" : "JAGDISH LOBO", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11004"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.317+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.317+0000"), 
+    "playerName" : "JAHAN WALIA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11005"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.330+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.330+0000"), 
+    "playerName" : "JARRON FERNANDES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11006"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.331+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.331+0000"), 
+    "playerName" : "JASON D'SOUZA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11007"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.331+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.331+0000"), 
+    "playerName" : "JAY RAO", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11008"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.332+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.332+0000"), 
+    "playerName" : "JAY SHAH", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11009"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.333+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.333+0000"), 
+    "playerName" : "JENISH SATRA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1100a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.334+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.334+0000"), 
+    "playerName" : "JIMIT DOSHI", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1100b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.335+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.335+0000"), 
+    "playerName" : "JIVAN CHAND", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1100c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.336+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.336+0000"), 
+    "playerName" : "JOEL FERNANDES", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1100d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.336+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.336+0000"), 
+    "playerName" : "JONATHAN D'SOUZA", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1100e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.341+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.341+0000"), 
+    "playerName" : "JUGAL PANCHAL", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1100f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.342+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.342+0000"), 
+    "playerName" : "KAIF MUNEER", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11010"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.343+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.343+0000"), 
+    "playerName" : "KAPILESH SHIVMATH", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11011"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.344+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.344+0000"), 
+    "playerName" : "KARAN MONDKAR", 
+    "category" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11012"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.344+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.344+0000"), 
+    "playerName" : "KARTIK JOSHI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11013"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.345+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.345+0000"), 
+    "playerName" : "KARTIK MANDREKAR", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11014"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.347+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.347+0000"), 
+    "playerName" : "KASHISH KHAN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11015"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.348+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.348+0000"), 
+    "playerName" : "KAVAN JAGTIANIE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11016"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.349+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.349+0000"), 
+    "playerName" : "KAVEER RAY", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11017"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.350+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.350+0000"), 
+    "playerName" : "KETAN GADEKAR", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11018"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.350+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.350+0000"), 
+    "playerName" : "KEVIN GERHARDT", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11019"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.351+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.351+0000"), 
+    "playerName" : "KEVIN VERGHESE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1101a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.352+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.352+0000"), 
+    "playerName" : "KRISHNA YADAV", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1101b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.353+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.353+0000"), 
+    "playerName" : "KSHITIJ SAWANT", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1101c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.353+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.353+0000"), 
+    "playerName" : "KUNAL PILANKAR", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1101d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.354+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.354+0000"), 
+    "playerName" : "KUSH SHAH", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1101e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.355+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.355+0000"), 
+    "playerName" : "MADHUR ROKKAD", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1101f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.356+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.356+0000"), 
+    "playerName" : "MANVENDRA MISHRA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11020"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.357+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.357+0000"), 
+    "playerName" : "MARVEN PEREIRA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11021"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.357+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.357+0000"), 
+    "playerName" : "MAULIK DABHOLKAR", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11022"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.358+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.358+0000"), 
+    "playerName" : "MEHUL JAIN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11023"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.359+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.359+0000"), 
+    "playerName" : "MELROY RODRIGUES", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11024"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.360+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.360+0000"), 
+    "playerName" : "MELROY RODRIGUES", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11025"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.361+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.361+0000"), 
+    "playerName" : "MOHD FAZALUR REHMAN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11026"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.361+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.361+0000"), 
+    "playerName" : "MOHIT HULKOPKAR", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11027"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.365+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.362+0000"), 
+    "playerName" : "MOHIT OCHANI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11028"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.366+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.366+0000"), 
+    "playerName" : "MUSADDIQUE KHAN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11029"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.367+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.367+0000"), 
+    "playerName" : "NARAYANAN MURALIDHARAN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1102a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.377+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.377+0000"), 
+    "playerName" : "NAVNEET PALAV", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1102b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.378+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.378+0000"), 
+    "playerName" : "NEIL PATIL", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1102c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.379+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.379+0000"), 
+    "playerName" : "NICARNO BOOTHELLO", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1102d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.380+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.379+0000"), 
+    "playerName" : "NIKUNJ RELE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1102e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.385+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.385+0000"), 
+    "playerName" : "NILESH BALAKRISHNAN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1102f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.387+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.387+0000"), 
+    "playerName" : "NISHIT SHETTY", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11030"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.387+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.387+0000"), 
+    "playerName" : "NOEL GOMES", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11031"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.388+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.388+0000"), 
+    "playerName" : "OM SAMEL", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11032"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.389+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.389+0000"), 
+    "playerName" : "OSWALD DMELLO", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11033"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.390+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.390+0000"), 
+    "playerName" : "PAKSHAL SHAH", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11034"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.391+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.391+0000"), 
+    "playerName" : "PARITOSH GOHIL", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11035"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.391+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.391+0000"), 
+    "playerName" : "PAWAN PATTEM", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11036"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.392+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.392+0000"), 
+    "playerName" : "PRAMOD SHANKARAN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11037"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.393+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.393+0000"), 
+    "playerName" : "PRANEET NAKHARE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11038"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.394+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.394+0000"), 
+    "playerName" : "PRASAD MOLLETI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11039"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.395+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.395+0000"), 
+    "playerName" : "PRASAD SHETTY", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1103a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.396+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.396+0000"), 
+    "playerName" : "PRATHAMESH KAMBLE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1103b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.397+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.397+0000"), 
+    "playerName" : "PRATHAP SHETTY", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1103c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.397+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.397+0000"), 
+    "playerName" : "PRATIK BHATIA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1103d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.398+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.398+0000"), 
+    "playerName" : "PRATIK JADHAV", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1103e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.399+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.399+0000"), 
+    "playerName" : "PULAK SHUKLA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1103f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.400+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.400+0000"), 
+    "playerName" : "RAHUL KAPOOR", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11040"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.400+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.400+0000"), 
+    "playerName" : "RAHUL KHANNA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11041"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.401+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.401+0000"), 
+    "playerName" : "RAHUL SOLANKI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11042"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.402+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.402+0000"), 
+    "playerName" : "RAHUL VORA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11043"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.403+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.403+0000"), 
+    "playerName" : "RAJVEER KESARI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11044"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.412+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.412+0000"), 
+    "playerName" : "RAUNAQ GUNNER ANAND", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11045"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.413+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.413+0000"), 
+    "playerName" : "RAVI VUKK", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11046"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.413+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.413+0000"), 
+    "playerName" : "RAYAN THOMAS", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11047"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.417+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.417+0000"), 
+    "playerName" : "RIKHAV SHAH", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11048"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.418+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.418+0000"), 
+    "playerName" : "RISHABH AGARWAL", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11049"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.419+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.419+0000"), 
+    "playerName" : "RISHABH LUNIA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1104a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.419+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.419+0000"), 
+    "playerName" : "RISHI PARANJPE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1104b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.420+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.420+0000"), 
+    "playerName" : "RISHVEED SALI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1104c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.421+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.421+0000"), 
+    "playerName" : "RITHIK SINHA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1104d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.421+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.421+0000"), 
+    "playerName" : "ROBIN BAPTISTA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1104e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.422+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.422+0000"), 
+    "playerName" : "ROHAN SAWANT", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1104f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.423+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.423+0000"), 
+    "playerName" : "RONAK BALDAWA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11050"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.424+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.424+0000"), 
+    "playerName" : "RUPESH PANSARE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11051"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.424+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.424+0000"), 
+    "playerName" : "RYLAN RODRIGUES", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11052"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.425+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.425+0000"), 
+    "playerName" : "SAAHEB MACHRA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11053"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.426+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.426+0000"), 
+    "playerName" : "SAEEL GHUBE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11054"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.426+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.426+0000"), 
+    "playerName" : "SAGAR KUSHER", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11055"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.427+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.427+0000"), 
+    "playerName" : "SAGAR WAVLE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11056"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.428+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.428+0000"), 
+    "playerName" : "SAHIL CHOPRA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11057"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.429+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.429+0000"), 
+    "playerName" : "SAHIL PARIKH", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11058"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.429+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.429+0000"), 
+    "playerName" : "SALMAN DARBAR", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11059"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.430+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.430+0000"), 
+    "playerName" : "SANJU BHORE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1105a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.431+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.431+0000"), 
+    "playerName" : "SANKET BAMANE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1105b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.432+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.432+0000"), 
+    "playerName" : "SARANGSH NANDI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1105c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.432+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.432+0000"), 
+    "playerName" : "SATISH GUPTA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1105d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.433+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.433+0000"), 
+    "playerName" : "SAURABH NIKAM", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1105e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.434+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.434+0000"), 
+    "playerName" : "SAURAV KULKARNI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1105f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.434+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.434+0000"), 
+    "playerName" : "SHALIGRAM ANADKAT", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11060"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.435+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.435+0000"), 
+    "playerName" : "SHARAN SANIL", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11061"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.436+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.436+0000"), 
+    "playerName" : "SHAUN REBELLO", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11062"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.437+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.437+0000"), 
+    "playerName" : "SHAUNAK SHROTRI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11063"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.437+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.437+0000"), 
+    "playerName" : "SHAWN DSOUZA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11064"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.438+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.438+0000"), 
+    "playerName" : "SHEKHAR PATHAK", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11065"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.439+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.439+0000"), 
+    "playerName" : "SHIVA KANOJIA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11066"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.440+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.440+0000"), 
+    "playerName" : "SHUBH GUPTA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11067"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.441+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.441+0000"), 
+    "playerName" : "SHUBHAM CHHIPA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11068"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.441+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.441+0000"), 
+    "playerName" : "SIDDHARTH CASTELINO", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11069"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.442+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.442+0000"), 
+    "playerName" : "SIDDHARTH KUSHWAHA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1106a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.443+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.443+0000"), 
+    "playerName" : "SIDDHARTH MANCHANDANI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1106b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.444+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.444+0000"), 
+    "playerName" : "SIDDHIRAJ MANE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1106c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.445+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.445+0000"), 
+    "playerName" : "SOURAV SAHA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1106d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.446+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.446+0000"), 
+    "playerName" : "TAHAA KHAN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1106e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.447+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.447+0000"), 
+    "playerName" : "TANMAY CHALSE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1106f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.448+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.448+0000"), 
+    "playerName" : "TANMAY GODIAWALA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11070"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.448+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.448+0000"), 
+    "playerName" : "TANMAY SHEKHAR", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11071"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.449+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.449+0000"), 
+    "playerName" : "TARIQUE KHAN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11072"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.450+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.450+0000"), 
+    "playerName" : "TEJASH KOHLI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11073"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.451+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.451+0000"), 
+    "playerName" : "TIRTH SHUKLA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11074"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.451+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.451+0000"), 
+    "playerName" : "TOM MOTTERSHEAD", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11075"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.452+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.452+0000"), 
+    "playerName" : "TUSHAR BHOSALE", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11076"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.453+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.453+0000"), 
+    "playerName" : "TUSHAR SINGH", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11077"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.454+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.454+0000"), 
+    "playerName" : "UDAY BARAR", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11078"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.454+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.454+0000"), 
+    "playerName" : "UMAR BAJARIA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11079"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.455+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.455+0000"), 
+    "playerName" : "UTKARSH DESHMUKH", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1107a"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.456+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.456+0000"), 
+    "playerName" : "VARUN ADNANI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1107b"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.457+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.457+0000"), 
+    "playerName" : "VARUN VORA", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1107c"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.458+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.458+0000"), 
+    "playerName" : "VIRAJ RAMANATHAN", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1107d"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.458+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.458+0000"), 
+    "playerName" : "VISHAL PATIL", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1107e"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.459+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.459+0000"), 
+    "playerName" : "XAVIER SORIANO", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b1107f"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.460+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.460+0000"), 
+    "playerName" : "YASH DESAI", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbf3c2f1122887b11080"), 
+    "createdAt" : ISODate("2019-06-24T13:11:15.461+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:11:15.461+0000"), 
+    "playerName" : "ZAIN SAYED", 
+    "category" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "baseValue" : NumberInt(10000), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d14fb1fc2f1122887b110fa"), 
+    "createdAt" : ISODate("2019-06-27T17:21:35.306+0000"), 
+    "updatedAt" : ISODate("2019-06-27T17:21:35.306+0000"), 
+    "playerName" : "AADIL JAFFERBHOY", 
+    "playerAge" : NumberInt(8), 
+    "category" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "baseValue" : NumberInt(0), 
+    "isSold" : false, 
+    "__v" : NumberInt(0)
+}

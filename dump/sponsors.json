@@ -1,0 +1,26 @@
+{ 
+    "_id" : ObjectId("5d184342c2f1122887b11111"), 
+    "createdAt" : ISODate("2019-06-30T05:06:10.433+0000"), 
+    "updatedAt" : ISODate("2019-06-30T05:06:10.433+0000"), 
+    "active" : true, 
+    "name" : "Entertainment", 
+    "ownerName" : "Shiva Singh", 
+    "sponsorType" : "Event Partner", 
+    "order" : NumberInt(1), 
+    "link" : "google.com", 
+    "logo" : "5d18433fc2f1122887b11110", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d186860c2f1122887b11136"), 
+    "createdAt" : ISODate("2019-06-30T07:44:32.425+0000"), 
+    "updatedAt" : ISODate("2019-06-30T07:44:32.425+0000"), 
+    "active" : true, 
+    "name" : "Colgate", 
+    "ownerName" : "Shiva Singh", 
+    "sponsorType" : "Smiling Partner", 
+    "order" : NumberInt(2), 
+    "link" : "https://www.colgate.com/en-in", 
+    "logo" : "5d18685bc2f1122887b11135", 
+    "__v" : NumberInt(0)
+}

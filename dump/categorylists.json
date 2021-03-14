@@ -1,0 +1,28 @@
+{ 
+    "_id" : ObjectId("5d10ca80c2f1122887b10f75"), 
+    "createdAt" : ISODate("2019-06-24T13:05:04.497+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:05:04.497+0000"), 
+    "name" : "Marquee", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10ca89c2f1122887b10f77"), 
+    "createdAt" : ISODate("2019-06-24T13:05:13.851+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:05:13.851+0000"), 
+    "name" : "Goal Keeper", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10ca92c2f1122887b10f79"), 
+    "createdAt" : ISODate("2019-06-24T13:05:22.423+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:05:22.423+0000"), 
+    "name" : "Open 1", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10cbd0c2f1122887b10f7c"), 
+    "createdAt" : ISODate("2019-06-24T13:10:40.779+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:10:40.779+0000"), 
+    "name" : "Open 2", 
+    "__v" : NumberInt(0)
+}

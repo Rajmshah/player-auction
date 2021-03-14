@@ -1,0 +1,112 @@
+{ 
+    "_id" : ObjectId("5d10c95dc2f1122887b10f53"), 
+    "createdAt" : ISODate("2019-06-24T13:00:13.385+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:00:13.385+0000"), 
+    "name" : "Tiger Sports FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c967c2f1122887b10f55"), 
+    "createdAt" : ISODate("2019-06-24T13:00:23.282+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:00:23.282+0000"), 
+    "name" : "Liveplay FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c96fc2f1122887b10f57"), 
+    "createdAt" : ISODate("2019-06-24T13:00:31.702+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:00:31.702+0000"), 
+    "name" : "Stallions FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c97ac2f1122887b10f59"), 
+    "createdAt" : ISODate("2019-06-24T13:00:42.991+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:00:42.991+0000"), 
+    "name" : "FC Kingsmen", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c985c2f1122887b10f5b"), 
+    "createdAt" : ISODate("2019-06-24T13:00:53.803+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:00:53.803+0000"), 
+    "name" : "FC Panthera", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c990c2f1122887b10f5d"), 
+    "createdAt" : ISODate("2019-06-24T13:01:04.426+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:01:04.426+0000"), 
+    "name" : "Wolverines FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c99ec2f1122887b10f5f"), 
+    "createdAt" : ISODate("2019-06-24T13:01:18.114+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:01:18.114+0000"), 
+    "name" : "Time Avenue FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c9a6c2f1122887b10f61"), 
+    "createdAt" : ISODate("2019-06-24T13:01:26.280+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:01:26.280+0000"), 
+    "name" : "United Mumbai FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c9b0c2f1122887b10f63"), 
+    "createdAt" : ISODate("2019-06-24T13:01:36.113+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:01:36.113+0000"), 
+    "name" : "Bombay Lions FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c9bfc2f1122887b10f65"), 
+    "createdAt" : ISODate("2019-06-24T13:01:51.894+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:01:51.894+0000"), 
+    "name" : "Mumbai Spartans FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c9cdc2f1122887b10f67"), 
+    "createdAt" : ISODate("2019-06-24T13:02:05.316+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:02:05.316+0000"), 
+    "name" : "Royal Saints FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c9dcc2f1122887b10f69"), 
+    "createdAt" : ISODate("2019-06-24T13:02:20.629+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:02:20.629+0000"), 
+    "name" : "Bombay Devils FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c9eac2f1122887b10f6b"), 
+    "createdAt" : ISODate("2019-06-24T13:02:34.667+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:02:34.667+0000"), 
+    "name" : "Raging Aces FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c9f5c2f1122887b10f6d"), 
+    "createdAt" : ISODate("2019-06-24T13:02:45.850+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:02:45.850+0000"), 
+    "name" : "Chargers FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10c9ffc2f1122887b10f6f"), 
+    "createdAt" : ISODate("2019-06-24T13:02:55.630+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:02:55.630+0000"), 
+    "name" : "High Five FC", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d10ca0dc2f1122887b10f71"), 
+    "createdAt" : ISODate("2019-06-24T13:03:09.133+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:03:09.133+0000"), 
+    "name" : "City Slammers FC", 
+    "__v" : NumberInt(0)
+}

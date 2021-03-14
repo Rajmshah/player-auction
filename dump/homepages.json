@@ -1,0 +1,45 @@
+{ 
+    "_id" : ObjectId("5c32e4c517878329ac0da95d"), 
+    "createdAt" : ISODate("2019-01-07T05:33:57.139+0000"), 
+    "updatedAt" : ISODate("2019-01-07T05:33:57.139+0000"), 
+    "media" : [
+        {
+            "_id" : ObjectId("5d0b66834868947bddb7ce1d"), 
+            "active" : true, 
+            "linkType" : "internal", 
+            "link" : "", 
+            "title" : "", 
+            "image" : "5d0b66784868947bddb7ce15", 
+            "mediaType" : ""
+        }, 
+        {
+            "_id" : ObjectId("5d0b66834868947bddb7ce1c"), 
+            "active" : true, 
+            "linkType" : "internal", 
+            "link" : "", 
+            "title" : "", 
+            "image" : "5d0b667e4868947bddb7ce16", 
+            "mediaType" : ""
+        }, 
+        {
+            "_id" : ObjectId("5d0b66834868947bddb7ce1b"), 
+            "active" : true, 
+            "linkType" : "internal", 
+            "link" : "", 
+            "title" : "", 
+            "image" : "5d0b66824868947bddb7ce17", 
+            "mediaType" : ""
+        }
+    ], 
+    "banner" : [
+        {
+            "image" : "5d0b65ef4868947bddb7ce10", 
+            "title" : "", 
+            "link" : "", 
+            "linkType" : "internal", 
+            "active" : true, 
+            "_id" : ObjectId("5d0b65f34868947bddb7ce12")
+        }
+    ], 
+    "__v" : NumberInt(0)
+}

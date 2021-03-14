@@ -1,0 +1,140 @@
+{ 
+    "_id" : ObjectId("5d10cf6dc2f1122887b1108b"), 
+    "createdAt" : ISODate("2019-06-24T13:26:05.427+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:26:05.427+0000"), 
+    "team" : ObjectId("5d10c95dc2f1122887b10f53"), 
+    "purseValue" : NumberInt(72), 
+    "playerCount" : NumberInt(18), 
+    "maxBidValue" : NumberInt(72), 
+    "minimumBaseValue" : NumberInt(0), 
+    "categoryValues" : [
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110da"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d9"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d8"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d7"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d6"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d5"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d4"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d3"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d2"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d1"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110d0"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110cf"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110ce"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110cd"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110cc"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110cb"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110ca"), 
+            "baseValue" : NumberInt(0)
+        }, 
+        {
+            "_id" : ObjectId("5d14f9a2c2f1122887b110c9"), 
+            "baseValue" : NumberInt(0)
+        }
+    ], 
+    "moneySpent" : NumberInt(0), 
+    "__v" : NumberInt(0), 
+    "banner" : "5d184641c2f1122887b11126", 
+    "logo" : "5d18688fc2f1122887b1113d"
+}
+{ 
+    "_id" : ObjectId("5d10cf80c2f1122887b11098"), 
+    "createdAt" : ISODate("2019-06-24T13:26:24.453+0000"), 
+    "updatedAt" : ISODate("2019-06-24T13:26:24.453+0000"), 
+    "team" : ObjectId("5d10c967c2f1122887b10f55"), 
+    "purseValue" : NumberInt(2000000), 
+    "playerCount" : NumberInt(8), 
+    "maxBidValue" : NumberInt(1978999), 
+    "minimumBaseValue" : NumberInt(0), 
+    "categoryValues" : [
+        {
+            "baseValue" : NumberInt(0), 
+            "_id" : ObjectId("5d10cf80c2f1122887b110a0"), 
+            "player" : null
+        }, 
+        {
+            "player" : ObjectId("5d10cbf3c2f1122887b10f83"), 
+            "status" : true, 
+            "baseValue" : NumberInt(0), 
+            "_id" : ObjectId("5d10cf80c2f1122887b1109f")
+        }, 
+        {
+            "baseValue" : NumberInt(0), 
+            "_id" : ObjectId("5d10cf80c2f1122887b1109e"), 
+            "status" : true, 
+            "player" : ObjectId("5d10cbf3c2f1122887b10fa3")
+        }, 
+        {
+            "baseValue" : NumberInt(0), 
+            "_id" : ObjectId("5d10cf80c2f1122887b1109d")
+        }, 
+        {
+            "baseValue" : NumberInt(0), 
+            "_id" : ObjectId("5d10cf80c2f1122887b1109c")
+        }, 
+        {
+            "baseValue" : NumberInt(0), 
+            "_id" : ObjectId("5d10cf80c2f1122887b1109b")
+        }, 
+        {
+            "baseValue" : NumberInt(0), 
+            "_id" : ObjectId("5d10cf80c2f1122887b1109a")
+        }, 
+        {
+            "baseValue" : NumberInt(0), 
+            "_id" : ObjectId("5d10cf80c2f1122887b11099")
+        }
+    ], 
+    "moneySpent" : NumberInt(21001), 
+    "__v" : NumberInt(0), 
+    "logo" : "5d18689ec2f1122887b11142"
+}
