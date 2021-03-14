@@ -24,7 +24,7 @@ module.exports = {
 //  port: 1337,
  // realHost: "http://www.jypl.in"
     port: 1340,
-    realHost: "http://www.sportsauction.in"
+    realHost: "http://www.teamsauction.in"
   // port: 1338,
   // realHost: "http://www.aplauction.com"
   // port: 1337,
