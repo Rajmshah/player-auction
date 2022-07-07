@@ -40,7 +40,7 @@
     "lackey-mongoose-ref-validator": "^0.0.3",
     "lodash": "^4.17.4",
     "md5": "^2.2.1",
-    "moment": "^2.20.1",
+    "moment": "^2.29.4",
     "mongodb": "^2.2.34",
     "mongoose": "^4.13.10",
     "mongoose-deep-populate": "^3.0.0",
